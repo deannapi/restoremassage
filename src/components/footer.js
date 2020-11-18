@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div>
+        <div className="row">
           <img src={logo_2} height="50px" alt="logo" />
           <ul>
             <li className="instagram">
@@ -24,6 +24,12 @@ export default class Footer extends React.Component {
             </li>
           </ul>
         </div>
+        {/* <div>
+          <ul>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Terms and Conditions</a></li>
+          </ul>
+        </div> */}
       </footer>
     );
   }

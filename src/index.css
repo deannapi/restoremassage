@@ -14,12 +14,19 @@ code {
 
 header {
   text-align: center;
-  /* display: inline-flex; */
   align-items: baseline;
+}
+
+header .row {
+  display: inline-flex;
 }
 
 nav ul li {
   list-style: none;
+}
+
+.dropdown {
+  padding-left: 15px;
 }
 
 #dropdownMenuButton {
@@ -53,6 +60,14 @@ nav ul li {
 
 footer {
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .row{
+  /* text-align: center; */
+  display: inline-flex;
 }
 
 footer ul li {
@@ -80,4 +95,21 @@ footer ul li {
 
 .facebook:hover {
   font-size: 40px;
+}
+
+/* CONTACT ME */
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  padding-left: 7px;
+}
+
+.contact a:hover {
+  color: green;
+}
+
+.contact h3 {
+  font-family: 'Abadi MT Condensed Light', Tahoma, Geneva, Verdana, sans-serif;
 }

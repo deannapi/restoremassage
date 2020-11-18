@@ -14,11 +14,11 @@ export default function Nav(props) {
   return (
     <>
       <header>
-        <nav>
+        <nav className="row">
           <img src={logo_1} alt="logo" height="150px" className="header_logo" />
           <div className="dropdown">
             <button
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               type="button"
               id="dropdownMenuButton"
               data-toggle="dropdown"
@@ -27,7 +27,7 @@ export default function Nav(props) {
             >
               Menu
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <ul>
                 <li className={`${ContactSelected && `navActive`}`}>
                   <a href="#contact">
