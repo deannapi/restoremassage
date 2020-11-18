@@ -104,12 +104,19 @@ footer ul li {
 
 .contact a {
   padding-left: 7px;
+  color: green;
 }
 
 .contact a:hover {
-  color: green;
+  color: limegreen;
+  /* background-color: black; */
 }
 
 .contact h3 {
   font-family: 'Abadi MT Condensed Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map {
+  text-align: center;
+  padding-left: 30px;
 }

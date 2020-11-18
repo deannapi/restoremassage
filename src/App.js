@@ -10,6 +10,7 @@ export default function App() {
   const [ContactSelected, setContactSelected] = useState(false);
   const [HomeSelected, setHomeSelected] = useState(false);
   const [AppointmentsSelected, setAppointmentsSelected] = useState(false);
+  // const [GiftCardSelected, setGiftCard] = useState(false);
 
   return (
     <div>
@@ -20,6 +21,8 @@ export default function App() {
         setAppointmentsSelected={setAppointmentsSelected}
         HomeSelected={HomeSelected}
         setHomeSelected={setHomeSelected}
+        // GiftCardSelected={GiftCardSelected}
+        // setGiftCard={setGiftCard}
       ></Header>
 
       <main>

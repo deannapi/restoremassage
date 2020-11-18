@@ -29,6 +29,34 @@ export default function Nav(props) {
             </button>
             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <ul>
+                <li className={` ${HomeSelected && `navActive`}`}>
+                  <a href="#home">
+                    <span
+                      onClick={() => {
+                        setContactSelected(false);
+                        setAppointmentsSelected(false);
+                        setHomeSelected(true);
+                      }}
+                    >
+                      Home
+                    </span>
+                  </a>
+                </li>
+
+                <li className={` ${AppointmentsSelected && `navActive`}`}>
+                  <a href="#appointments">
+                    <span
+                      onClick={() => {
+                        setContactSelected(false);
+                        setAppointmentsSelected(true);
+                        setHomeSelected(false);
+                      }}
+                    >
+                      Appointments
+                    </span>
+                  </a>
+                </li>
+
                 <li className={`${ContactSelected && `navActive`}`}>
                   <a href="#contact">
                     <span
@@ -43,29 +71,18 @@ export default function Nav(props) {
                     </span>
                   </a>
                 </li>
-                <li className={` ${AppointmentsSelected && `navActive`}`}>
-                  <a href="#appointments">
+
+                <li className={`${ContactSelected && `navActive`}`}>
+                  <a href="https://squareup.com/gift/RFMDW8TJJ8M7K/order?external_source=postoffice-email&external_token=ryEMlwN1ZO4mOH0n" target="_blank">
                     <span
                       onClick={() => {
-                        setContactSelected(false);
-                        setAppointmentsSelected(true);
+                        setContactSelected(true);
+                        setAppointmentsSelected(false);
                         setHomeSelected(false);
                       }}
                     >
-                      Appointments
-                    </span>
-                  </a>
-                </li>
-                <li className={` ${HomeSelected && `navActive`}`}>
-                  <a href="#home">
-                    <span
-                      onClick={() => {
-                        setContactSelected(false);
-                        setAppointmentsSelected(false);
-                        setHomeSelected(true);
-                      }}
-                    >
-                      Home
+                      {" "}
+                      Gift Cards
                     </span>
                   </a>
                 </li>

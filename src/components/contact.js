@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
 
 const mapStyles = {
   width: "50%",
-  height: "50%",
+  height: "50%"
 };
 
 export class Contact extends React.Component {
@@ -58,6 +58,7 @@ export class Contact extends React.Component {
               lat: 29.472136,
               lng: -98.462477,
             }}
+            className="map"
           >
             <Marker
               onClick={this.onMarkerClick}
