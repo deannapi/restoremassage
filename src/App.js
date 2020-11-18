@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Contact from "./components/contact";
+import Appointments from "./components/appointments";
+import Home from "./components/home";
 
-function App() {
+export default function App() {
+  const [ContactSelected, setContactSelected] = useState(false);
+  const [HomeSelected, setHomeSelected] = useState(false);
+  const [AppointmentsSelected, setAppointmentsSelected] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        ContactSelected={ContactSelected}
+        setContactSelected={setContactSelected}
+        AppointmentsSelected={AppointmentsSelected}
+        setAppointmentsSelected={setAppointmentsSelected}
+        HomeSelected={HomeSelected}
+        setHomeSelected={setHomeSelected}
+      ></Header>
+
+      <main>
+        <div>
+          {!HomeSelected ? <></> : <Home></Home>}
+          {!ContactSelected ? <></> : <Contact></Contact>}
+          {!AppointmentsSelected ? <></> : <Appointments></Appointments>}
+        </div>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
-
-export default App;
