@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  text-align: center;
+  /* display: inline-flex; */
+  align-items: baseline;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+#dropdownMenuButton {
+  background-color: green;
+  font-family: 'Abadi MT Condensed Light', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-variant: small-caps; */
+  text-transform: uppercase;
+}
+
+#dropdownMenuButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-menu {
+  border: green 1px solid;
+}
+
+.dropdown-menu ul li a {
+  color: black;
+}
+
+.dropdown-menu ul {
+  padding-left: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+  /* background-color: black; */
+  color: green;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 30px; /* change this to change the size*/
+  
+}
+
+#insta:hover {
+  font-size: 40px;
+}
+
+.facebook {
+  font-size: 30px;
+}
+
+.facebook:hover {
+  font-size: 40px;
+}
