@@ -73,7 +73,7 @@ export default function Nav(props) {
                 </li>
 
                 <li className={`${ContactSelected && `navActive`}`}>
-                  <a href="https://squareup.com/gift/RFMDW8TJJ8M7K/order?external_source=postoffice-email&external_token=ryEMlwN1ZO4mOH0n" target="_blank">
+                  <a href="https://squareup.com/gift/RFMDW8TJJ8M7K/order?external_source=postoffice-email&external_token=ryEMlwN1ZO4mOH0n" target="_blank" rel="noreferrer">
                     <span
                       onClick={() => {
                         setContactSelected(true);
