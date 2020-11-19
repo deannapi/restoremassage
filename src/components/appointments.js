@@ -6,14 +6,22 @@ export default class Footer extends React.Component {
       <>
         <div>
           <h3>Existing Clients </h3>
-          <a href="https://square.site/book/S3JQTRESFMDNN/restore-massage-bodywork-san-antonio-tx">
+          <a
+            href="https://square.site/book/S3JQTRESFMDNN/restore-massage-bodywork-san-antonio-tx"
+            target="_blank"
+            rel="noreferrer"
+          >
             Book an Appointment
           </a>
         </div>
 
         <div>
           <h3>New Client</h3>
-          <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-WVLKyRff0ubDsCCr8W6C9wJOPw3nfpCoe5N78DwuPJUMzJIVEIzTFVUWVNOOUNFSkdUNzExWVNKNi4u">
+          <a
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=-WVLKyRff0ubDsCCr8W6C9wJOPw3nfpCoe5N78DwuPJUMzJIVEIzTFVUWVNOOUNFSkdUNzExWVNKNi4u"
+            target="_blank"
+            rel="noreferrer"
+          >
             Please complete the new client form before booking appointments.
           </a>
         </div>

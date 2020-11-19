@@ -9,6 +9,14 @@ export default function Nav(props) {
     setHomeSelected,
     AppointmentsSelected,
     setAppointmentsSelected,
+    MenuSelected,
+    setMenuSelected,
+    GiftSelected,
+    setGiftSelected,
+    BlogSelected,
+    setBlogSelected,
+    ProductsSelected,
+    setProductsSelected
   } = props;
 
   return (
@@ -36,6 +44,10 @@ export default function Nav(props) {
                         setContactSelected(false);
                         setAppointmentsSelected(false);
                         setHomeSelected(true);
+                        setMenuSelected(false);
+                        setGiftSelected(false);
+                        setBlogSelected(false);
+                        setProductsSelected(false);
                       }}
                     >
                       Home
@@ -50,6 +62,10 @@ export default function Nav(props) {
                         setContactSelected(false);
                         setAppointmentsSelected(true);
                         setHomeSelected(false);
+                        setMenuSelected(false);
+                        setGiftSelected(false);
+                        setBlogSelected(false);
+                        setProductsSelected(false);
                       }}
                     >
                       Appointments
@@ -64,6 +80,10 @@ export default function Nav(props) {
                         setContactSelected(true);
                         setAppointmentsSelected(false);
                         setHomeSelected(false);
+                        setMenuSelected(false);
+                        setGiftSelected(false);
+                        setBlogSelected(false);
+                        setProductsSelected(false);
                       }}
                     >
                       {" "}
@@ -72,17 +92,78 @@ export default function Nav(props) {
                   </a>
                 </li>
 
-                <li className={`${ContactSelected && `navActive`}`}>
+                <li className={`${GiftSelected && `navActive`}`}>
                   <a href="https://squareup.com/gift/RFMDW8TJJ8M7K/order?external_source=postoffice-email&external_token=ryEMlwN1ZO4mOH0n" target="_blank" rel="noreferrer">
                     <span
                       onClick={() => {
-                        setContactSelected(true);
+                        setContactSelected(false);
                         setAppointmentsSelected(false);
                         setHomeSelected(false);
+                        setMenuSelected(false);
+                        setGiftSelected(true);
+                        setBlogSelected(false);
+                        setProductsSelected(false);
                       }}
                     >
                       {" "}
                       Gift Cards
+                    </span>
+                  </a>
+                </li>
+                
+                <li className={`${MenuSelected && `navActive`}`}>
+                  <a href="#menu">
+                    <span
+                      onClick={() => {
+                        setContactSelected(false);
+                        setAppointmentsSelected(false);
+                        setHomeSelected(false);
+                        setMenuSelected(true);
+                        setGiftSelected(false);
+                        setBlogSelected(false);
+                        setProductsSelected(false);
+                      }}
+                    >
+                      {" "}
+                      Sessions & Prices
+                    </span>
+                  </a>
+                </li>
+
+                <li className={`${BlogSelected && `navActive`}`}>
+                  <a href="#blog">
+                    <span
+                      onClick={() => {
+                        setContactSelected(false);
+                        setAppointmentsSelected(false);
+                        setHomeSelected(false);
+                        setMenuSelected(false);
+                        setGiftSelected(false);
+                        setBlogSelected(true);
+                        setProductsSelected(false);
+                      }}
+                    >
+                      {" "}
+                      My Blog
+                    </span>
+                  </a>
+                </li>
+
+                <li className={`${ProductsSelected && `navActive`}`}>
+                  <a href="#products">
+                    <span
+                      onClick={() => {
+                        setContactSelected(false);
+                        setAppointmentsSelected(false);
+                        setHomeSelected(false);
+                        setMenuSelected(false);
+                        setGiftSelected(false);
+                        setBlogSelected(false);
+                        setProductsSelected(true);
+                      }}
+                    >
+                      {" "}
+                      Products
                     </span>
                   </a>
                 </li>

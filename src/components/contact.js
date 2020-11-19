@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
 
 const mapStyles = {
   width: "50%",
-  height: "50%"
+  height: "50%",
 };
 
 export class Contact extends React.Component {
@@ -74,6 +74,11 @@ export class Contact extends React.Component {
               </div>
             </InfoWindow>
           </Map>
+
+          <div>
+            <h2>Reviews</h2>
+            <p>reviews go here</p>
+          </div>
         </section>
       </>
     );
