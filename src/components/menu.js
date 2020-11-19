@@ -22,7 +22,13 @@ export default class Menu extends React.Component {
         </div>
 
         <div>
-            
+          <h5>30 Minutes</h5>
+          <h6>$50</h6>
+          <p>
+            Available ONLY to pre-existing clients. This session is meant to be
+            a maintenance session for ONE area treated and assessed in previous
+            sessions by the therapist. Schedule by PHONE ONLY.
+          </p>
         </div>
       </>
     );
