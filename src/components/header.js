@@ -24,7 +24,7 @@ export default function Nav(props) {
       <header>
         <nav className="row">
           <img src={logo_1} alt="logo" height="150px" className="header_logo" />
-          <div className="dropdown">
+          <div className="btn-group dropright">
             <button
               className="btn btn-secondary dropdown-toggle"
               type="button"

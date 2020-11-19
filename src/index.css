@@ -15,17 +15,18 @@ code {
 header {
   text-align: center;
   align-items: baseline;
+  padding-bottom: 10px;
 }
 
 header .row {
-  display: inline-flex;
+  display: inline-block;
 }
 
 nav ul li {
   list-style: none;
 }
 
-.dropdown {
+.dropright {
   padding-left: 15px;
 }
 
@@ -60,18 +61,28 @@ nav ul li {
 
 footer {
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: white;
+  flex-shrink: 0;
 }
 
 footer .row{
-  /* text-align: center; */
   display: inline-flex;
+}
+
+footer img {
+  align-self: center;
 }
 
 footer ul li {
   list-style: none;
+}
+
+footer ul {
+  padding-left: 3px;
+  margin: 0;
 }
 
 #insta {
@@ -118,5 +129,5 @@ footer ul li {
 
 .map {
   text-align: center;
-  padding-left: 30px;
+  margin-left: 40px;
 }

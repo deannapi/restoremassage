@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <div className="row">
-          <img src={logo_2} height="50px" alt="logo" />
+          <img src={logo_2} height="45px" alt="logo" />
           <ul>
             <li className="instagram">
               <a href="https://www.instagram.com/restore_massageandbodywork?igshid=1aqi3wfvv97u5">

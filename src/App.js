@@ -19,35 +19,37 @@ export default function App() {
   const [ProductsSelected, setProductsSelected] = useState(false);
 
   return (
-    <div>
-      <Header
-        ContactSelected={ContactSelected}
-        setContactSelected={setContactSelected}
-        AppointmentsSelected={AppointmentsSelected}
-        setAppointmentsSelected={setAppointmentsSelected}
-        HomeSelected={HomeSelected}
-        setHomeSelected={setHomeSelected}
-        GiftSelected={GiftSelected}
-        setGiftSelected={setGiftSelected}
-        MenuSelected={MenuSelected}
-        setMenuSelected={setMenuSelected}
-        BlogSelected={BlogSelected}
-        setBlogSelected={setBlogSelected}
-        ProductsSelected={ProductsSelected}
-        setProductsSelected={setProductsSelected}
-      ></Header>
+    <>
+      <div>
+        <Header
+          ContactSelected={ContactSelected}
+          setContactSelected={setContactSelected}
+          AppointmentsSelected={AppointmentsSelected}
+          setAppointmentsSelected={setAppointmentsSelected}
+          HomeSelected={HomeSelected}
+          setHomeSelected={setHomeSelected}
+          GiftSelected={GiftSelected}
+          setGiftSelected={setGiftSelected}
+          MenuSelected={MenuSelected}
+          setMenuSelected={setMenuSelected}
+          BlogSelected={BlogSelected}
+          setBlogSelected={setBlogSelected}
+          ProductsSelected={ProductsSelected}
+          setProductsSelected={setProductsSelected}
+        ></Header>
 
-      <main>
-        <div>
-          {!HomeSelected ? <></> : <Home></Home>}
-          {!ContactSelected ? <></> : <Contact></Contact>}
-          {!AppointmentsSelected ? <></> : <Appointments></Appointments>}
-          {!MenuSelected ? <></> : <Menu></Menu>}
-          {!BlogSelected ? <></> : <Blog></Blog>}
-          {!ProductsSelected ? <></> : <Products></Products>}
-        </div>
-      </main>
-      <Footer></Footer>
-    </div>
+        <main>
+          <div>
+            {!HomeSelected ? <></> : <Home></Home>}
+            {!ContactSelected ? <></> : <Contact></Contact>}
+            {!AppointmentsSelected ? <></> : <Appointments></Appointments>}
+            {!MenuSelected ? <></> : <Menu></Menu>}
+            {!BlogSelected ? <></> : <Blog></Blog>}
+            {!ProductsSelected ? <></> : <Products></Products>}
+          </div>
+        </main>
+        <Footer></Footer>
+      </div>
+    </>
   );
 }

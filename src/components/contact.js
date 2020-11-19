@@ -1,16 +1,11 @@
 import React from "react";
-import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
+import Maps from "./map";
 
-const mapStyles = {
-  width: "50%",
-  height: "50%",
-};
-
-export class Contact extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
       <>
-        <section className="contact">
+        <div className="contact">
           <h3>GET IN TOUCH!</h3>
           <div>
             <label>Email:</label>
@@ -48,65 +43,14 @@ export class Contact extends React.Component {
               </svg>
               (m) 210.833.2331
             </a>
-          </div>
 
-          <Map
-            google={this.props.google}
-            zoom={14}
-            style={mapStyles}
-            initialCenter={{
-              lat: 29.472136,
-              lng: -98.462477,
-            }}
-            className="map"
-          >
-            <Marker
-              onClick={this.onMarkerClick}
-              name={"Restore Massage & Bodywork"}
-            />
-            <InfoWindow
-              marker={this.state.activeMarker}
-              visible={this.state.showingInfoWindow}
-              onClose={this.onClose}
-            >
-              <div>
-                <h4>{this.state.selectedPlace.name}</h4>
-              </div>
-            </InfoWindow>
-          </Map>
-
-          <div>
             <h2>Reviews</h2>
             <p>reviews go here</p>
           </div>
-        </section>
+        </div>
+
+        <Maps></Maps>
       </>
     );
   }
-
-  state = {
-    showingInfoWindow: false,
-    activeMarker: {},
-    selectedPlace: {},
-  };
-
-  onMarkerClick = (props, marker, e) =>
-    this.setState({
-      selectedPlace: props,
-      activeMarker: marker,
-      showingInfoWindow: true,
-    });
-
-  onClose = (props) => {
-    if (this.state.showingInfoWindow) {
-      this.setState({
-        showingInfoWindow: false,
-        activeMarker: null,
-      });
-    }
-  };
 }
-
-export default GoogleApiWrapper({
-  apiKey: "AIzaSyDImgHnUhX0xs3H_Guc1LyjCP5UOQ6tAlE",
-})(Contact);
