@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
@@ -8,48 +8,22 @@ import Home from "./components/home";
 import Menu from "./components/menu";
 import Blog from "./components/blog";
 import Products from "./components/products";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
-  const [ContactSelected, setContactSelected] = useState(false);
-  const [HomeSelected, setHomeSelected] = useState(false);
-  const [AppointmentsSelected, setAppointmentsSelected] = useState(false);
-  const [GiftSelected, setGiftSelected] = useState(false);
-  const [MenuSelected, setMenuSelected] = useState(false);
-  const [BlogSelected, setBlogSelected] = useState(false);
-  const [ProductsSelected, setProductsSelected] = useState(false);
 
   return (
-    <>
-      <div>
-        <Header
-          ContactSelected={ContactSelected}
-          setContactSelected={setContactSelected}
-          AppointmentsSelected={AppointmentsSelected}
-          setAppointmentsSelected={setAppointmentsSelected}
-          HomeSelected={HomeSelected}
-          setHomeSelected={setHomeSelected}
-          GiftSelected={GiftSelected}
-          setGiftSelected={setGiftSelected}
-          MenuSelected={MenuSelected}
-          setMenuSelected={setMenuSelected}
-          BlogSelected={BlogSelected}
-          setBlogSelected={setBlogSelected}
-          ProductsSelected={ProductsSelected}
-          setProductsSelected={setProductsSelected}
-        ></Header>
-
-        <main>
-          <div>
-            {!HomeSelected ? <></> : <Home></Home>}
-            {!ContactSelected ? <></> : <Contact></Contact>}
-            {!AppointmentsSelected ? <></> : <Appointments></Appointments>}
-            {!MenuSelected ? <></> : <Menu></Menu>}
-            {!BlogSelected ? <></> : <Blog></Blog>}
-            {!ProductsSelected ? <></> : <Products></Products>}
-          </div>
-        </main>
+      <Router>
+        <Header></Header>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/appointments" component={Appointments} />
+          <Route exact path="/products" component={Products} />
+          <Route exact path="/menu" component={Menu} />
+          <Route exact path="/blog" component={Blog} />
+        </Switch>
         <Footer></Footer>
-      </div>
-    </>
+      </Router>
   );
 }
