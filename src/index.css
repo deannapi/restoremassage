@@ -74,12 +74,12 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  /* background-color: white; */
   flex-shrink: 0;
 }
 
 footer .row{
-  display: inline-flex;
+  display: inline;
 }
 
 footer img {
@@ -116,6 +116,14 @@ footer ul {
 
 .facebook:hover {
   font-size: 40px;
+}
+
+footer .developer {
+  color: var(--lightgreen);
+}
+
+.developer a i {
+  padding-left: 10px;
 }
 
 /* CONTACT ME */

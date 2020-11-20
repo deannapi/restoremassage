@@ -24,6 +24,19 @@ export default class Footer extends React.Component {
             </li>
           </ul>
         </div>
+
+        <div className="row developer">
+          <p>
+            This website was built by DeAnna Martinez
+            <a
+              href="https://www.linkedin.com/in/deanna-martinez-63539a137/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </p>
+        </div>
         {/* <div>
           <ul>
             <li><a>Privacy Policy</a></li>
