@@ -1,3 +1,8 @@
+:root {
+  --lightgreen: #58ba47;
+  --darkgreen: #173519;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,6 +21,7 @@ header {
   text-align: center;
   align-items: baseline;
   padding-bottom: 10px;
+  /* border-bottom: var(--lightgreen) 2px solid; */
 }
 
 header .row {
@@ -31,23 +37,24 @@ nav ul li {
 }
 
 #dropdownMenuButton {
-  background-color: green;
-  font-family: 'Abadi MT Condensed Light', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--darkgreen);
+  font-family: "Malgun Gothic";
   /* font-variant: small-caps; */
   text-transform: uppercase;
 }
 
 #dropdownMenuButton:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--lightgreen);
+  color: var(--darkgreen);
 }
 
 .dropdown-menu {
-  border: green 1px solid;
+  border:  var(--lightgreen) 1px solid;
 }
 
 .dropdown-menu ul li a {
-  color: black;
+  color: var(--darkgreen);
+  font-variant: small-caps;
 }
 
 .dropdown-menu ul {
@@ -55,13 +62,16 @@ nav ul li {
 }
 
 .dropdown-menu ul li a:hover {
-  /* background-color: black; */
-  color: green;
+  color: var(--darkgreen);
+}
+
+.dropdown-menu ul li:hover {
+  background-color:  var(--lightgreen);
 }
 
 footer {
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: white;
@@ -124,10 +134,55 @@ footer ul {
 }
 
 .contact h3 {
-  font-family: 'Abadi MT Condensed Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Malgun Gothic";
 }
 
 .map {
   text-align: center;
   margin-left: 40px;
+}
+
+/* HOME PAGE */
+.home {
+  text-align: center;
+  height: 100%;
+}
+
+.home-title {
+  border-bottom: var(--darkgreen) 10px double;
+  border-top: var(--darkgreen) 10px double;
+}
+
+h1 {
+  font-family: "Malgun Gothic";
+  color: var(--lightgreen);
+  font-variant: small-caps;
+}
+
+h4 h5 {
+  font-family: "Trebuchet MS";
+  color: var(--darkgreen);
+}
+
+h5 {
+  font-variant: small-caps;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.card-body {
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border: var(--darkgreen) 2px solid;
+  width: 30%;
+  margin: 10px auto 10px auto;
+}
+
+#shop-visit:hover {
+  color: var(--lightgreen);
 }
