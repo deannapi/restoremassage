@@ -1,5 +1,6 @@
 import React from "react";
 import Maps from "./map";
+import review from "../images/review_share.png";
 
 export default class Contact extends React.Component {
   render() {
@@ -44,12 +45,27 @@ export default class Contact extends React.Component {
               (m) 210.833.2331
             </a>
 
-            <h2>Reviews</h2>
-            <p>reviews go here</p>
-          </div>
-        </div>
+            <div className="row">
+              <div className="card-review">
+                <img src={review} alt="reviews" />
+                <div className="card-body">
+                  <a
+                    href="https://g.page/RestoreMassageBodywork/review?gm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Leave a review
+                  </a>
+                </div>
+              </div>
 
-        <Maps></Maps>
+              <div>
+                <p>Google reviews will go here.</p>
+              </div>
+            </div>
+          </div>
+          <Maps></Maps>
+        </div>
       </>
     );
   }

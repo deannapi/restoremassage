@@ -142,6 +142,19 @@ footer ul {
   margin-left: 40px;
 }
 
+.card-review {
+  width: 65%;
+}
+
+.card-review img{
+  width: 40%;
+}
+
+.card-review a {
+  font-size: 32px;
+  font-variant: small-caps;
+}
+
 /* HOME PAGE */
 .home {
   text-align: center;
@@ -195,6 +208,38 @@ h5 {
 
 .row a:hover {
   color: var(--lightgreen);
+}
+
+/* SESSION MENU */
+h2 {
+  color: var(--darkgreen);
+  font-variant: small-caps;
+}
+
+.session-title {
+  text-align: center;
+}
+
+.mbwk {
+  border-bottom: var(--darkgreen) 10px double;
+  border-top: var(--darkgreen) 10px double;
+  text-align: center;
+}
+
+.mbwk h3 {
+  color: var(--lightgreen);
+  font-variant: small-caps;
+}
+
+.card-session {
+  background-color: var(--darkgreen);
+  color: var(--lightgreen);
+  border: var(--lightgreen) 8px double;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 28px;
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
