@@ -250,6 +250,46 @@ h2 {
   font-size: 28px;
 }
 
+/* PRODUCTS */
+h5, h6 {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-text {
+  font-weight: 500;
+  color: var(--darkgreen);
+}
+
+button {
+  background-color: var(--darkgreen);
+  color: white;
+  /* border-radius: 40px; */
+  /* border: var(--lightgreen) 2px solid;  */
+}
+
+button:hover {
+  background-color: var(--lightgreen);
+  color: black;
+}
+
+.modal-body p {
+  font-size: 12px;
+}
+
+.modal-footer button {
+  background-color: var(--darkgreen);
+  color:white;
+}
+
+.modal-footer button:hover {
+  background-color: var(--lightgreen);
+  color: black;
+}
+
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 

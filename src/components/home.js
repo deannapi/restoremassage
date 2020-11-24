@@ -38,8 +38,8 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  My mission is to create a resource for high-quality, effective
-                  massage in San Antonio, Texas. I offer therapeutic massage and
+                  I seek to be a resource for high-quality, effective
+                  therapy in San Antonio, Texas. I offer therapeutic massage and
                   bodywork for the enhancement of health and well being to
                   health minded individuals. I am dedicated to providing my
                   clients with therapeutic treatments and exceptional service to
