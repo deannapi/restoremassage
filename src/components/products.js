@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import two_cbd_lav from "../store/2oz-cbd-lavender.jpg";
-import two_cbd_ppmg from "../store/2oz-cbd-ppmt.jpg";
+import two_cbd_ppmt from "../store/2oz-cbd-ppmt.jpg";
 import two_cbd_unscent from "../store/2oz-cbd-unscent.jpg";
 import two_cbd_van from "../store/2oz-cbd-vanilla.jpg";
 import four_cbd_lav from "../store/4oz-cbd-lavender.jpg";
@@ -26,146 +26,686 @@ export default class Products extends React.Component {
     return (
       <>
         <div>
-          {/* <h2>Products</h2> */}
           <h5>All merchandise sold in store.</h5>
           <h6>Ask me about a product at your next appointment.</h6>
-          <div className="row">
-            <div class="card">
-              <p class="card-text">
+        </div>
+
+        <div className="row">
+          <div className="product-box">
+            <div>
+              <p class="product-title">
                 2 oz/200 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
+                <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
               </p>
-              <img class="card-img-top" src={two_cbd_lav} alt="cbd_lav_2" />
-              <div class="card-body">
-                <p>$44.99</p>
-                <button
-                  type="button"
-                  className="btn"
-                  data-toggle="modal"
-                  data-target="#moredetails"
-                >
-                  More Details
-                </button>
+              <img class="product-img" src={two_cbd_lav} alt="cbd_lav_2" />
+              <p>$44.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails1"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails1"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      2 oz/200 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-end">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">
-                  Previous
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  1
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  2
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  3
-                </a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">
-                  Next
-                </a>
-              </li>
-            </ul>
-          </nav> */}
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                2 oz/200 mg
+                <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint
+              </p>
+              <img class="product-img" src={two_cbd_ppmt} alt="cbd_ppmt_2" />
+              <p>$44.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails2"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails2"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      2 oz/200 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Peppermint Essential
+                      Oil, Menthol.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                2 oz/200 mg
+                <br></br>Magnesium + Full Spectrum Hemp Cream Unscented
+              </p>
+              <img
+                class="card-img-top"
+                src={two_cbd_unscent}
+                alt="cbd_unscent_2"
+              />
+              <p>$44.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails3"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails3"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      2 oz/200 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Unscented
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                2 oz/200 mg
+                <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
+              </p>
+              <img class="product-img" src={two_cbd_van} alt="cbd_van_2" />
+              <p>$44.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails4"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails4"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      2 oz/200 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Modal */}
-        <div
-          class="modal fade"
-          id="moredetails"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">
-                  2 oz/200 mg
-                  <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
+        <div className="row">
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz/400 mg
+                <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+              </p>
+              <img class="product-img" src={four_cbd_lav} alt="cbd_lav_4" />
+              <p>$64.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails5"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails5"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz/400 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Lavender Essential Oil.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="modal-body">
-                <h5>Description</h5>
-                <p>
-                  Magnesium and Full Spectrum Hemp Extract work in perfect
-                  synergy to provide support to body systems and impact overall
-                  health. Both of these powerful ingredients have incredible
-                  uses. Here are a few: Rub onto sore muscles Massage onto
-                  temples & neck to ease head tension Use on bottom of feet
-                  before bed to promote restful sleep Massage onto chest &
-                  shoulders to alleviate anxious feelings Rub onto legs to
-                  soothe muscle spasms Apply to inflamed joints and tendons
-                  Which is why our customers rave about our powerfully effective
-                  Magnesium + Hemp infused body cream! Combining both science
-                  and nature to guide our formulations, magnesium chloride and
-                  Full Spectrum Hemp Extract is delicately infused into organic
-                  mango butter, organic shea butter and organic coconut oil and
-                  blended into a perfectly whipped cream that is gentle,
-                  moisturizing smooth and effective.
-                </p>
-                <h5>Product Details</h5>
-                <p>
-                  2 ounces <br></br> Contains 200 mg Full Spectrum Hemp Extract
-                  (CBD)
-                  <br></br>Ingredients: Organic Mango Butter, Organic Shea
-                  Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg Full
-                  Spectrum Cannabidiol Extract, Vanilla Essential Oil.
-                </p>
-                <h5>Product Application & Use</h5>
-                <p>
-                  Dope Minerals Magnesium + Hemp Cream is vegan, paraben-free,
-                  GMO-free, gluten-free and made with organic ingredients. This
-                  all-natural cream provides therapeutically effective amounts
-                  of Hemp Extract and Magnesium directly to the cells while
-                  nourishing skin. Massage desired amount into the skin
-                  thoroughly. Repeat as necessary to treat ailments, covering
-                  any areas needing extra attention. Store in a cool, dry place.
-                  Do not apply to cuts, wounds, open sores or freshly shaved
-                  areas of skin, and always test a small amount on a patch of
-                  skin first to ensure you are not allergic to any ingredient in
-                  our products.
-                  <br></br> Disclaimer: The information, advice, statements
-                  and testimonials made about Dope Minerals products mentioned
-                  on this website have not been evaluated by the US Food and
-                  Drug Administrations (FDA). The information contained on this
-                  website is not intended to diagnose, treat, cure or prevent
-                  disease, nor are they intended to replace proper medical help.
-                  It is always recommended to consult with a healthcare
-                  professional before starting any regimen. User submitted
-                  testimonials are based on individual results and do not
-                  constitute a guarantee that you will achieve the same results.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz/400 mg
+                <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint Menthol
+              </p>
+              <img class="product-img" src={four_cbd_ppmt} alt="cbd_lav_4" />
+              <p>$64.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails6"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails6"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz/400 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint Menthol
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Peppermint Essential Oil.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
