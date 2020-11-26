@@ -25,6 +25,12 @@ export default class Footer extends React.Component {
           </ul>
         </div>
 
+        <div className="row copyright">
+          <p>
+            COPYRIGHT © 2020 RESTORE MASSAGE AND BODYWORK - ALL RIGHTS RESERVED
+          </p>
+        </div>
+
         <div className="row developer">
           <p>
             This website was built by DeAnna Martinez

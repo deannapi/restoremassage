@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import two_cbd_lav from "../store/2oz-cbd-lavender.jpg";
 import two_cbd_ppmt from "../store/2oz-cbd-ppmt.jpg";
 import two_cbd_unscent from "../store/2oz-cbd-unscent.jpg";
@@ -19,7 +19,7 @@ import scrub from "../store/mg_facial_scrub.jpg";
 import scrub_eight from "../store/mg_facial_scrub_8.jpg";
 import therapy_ball from "../store/therapy_ball.jpg";
 import yoga_ball from "../store/yoga_ball.jpg";
-import Modal from "react-bootstrap/Modal";
+// import Modal from "react-bootstrap/Modal";
 
 export default class Products extends React.Component {
   render() {
@@ -52,7 +52,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails1"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -163,7 +163,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails2"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -279,7 +279,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails3"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -390,7 +390,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails4"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -501,7 +501,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails5"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -612,7 +612,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails6"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -724,7 +724,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails7"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -836,7 +836,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails8"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -946,7 +946,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails9"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1056,7 +1056,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails10"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1166,7 +1166,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails11"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1274,7 +1274,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails12"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1382,7 +1382,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails13"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1490,7 +1490,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails14"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1598,7 +1598,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails15"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1707,7 +1707,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails16"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1809,7 +1809,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails17"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -1911,7 +1911,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails18"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -2013,7 +2013,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails19"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -2081,7 +2081,7 @@ export default class Products extends React.Component {
             <div
               class="modal fade"
               id="moredetails20"
-              tabindex="-1"
+              tabIndex="-1"
               role="dialog"
               aria-labelledby="exampleModalCenterTitle"
               aria-hidden="true"
@@ -2113,7 +2113,6 @@ export default class Products extends React.Component {
                       foot massage balls and a mesh drawstring snug-grip tote
                       bag. The ball that started it all!
                     </p>
-                    
                   </div>
                   <div class="modal-footer">
                     <button

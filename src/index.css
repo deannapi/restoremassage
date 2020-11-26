@@ -77,6 +77,7 @@ footer {
   /* background-color: white; */
   flex-shrink: 0;
   margin-top: 20px;
+  font-size: 11px;
 }
 
 footer .row{
@@ -295,6 +296,11 @@ button:hover {
 .modal-footer button:hover {
   background-color: var(--lightgreen);
   color: black;
+}
+
+/* BLOG */
+.blog  {
+  text-align: center;
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */

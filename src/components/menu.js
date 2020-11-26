@@ -18,6 +18,8 @@ export default class Menu extends React.Component {
             Massage, Deep Tissue, Myofascial Release, Sports Massage, Cupping
             Therapy and Instrument Assisted Soft Tissue Manipulation/Graston
             Technique.
+            <br></br>
+            ALL SESSIONS WITHIN CANCELLATION POLICY GUIDELINES.
           </p>
         </div>
 
@@ -88,6 +90,24 @@ export default class Menu extends React.Component {
                 therapist continues to work past the two hours until each area
                 of focus has been treated and price is decided at the end of the
                 session (within means of hourly rates). Schedule by PHONE ONLY.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-session mb-3">
+            <div class="card-header">Facial Cupping Rejuvenation</div>
+            <div class="card-body">
+              <h5 class="card-title">30 Minutes - $45</h5>
+              <h5 class="card-title">60 Minutes - $75</h5>
+              <p class="card-text">
+                Manual method for the face by use of small cups to vacuum and
+                lift the facial tissue, mimicking the pumping movements of
+                lymphatic drainage. The benefits include increased local
+                circulation of the skin, increased nutrients brought to the
+                epidermis, and enhanced absorption of facial topicals. The
+                drainage of stagnant fluids from reservoir areas will reduce
+                edema and chronic puffiness. Lines and wrinkles will plump
+                while the scar tissue will soften from the negative pressure.
               </p>
             </div>
           </div>
