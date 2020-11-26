@@ -34,8 +34,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                2 oz/200 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Lavender
               </p>
               <img class="product-img" src={two_cbd_lav} alt="cbd_lav_2" />
               <p>$44.99</p>
@@ -63,7 +62,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       2 oz/200 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Lavender
                     </h5>
                     <button
                       type="button"
@@ -146,8 +145,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                2 oz/200 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint
+                2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Peppermint
               </p>
               <img class="product-img" src={two_cbd_ppmt} alt="cbd_ppmt_2" />
               <p>$44.99</p>
@@ -175,7 +173,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       2 oz/200 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Peppermint
                     </h5>
                     <button
                       type="button"
@@ -259,8 +257,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                2 oz/200 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Unscented
+                2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Unscented
               </p>
               <img
                 class="card-img-top"
@@ -292,7 +289,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       2 oz/200 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Unscented
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Unscented
                     </h5>
                     <button
                       type="button"
@@ -375,8 +372,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                2 oz/200 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
+                2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla
               </p>
               <img class="product-img" src={two_cbd_van} alt="cbd_van_2" />
               <p>$44.99</p>
@@ -404,7 +400,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       2 oz/200 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Vanilla
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla
                     </h5>
                     <button
                       type="button"
@@ -489,8 +485,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                4 oz/400 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                4 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Lavender
               </p>
               <img class="product-img" src={four_cbd_lav} alt="cbd_lav_4" />
               <p>$64.99</p>
@@ -518,7 +513,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       4 oz/400 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Lavender
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Lavender
                     </h5>
                     <button
                       type="button"
@@ -601,8 +596,7 @@ export default class Products extends React.Component {
           <div className="product-box">
             <div>
               <p class="product-title">
-                4 oz/400 mg
-                <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint Menthol
+                4 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Peppermint
               </p>
               <img class="product-img" src={four_cbd_ppmt} alt="cbd_lav_4" />
               <p>$64.99</p>
@@ -630,7 +624,7 @@ export default class Products extends React.Component {
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
                       4 oz/400 mg
-                      <br></br>Magnesium + Full Spectrum Hemp Cream Peppermint Menthol
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Peppermint
                     </h5>
                     <button
                       type="button"
@@ -667,7 +661,8 @@ export default class Products extends React.Component {
                       Extract (CBD)
                       <br></br>Ingredients: Organic Mango Butter, Organic Shea
                       Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
-                      Full Spectrum Cannabidiol Extract, Peppermint Essential Oil.
+                      Full Spectrum Cannabidiol Extract, Peppermint Essential
+                      Oil.
                     </p>
                     <h5>Product Application & Use</h5>
                     <p>
@@ -695,6 +690,1432 @@ export default class Products extends React.Component {
                       individual results and do not constitute a guarantee that
                       you will achieve the same results.
                     </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla
+              </p>
+              <img class="product-img" src={four_cbd_van} alt="cbd_van_4" />
+              <p>$64.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails7"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails7"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz/400 mg
+                      <br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium and Full Spectrum Hemp Extract work in perfect
+                      synergy to provide support to body systems and impact
+                      overall health. Both of these powerful ingredients have
+                      incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      4 ounces <br></br> Contains 400 mg Full Spectrum Hemp
+                      Extract (CBD)
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz<br></br>Magnesium Cream - Vanilla
+              </p>
+              <img class="product-img" src={four_van} alt="van_4" />
+              <p>$26.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails8"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails8"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz<br></br>Magnesium Cream - Vanilla
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      4 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz<br></br>Magnesium Cream - Peppermint
+              </p>
+              <img class="product-img" src={four_ppmt} alt="ppmt_4" />
+              <p>$26.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails9"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails9"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz<br></br>Magnesium Cream - Peppermint
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      4 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                4 oz<br></br>Magnesium Cream - Unscented
+              </p>
+              <img class="product-img" src={four_unscent} alt="unscent_4" />
+              <p>$26.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails10"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails10"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      4 oz<br></br>Magnesium Cream - Unscented
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium + Hemp infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride and Full Spectrum Hemp
+                      Extract is delicately infused into organic mango butter,
+                      organic shea butter and organic coconut oil and blended
+                      into a perfectly whipped cream that is gentle,
+                      moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      4 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium + Hemp Cream is vegan,
+                      paraben-free, GMO-free, gluten-free and made with organic
+                      ingredients. This all-natural cream provides
+                      therapeutically effective amounts of Hemp Extract and
+                      Magnesium directly to the cells while nourishing skin.
+                      Massage desired amount into the skin thoroughly. Repeat as
+                      necessary to treat ailments, covering any areas needing
+                      extra attention. Store in a cool, dry place. Do not apply
+                      to cuts, wounds, open sores or freshly shaved areas of
+                      skin, and always test a small amount on a patch of skin
+                      first to ensure you are not allergic to any ingredient in
+                      our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                9 oz<br></br>Magnesium Cream - Vanilla
+              </p>
+              <img class="product-img" src={nine_vanilla} alt="van_9" />
+              <p>$41.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails11"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails11"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      9 oz<br></br>Magnesium Cream - Vanilla
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride is delicately infused
+                      into organic mango butter, organic shea butter and organic
+                      coconut oil and blended into a perfectly whipped cream
+                      that is gentle, moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      9 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium Cream is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural cream provides therapeutically effective
+                      amounts of magnesium directly to the cells while
+                      nourishing skin. Massage desired amount into the skin
+                      thoroughly. Repeat as necessary to treat ailments,
+                      covering any areas needing extra attention. Store in a
+                      cool, dry place. Do not apply to cuts, wounds, open sores
+                      or freshly shaved areas of skin, and always test a small
+                      amount on a patch of skin first to ensure you are not
+                      allergic to any ingredient in our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                9 oz<br></br>Magnesium Cream - Lavender
+              </p>
+              <img class="product-img" src={nine_lav} alt="lav_9" />
+              <p>$41.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails12"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails12"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      9 oz<br></br>Magnesium Cream - Lavender
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride is delicately infused
+                      into organic mango butter, organic shea butter and organic
+                      coconut oil and blended into a perfectly whipped cream
+                      that is gentle, moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      9 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium Cream is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural cream provides therapeutically effective
+                      amounts of magnesium directly to the cells while
+                      nourishing skin. Massage desired amount into the skin
+                      thoroughly. Repeat as necessary to treat ailments,
+                      covering any areas needing extra attention. Store in a
+                      cool, dry place. Do not apply to cuts, wounds, open sores
+                      or freshly shaved areas of skin, and always test a small
+                      amount on a patch of skin first to ensure you are not
+                      allergic to any ingredient in our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                9 oz<br></br>Magnesium Cream - Peppermint
+              </p>
+              <img class="product-img" src={nine_ppmt} alt="ppmt_9" />
+              <p>$41.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails13"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails13"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      9 oz<br></br>Magnesium Cream - Peppermint
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride is delicately infused
+                      into organic mango butter, organic shea butter and organic
+                      coconut oil and blended into a perfectly whipped cream
+                      that is gentle, moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      9 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium Cream is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural cream provides therapeutically effective
+                      amounts of magnesium directly to the cells while
+                      nourishing skin. Massage desired amount into the skin
+                      thoroughly. Repeat as necessary to treat ailments,
+                      covering any areas needing extra attention. Store in a
+                      cool, dry place. Do not apply to cuts, wounds, open sores
+                      or freshly shaved areas of skin, and always test a small
+                      amount on a patch of skin first to ensure you are not
+                      allergic to any ingredient in our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                9 oz<br></br>Magnesium Cream - Unscented
+              </p>
+              <img class="product-img" src={nine_unscent} alt="unscent_9" />
+              <p>$41.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails14"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails14"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      9 oz<br></br>Magnesium Cream - Vanilla
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Magnesium is the 4th most abundant mineral in the body and
+                      low levels can drastically impact your overall health.
+                      That’s why we created a concentrated Magnesium cream that
+                      has incredible uses. Here are a few: Rub onto sore muscles
+                      Massage onto temples & neck to ease head tension Use on
+                      bottom of feet before bed to promote restful sleep Massage
+                      onto chest & shoulders to alleviate anxious feelings Rub
+                      onto legs to soothe muscle spasms Apply to inflamed joints
+                      and tendons Which is why our customers rave about our
+                      powerfully effective Magnesium infused body cream!
+                      Combining both science and nature to guide our
+                      formulations, magnesium chloride is delicately infused
+                      into organic mango butter, organic shea butter and organic
+                      coconut oil and blended into a perfectly whipped cream
+                      that is gentle, moisturizing smooth and effective.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      9 ounces
+                      <br></br>Ingredients: Organic Mango Butter, Organic Shea
+                      Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
+                      Full Spectrum Cannabidiol Extract, Vanilla Essential Oil
+                      Blend.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Magnesium Cream is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural cream provides therapeutically effective
+                      amounts of magnesium directly to the cells while
+                      nourishing skin. Massage desired amount into the skin
+                      thoroughly. Repeat as necessary to treat ailments,
+                      covering any areas needing extra attention. Store in a
+                      cool, dry place. Do not apply to cuts, wounds, open sores
+                      or freshly shaved areas of skin, and always test a small
+                      amount on a patch of skin first to ensure you are not
+                      allergic to any ingredient in our products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                Magnesium + Full Spectrum Hemp Face & Body Oil
+              </p>
+              <img class="product-img" src={face_hemp} alt="" />
+              <p>$29.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails15"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails15"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Magnesium + Full Spectrum Hemp Face & Body Oil
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Fight dry, tired skin with the perfect blend of
+                      all-natural ingredients that smooth and soften skin,
+                      adding tone and elasticity while reducing scars and acne.
+                      The ingredients in this specialized formula have been
+                      carefully chosen to ensure the most effective results. The
+                      non-greasy mixture is made up of Hempseed Oil, which is
+                      easily absorbed and does not clog pores. Neem deeply
+                      cleanses pores by removing impurities and dirt, acting as
+                      an anti-bacterial agent. Potent Full Spectrum CBD Oil (100
+                      mg) is rich in omega-6 and omega-3 fatty acids which help
+                      combat redness and plumps fine lines. Steam distilled
+                      Geranium Oil regulates skin’s sebum production, while
+                      Frankincense helps to heal skin and negate the signs of
+                      aging. This powerful skin oil also contains Carrot Seed
+                      Oil which has long been prized for it’s anti-aging
+                      effects. Magnesium is an anti-aging, anti-wrinkle
+                      powerhouse that helps reduce fine lines and wrinkles. It
+                      helps enhance hydration and encourages the production of
+                      collagen. Magnesium can also reduce acne, inflammation,
+                      scars, dark spots and redness.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      1 ounce
+                      <br></br>Ingredients: Neem Infused Hempseed Oil, Magnesium
+                      Chloride, Full Spectrum Cannabidiol Extract, Frankincense,
+                      Carrot Seed & Geranium Oils.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Face & Body Oil is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural moisturizer provides therapeutically
+                      effective amounts of magnesium and CBD directly to the
+                      cells while nourishing skin. Massage a small amount into
+                      dry skin. Store in a cool, dry place. Do not apply to
+                      cuts, wounds, open sores or freshly shaved areas of skin,
+                      and always test a small amount on a patch of skin first to
+                      ensure you are not allergic to any ingredient in our
+                      products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">Magnesium Face & Body Oil</p>
+              <img class="product-img" src={face} alt="" />
+              <p>$14.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails16"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails16"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Magnesium Face & Body Oil
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Fight dry, tired skin with the perfect blend of
+                      all-natural ingredients that smooth and soften skin,
+                      adding tone and elasticity while reducing scars and acne.
+                      The ingredients in this specialized formula have been
+                      carefully chosen to ensure the most effective results. The
+                      non-greasy mixture is made up of Hempseed Oil, which is
+                      easily absorbed and does not clog pores. Neem deeply
+                      cleanses pores by removing impurities and dirt, acting as
+                      an anti-bacterial agent. Magnesium is an anti-aging,
+                      anti-wrinkle powerhouse that helps reduce fine lines and
+                      wrinkles. It helps enhance hydration and encourages the
+                      production of collagen. Magnesium can also reduce acne,
+                      inflammation, scars, dark spots and redness. This is the
+                      same oil that is found in our Magnesium Facial Scrub.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      1 ounce
+                      <br></br>Ingredients: Neem Infused Hempseed Oil, Magnesium
+                      Chloride
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Face & Body Oil is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural moisturizer provides therapeutically
+                      effective amounts of magnesium and CBD directly to the
+                      cells while nourishing skin. Massage a small amount into
+                      dry skin. Store in a cool, dry place. Do not apply to
+                      cuts, wounds, open sores or freshly shaved areas of skin,
+                      and always test a small amount on a patch of skin first to
+                      ensure you are not allergic to any ingredient in our
+                      products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">Magnesium Facial Scrub</p>
+              <img class="product-img" src={scrub} alt="" />
+              <p>$25.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails17"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails17"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Magnesium Facial Scrub
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Fight dry, tired skin with the perfect blend of
+                      all-natural ingredients that smooth and soften skin,
+                      adding tone and elasticity while reducing scars and acne.
+                      The ingredients in this specialized formula have been
+                      carefully chosen to ensure the most effective results. The
+                      non-greasy mixture is made up of Hempseed Oil, which is
+                      easily absorbed and does not clog pores. Neem deeply
+                      cleanses pores by removing impurities and dirt, acting as
+                      an anti-bacterial agent. Magnesium is an anti-aging,
+                      anti-wrinkle powerhouse that helps reduce fine lines and
+                      wrinkles. It helps enhance hydration and encourages the
+                      production of collagen. Magnesium can also reduce acne,
+                      inflammation, scars, dark spots and redness.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      4 ounces
+                      <br></br>Ingredients: Organic Sugar, Neem Infused Hempseed
+                      Oil, Magnesium Chloride, Rose Petals, Lavender & Ylang
+                      Ylang Essential Oils.
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Face & Body Oil is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural moisturizer provides therapeutically
+                      effective amounts of magnesium and CBD directly to the
+                      cells while nourishing skin. Massage a small amount into
+                      dry skin. Store in a cool, dry place. Do not apply to
+                      cuts, wounds, open sores or freshly shaved areas of skin,
+                      and always test a small amount on a patch of skin first to
+                      ensure you are not allergic to any ingredient in our
+                      products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">Magnesium Facial Scrub - 8 oz</p>
+              <img class="product-img" src={scrub_eight} alt="" />
+              <p>$39.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails18"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails18"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Magnesium Facial Scrub - 8 oz
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Fight dry, tired skin with the perfect blend of
+                      all-natural ingredients that smooth and soften skin,
+                      adding tone and elasticity while reducing scars and acne.
+                      The ingredients in this specialized formula have been
+                      carefully chosen to ensure the most effective results. The
+                      non-greasy mixture is made up of Hempseed Oil, which is
+                      easily absorbed and does not clog pores. Neem deeply
+                      cleanses pores by removing impurities and dirt, acting as
+                      an anti-bacterial agent. Magnesium is an anti-aging,
+                      anti-wrinkle powerhouse that helps reduce fine lines and
+                      wrinkles. It helps enhance hydration and encourages the
+                      production of collagen. Magnesium can also reduce acne,
+                      inflammation, scars, dark spots and redness. This is the
+                      same oil that is found in our Magnesium Facial Scrub.
+                    </p>
+                    <h5>Product Details</h5>
+                    <p>
+                      8 ounces
+                      <br></br>Ingredients: Neem Infused Hempseed Oil, Magnesium
+                      Chloride
+                    </p>
+                    <h5>Product Application & Use</h5>
+                    <p>
+                      Dope Minerals Face & Body Oil is vegan, paraben-free,
+                      GMO-free, gluten-free and made with organic ingredients.
+                      This all-natural moisturizer provides therapeutically
+                      effective amounts of magnesium and CBD directly to the
+                      cells while nourishing skin. Massage a small amount into
+                      dry skin. Store in a cool, dry place. Do not apply to
+                      cuts, wounds, open sores or freshly shaved areas of skin,
+                      and always test a small amount on a patch of skin first to
+                      ensure you are not allergic to any ingredient in our
+                      products.
+                      <br></br> Disclaimer: The information, advice, statements
+                      and testimonials made about Dope Minerals products
+                      mentioned on this website have not been evaluated by the
+                      US Food and Drug Administrations (FDA). The information
+                      contained on this website is not intended to diagnose,
+                      treat, cure or prevent disease, nor are they intended to
+                      replace proper medical help. It is always recommended to
+                      consult with a healthcare professional before starting any
+                      regimen. User submitted testimonials are based on
+                      individual results and do not constitute a guarantee that
+                      you will achieve the same results.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">Therapy Ball Plus Pair in Tote</p>
+              <img class="product-img" src={therapy_ball} alt="" />
+              <p>$18.69</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails19"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails19"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Therapy Ball Plus Pair in Tote
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      Slightly larger than the original Yoga Tune Up Therapy
+                      Balls, the Therapy Ball PLUS pair of self-massage balls
+                      measure about 2 3/4" in diameter and were developed by
+                      popular demand. They cover more surface area and add
+                      height to obtain a greater depth of pressure. Use them in
+                      their custom designed snug-grip mesh tote for spine rolls
+                      (top of the neck, down to the sacrum), as well as IT band
+                      & thigh rolls and so much more!
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-box">
+            <div>
+              <p class="product-title">
+                Yoga Tune Up Therapy Ball Pair in Tote
+              </p>
+              <img class="product-img" src={yoga_ball} alt="" />
+              <p>$16.99</p>
+              <button
+                type="button"
+                className="btn"
+                data-toggle="modal"
+                data-target="#moredetails20"
+              >
+                More Details
+              </button>
+            </div>
+
+            {/* Modal */}
+            <div
+              class="modal fade"
+              id="moredetails20"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                      Yoga Tune Up Therapy Ball Pair in Tote
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Description</h5>
+                    <p>
+                      The Yoga Tune Up Therapy Balls (also known as the "OG's")
+                      measure at about 2 1/2" in diameter each and are made of a
+                      special rubber that grips at your skin, grabs at multiple
+                      layers of muscles, and rubs out adhesions and tension,
+                      providing a deep tissue massage (colors may vary). The
+                      Yoga Tune Up® Therapy Balls with Tote set includes two
+                      foot massage balls and a mesh drawstring snug-grip tote
+                      bag. The ball that started it all!
+                    </p>
+                    
                   </div>
                   <div class="modal-footer">
                     <button
