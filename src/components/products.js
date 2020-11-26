@@ -479,9 +479,7 @@ export default class Products extends React.Component {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="row">
           <div className="product-box">
             <div>
               <p class="product-title">
