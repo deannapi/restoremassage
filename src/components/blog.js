@@ -101,27 +101,6 @@ export default class Blog extends React.Component {
 
               <div class="carousel-item">
                 <div className="card">
-                  <img className="card-img" src={headaches} alt="" />
-                  <div className="card-img-overlay">
-                    <h5 className="card-title">
-                      Headaches are not an aspirin deficiency. Try massage
-                      therapy!
-                    </h5>
-                    {/* Button trigger modal */}
-                    <button
-                      type="button"
-                      className="btn"
-                      data-toggle="modal"
-                      data-target="#blogModal4"
-                    >
-                      Continue Reading
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div className="card">
                   <img className="card-img" src={vacation} alt="" />
                   <div className="card-img-overlay">
                     <h5 className="card-title">
