@@ -301,6 +301,12 @@ button:hover {
 /* BLOG */
 .blog  {
   text-align: center;
+  background-color: var(--darkgreen);
+}
+
+.blog .card-title {
+  color:var(--lightgreen);
+
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */

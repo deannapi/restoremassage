@@ -19,7 +19,6 @@ import scrub from "../store/mg_facial_scrub.jpg";
 import scrub_eight from "../store/mg_facial_scrub_8.jpg";
 import therapy_ball from "../store/therapy_ball.jpg";
 import yoga_ball from "../store/yoga_ball.jpg";
-// import Modal from "react-bootstrap/Modal";
 
 export default class Products extends React.Component {
   render() {
@@ -544,7 +543,7 @@ export default class Products extends React.Component {
                     </p>
                     <h5>Product Details</h5>
                     <p>
-                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      4 ounces <br></br> Contains 400 mg Full Spectrum Hemp
                       Extract (CBD)
                       <br></br>Ingredients: Organic Mango Butter, Organic Shea
                       Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
@@ -655,7 +654,7 @@ export default class Products extends React.Component {
                     </p>
                     <h5>Product Details</h5>
                     <p>
-                      2 ounces <br></br> Contains 200 mg Full Spectrum Hemp
+                      4 ounces <br></br> Contains 400 mg Full Spectrum Hemp
                       Extract (CBD)
                       <br></br>Ingredients: Organic Mango Butter, Organic Shea
                       Butter, Organic Coconut Oil, Magnesium Chloride, 200 mg
