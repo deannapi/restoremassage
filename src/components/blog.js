@@ -5,7 +5,7 @@ import reasons from "../images/massage_reasons.webp";
 import backcup2 from "../images/backcup2.jpg";
 import headaches from "../images/headaches.webp";
 import vacation from "../images/vacation.jpg";
-import magnesium from '../images/magnesium-addons.webp';
+import magnesium from "../images/magnesium-addons.webp";
 
 export default class Blog extends React.Component {
   render() {
@@ -535,14 +535,14 @@ export default class Blog extends React.Component {
                 <div className="modal-body">
                   <p>
                     Dope Minerals magnesium cream is a great addition to any
-                    session! <br></br> Many of you have already heard me rant about the
-                    benefits of magnesium and Dope Minerals products and now you
-                    have the opportunity to the complimentary treat . I always
-                    have a sample of cream to compliment any session. In
-                    addition to your treatment, magnesium cream can aid with the
-                    decrease of inflammation, pain, muscle cramping, anxiety and
-                    many other issues. Just ask your therapist during your next
-                    session for the add-on to experience the benefits of
+                    session! <br></br> Many of you have already heard me rant
+                    about the benefits of magnesium and Dope Minerals products
+                    and now you have the opportunity to the complimentary treat.
+                    I always have a sample of cream to compliment any session.
+                    In addition to your treatment, magnesium cream can aid with
+                    the decrease of inflammation, pain, muscle cramping, anxiety
+                    and many other issues. Just ask your therapist during your
+                    next session for the add-on to experience the benefits of
                     magnesium.
                   </p>
                 </div>

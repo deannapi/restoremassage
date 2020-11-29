@@ -22,13 +22,13 @@ export default class Home extends React.Component {
               <div class="card-body">
                 <h5 class="card-title">Offers</h5>
                 <p class="card-text">
-                  Here at Restore Massage and Bodywork I take pride in providing
+                  At Restore Massage and Bodywork I take pride in providing
                   the best cupping therapy service to the San Antonio, TX Area.
                   My specialties include pain relief massage, wellness massage,
-                  sports massage, deep tissue massage, swedish massage, sports
+                  sports massage, deep tissue massage, myofascial release, swedish massage, sports
                   recovery, sports recovery massage. Other services provided are
-                  relaxation massage and relaxation for chronic pain. Visit the
-                  booking website for prices.
+                  relaxation massage and relaxation for chronic pain. For pricing details,
+                  <Link to="/menu"> click here.</Link>
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  I seek to be a resource for high-quality, effective
+                  Restore Massage & Bodywork is a resource for high-quality, effective
                   therapy in San Antonio, Texas. I offer therapeutic massage and
                   bodywork for the enhancement of health and well being to
                   health minded individuals. I am dedicated to providing my
@@ -62,7 +62,7 @@ export default class Home extends React.Component {
                 <p className="card-text">
                   Cupping therapy is used to treat headaches, neck pain, TMJ,
                   promote relaxation and wellness, sports massage and injuries.
-                  Schedule your appointment today!
+                  <Link to="/appointments"> Schedule your appointment today!</Link>
                 </p>
               </div>
             </div>

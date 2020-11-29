@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
       <>
         <div className="contact">
-          <h3>GET IN TOUCH!</h3>
+          <h5>GET IN TOUCH!</h5>
           <div>
             <label>Email:</label>
             <a href="mailto:allysiamartinezlmt@gmail.com">
