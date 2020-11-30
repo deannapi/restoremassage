@@ -5,23 +5,22 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
+    /* monospace; */
 }
 
 header {
   text-align: center;
   align-items: baseline;
   padding-bottom: 10px;
-  /* border-bottom: var(--lightgreen) 2px solid; */
 }
 
 header .row {
@@ -291,6 +290,13 @@ button:hover {
 
 .modal-body p {
   font-size: 12px;
+  list-style-position: inside;
+}
+
+.modal-body ul li {
+  text-align: left;
+  font-size: 11px;
+  font-family: "Malgun Gothic";
 }
 
 .modal-footer button {
@@ -301,6 +307,10 @@ button:hover {
 .modal-footer button:hover {
   background-color: var(--lightgreen);
   color: black;
+}
+
+.modal-title {
+  text-align: center;
 }
 
 /* BLOG */
