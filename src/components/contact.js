@@ -69,9 +69,9 @@ export default class Contact extends React.Component {
               </div>
             </div>
 
-            <div className="reviews">
+            {/* <div className="reviews">
               <p>Google reviews will go here.</p>
-            </div>
+            </div> */}
           </div>
           <div className="google-map">
             {/* <Maps></Maps> */}
