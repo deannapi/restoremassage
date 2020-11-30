@@ -40,7 +40,7 @@ export default class Blog extends React.Component {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="card">
                   <img className="card-img" src={backcup} alt="" />
                   <div className="card-img-overlay">
@@ -60,7 +60,7 @@ export default class Blog extends React.Component {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="card">
                   <img className="card-img" src={backcup2} alt="" />
                   <div className="card-img-overlay">
@@ -78,7 +78,7 @@ export default class Blog extends React.Component {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="card">
                   <img className="card-img" src={headaches} alt="" />
                   <div className="card-img-overlay">
@@ -99,7 +99,7 @@ export default class Blog extends React.Component {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="card">
                   <img className="card-img" src={vacation} alt="" />
                   <div className="card-img-overlay">
@@ -119,7 +119,7 @@ export default class Blog extends React.Component {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <div className="card">
                   <img className="card-img" src={magnesium} alt="" />
                   <div className="card-img-overlay">
