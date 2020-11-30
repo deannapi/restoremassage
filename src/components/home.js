@@ -17,11 +17,11 @@ export default class Home extends React.Component {
           </div>
 
           <div className="row">
-            <div class="card">
-              <img class="card-img-top" src={greenlight} alt="coffee" />
-              <div class="card-body">
-                <h5 class="card-title">Offers</h5>
-                <p class="card-text">
+            <div className="card">
+              <img className="card-img-top" src={greenlight} alt="coffee" />
+              <div className="card-body">
+                <h5 className="card-title">Offers</h5>
+                <p className="card-text">
                   At Restore Massage and Bodywork I take pride in providing
                   the best cupping therapy service to the San Antonio, TX Area.
                   My specialties include pain relief massage, wellness massage,
