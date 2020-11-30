@@ -3,8 +3,14 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
 require("dotenv").config();
 
 const mapStyles = {
-  width: "90%",
+  width: "80%",
   height: "70%",
+};
+
+const containerStyle = {
+  position: 'absolute',  
+  width: '100%',
+  height: '100%',
 };
 
 export class Maps extends React.Component {
@@ -19,7 +25,7 @@ export class Maps extends React.Component {
           lng: -98.462477,
         }}
         className="map"
-        width="80%"
+        containerStyle={containerStyle}
       >
         <Marker
           onClick={this.onMarkerClick}

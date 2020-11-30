@@ -73,8 +73,8 @@ footer {
   text-align: center;
   position: relative;
   bottom: 0;
+  left: 0;
   width: 100%;
-  /* background-color: white; */
   flex-shrink: 0;
   margin-top: 20px;
   font-size: 11px;
@@ -152,8 +152,13 @@ footer .developer {
   margin-left: 40px;
 }
 
+.google-map iframe {
+  border: var(--darkgreen) 2px solid;
+  width: 90%;
+}
+
 .card-review {
-  width: 65%;
+  width: 75%;
 }
 
 .card-review img{
