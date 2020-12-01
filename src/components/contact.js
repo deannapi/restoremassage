@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
       <>
         <div className="contact">
-          <h5>GET IN TOUCH!</h5>
+          <h2>Get In Touch!</h2>
           <label>Email:</label>
           <a href="mailto:allysiamartinezlmt@gmail.com">
             <svg
@@ -80,7 +80,6 @@ export default class Contact extends React.Component {
               width="600"
               height="450"
               frameBorder="0"
-              // style="border:0;"
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="0"

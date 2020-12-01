@@ -1,5 +1,5 @@
 import React from "react";
-import $ from 'jquery';
+// import $ from "jquery";
 import MgCBDLav2oz from "../shop-items/MgCBDLav2oz";
 import MgCBDPpmt2oz from "../shop-items/MgCBDPpmt2oz";
 import MgCBDUns2oz from "../shop-items/MgCBDUns2oz";
@@ -21,6 +21,37 @@ import FaceScrub8 from "../shop-items/MgScrub8";
 import TherapyBall from "../shop-items/TherapyBall";
 import YogaBall from "../shop-items/YogaBall";
 
+// const [filters, setFilters] = React.useState([]);
+
+// const products = data
+//   .filter((rocker) => {
+//     return filters.every((mins) => rocker.minerals.includes(mins));
+//   })
+//   .map((rocker) => <MgCBDLav2oz />);
+
+// const CBDCheckbox = useRef(null);
+// const MgCheckbox = useRef(null);
+// const SkincareCheckbox = useRef(null);
+// const TherapyCheckbox = useRef(null);
+
+// const updateFilters = (newFilter, checked) => {
+//   if (!newFilter) {
+//     return setFilters([]);
+//   }
+//   const newFilters = checked
+//     ? [...newFilters, newFilter]
+//     : newFilters.filter((f) => f !== newFilter);
+//   setFilters(newFilters);
+// };
+
+// const removeFilters = () => {
+//   updateFilters("");
+//   CBDCheckbox.current.checked = false;
+//   MgCheckbox.current.checked = false;
+//   SkincareCheckbox.current.checked = false;
+//   TherapyCheckbox.current.checked = false;
+// };
+
 export default class Products extends React.Component {
   render() {
     return (
@@ -30,25 +61,105 @@ export default class Products extends React.Component {
           <h6>Ask me about a product at your next appointment.</h6>
         </div>
 
-        <div id="myBtnContainer">
-          <button className="bttn active" id="all" onClick={() => this.filterSelection('all')}>
+        <div>
+        {/* <div className="btn-group btn-group-toggle" data-toggle="buttons">
+          <button className="" onClick={() => removeFilters()}>
+            all {data.length}
+          </button>
+          <label className="btn">
+            <input
+              ref={CBDCheckbox}
+              onClick={() => updateFilters("CBD", CBDCheckbox.current.checked)}
+              type="checkbox"
+              autoComplete="off"
+              name="options"
+              id="option2"
+            >
+              CBD
+            </input>
+          </label>
+          <label className="btn">
+            <input
+              ref={MgCheckbox}
+              onClick={() =>
+                updateFilters("Magnesium", MgCheckbox.current.checked)
+              }
+              type="checkbox"
+              autoComplete="off"
+              name="options"
+              id="option3"
+            >
+              Magnesium
+            </input>
+          </label>
+          <label className="btn">
+            <input
+              ref={SkincareCheckbox}
+              onClick={() =>
+                updateFilters("Skincare", SkincareCheckbox.current.checked)
+              }
+              type="checkbox"
+              autoComplete="off"
+              name="options"
+              id="option4"
+            >
+              Skincare
+            </input>
+          </label>
+          <label className="btn">
+            <input
+              ref={TherapyCheckbox}
+              onClick={() =>
+                updateFilters("Therapy", TherapyCheckbox.current.checked)
+              }
+              type="checkbox"
+              autoComplete="off"
+              name="options"
+              id="option5"
+            >
+              Therapy
+            </input>
+          </label> */}
+
+          
+          {/* <button
+            className="bttn active"
+            id="all"
+            onClick={() => this.filterSelection("all")}
+          >
             Show All
           </button>
-          <button className="bttn" id="CBD" onClick={() => this.filterSelection('CBD')}>
+          <button
+            className="bttn"
+            id="CBD"
+            onClick={() => this.filterSelection("CBD")}
+          >
             CBD
           </button>
-          <button className="bttn" id="Magnesium" onClick={() => this.filterSelection('Magnesium')}>
+          <button
+            className="bttn"
+            id="Magnesium"
+            onClick={() => this.filterSelection("Magnesium")}
+          >
             Magnesium
           </button>
-          <button className="bttn" id="Skincare" onClick={() => this.filterSelection('Skincare')}>
+          <button
+            className="bttn"
+            id="Skincare"
+            onClick={() => this.filterSelection("Skincare")}
+          >
             Skincare
           </button>
-          <button className="bttn" id="Therapy" onClick={() => this.filterSelection('Therapy')}>
+          <button
+            className="bttn"
+            id="Therapy"
+            onClick={() => this.filterSelection("Therapy")}
+          >
             Therapy
-          </button>
+          </button> */}
         </div>
 
-        <div className="row container">
+        <div className="row">
           <MgCBDLav2oz></MgCBDLav2oz>
           <MgCBDPpmt2oz></MgCBDPpmt2oz>
           <MgCBDUns2oz></MgCBDUns2oz>

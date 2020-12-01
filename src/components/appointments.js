@@ -6,6 +6,9 @@ export default class Appointments extends React.Component {
   render() {
     return (
       <>
+        <div className="appt">
+          <h2>Appointments</h2>
+        </div>
         <div className="row">
           <div className="card">
             <img src={blading} alt="blading" />

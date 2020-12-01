@@ -8,6 +8,7 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
+    font-family: "Malgun Gothic";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -142,17 +143,13 @@ footer .developer {
   /* background-color: black; */
 }
 
-.contact h3 {
-  font-family: "Malgun Gothic";
-}
-
 .map {
   text-align: center;
   margin-left: 40px;
 }
 
 .google-map iframe {
-  border: var(--darkgreen) 2px solid;
+  border: var(--darkgreen) 8px double;
   width: 90%;
 }
 
@@ -184,15 +181,18 @@ h1 {
   font-family: "Malgun Gothic";
   color: var(--lightgreen);
   font-variant: small-caps;
+  font-weight: bold;
 }
 
 h4 h5 {
-  font-family: "Trebuchet MS";
+  font-family: "Malgun Gothic";
   color: var(--darkgreen);
+  /* font-weight: bold; */
 }
 
 h5 {
   font-variant: small-caps;
+  font-weight: 600;
 }
 
 .card-img-top {
@@ -224,7 +224,7 @@ h5 {
 }
 
 /* APPOINTMENTS */
-.appointments {
+.appt h2 {
   text-align: center;
   display: grid;
 }
@@ -320,6 +320,7 @@ button:hover {
 
 .modal-title {
   text-align: center;
+  font-weight: 700;
 }
 
 #myBtnContainer button {
@@ -342,7 +343,10 @@ button:hover {
 
 .blog .card-title {
   color:var(--lightgreen);
+}
 
+.carousel-item {
+  /* border-radius: 40px; */
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
