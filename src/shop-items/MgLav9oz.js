@@ -4,9 +4,9 @@ import nine_lav from "../store/9oz-lavender.jpg";
 export default class MgVan4oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium">
         <div>
-          <p className="product-title">
+          <p className="product-title ">
             9 oz<br></br>Magnesium Cream - Lavender
           </p>
           <img className="product-img" src={nine_lav} alt="lav_9" />

@@ -4,7 +4,7 @@ import four_van from "../store/4oz-vanilla.jpg";
 export default class MgVan4oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium">
         <div>
           <p className="product-title">
             4 oz<br></br>Magnesium Cream - Vanilla

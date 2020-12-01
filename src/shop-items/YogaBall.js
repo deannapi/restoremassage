@@ -4,7 +4,7 @@ import yoga_ball from "../store/yoga_ball.jpg";
 export default class YogaBall extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Therapy">
         <div>
           <p className="product-title">
             Yoga Tune Up Therapy Ball Pair in Tote

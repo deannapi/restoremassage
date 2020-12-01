@@ -4,7 +4,7 @@ import face_hemp from "../store/mg_face_body_hemp.jpg";
 export default class FaceCBDOil extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv skincare CBD">
         <div>
           <p className="product-title">
             Magnesium + Full Spectrum Hemp Face & Body Oil

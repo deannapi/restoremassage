@@ -4,7 +4,7 @@ import two_cbd_van from "../store/2oz-cbd-vanilla.jpg";
 export default class MgCBDVan2oz extends React.Component {
     render() {
       return (
-        <div className="product-box">
+        <div className="product-box filterDiv CBD">
             <div>
               <p className="product-title">
                 2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla

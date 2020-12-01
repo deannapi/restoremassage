@@ -4,7 +4,7 @@ import nine_vanilla from "../store/9oz-vanilla.jpg";
 export default class MgVan9oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium">
         <div>
           <p className="product-title">
             9 oz<br></br>Magnesium Cream - Vanilla

@@ -1,11 +1,11 @@
 import React from "react";
-import face from "../store/mg_face_body.jpg";
+// import face from "../store/mg_face_body.jpg";
 import faceoil from '../store/Face-and-Body-Oil-1.jpg';
 
 export default class FaceOil extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv skincare">
         <div>
           <p className="product-title">Magnesium Face & Body Oil</p>
           <img className="product-img" src={faceoil} alt="" />

@@ -214,6 +214,15 @@ h5 {
   color: var(--lightgreen);
 }
 
+.home-carousel {
+  /* background-color: var(--darkgreen); */
+}
+
+.home-carousel-img {
+  width: 30%;
+  border: var(--darkgreen) 3px double;
+}
+
 /* APPOINTMENTS */
 .appointments {
   text-align: center;
@@ -311,6 +320,18 @@ button:hover {
 
 .modal-title {
   text-align: center;
+}
+
+#myBtnContainer button {
+  margin: 10px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.show {
+  display: block;
 }
 
 /* BLOG */

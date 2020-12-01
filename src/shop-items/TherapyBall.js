@@ -4,7 +4,7 @@ import therapy_ball from "../store/therapy_ball.jpg";
 export default class TherapyBall extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Therapy">
         <div>
           <p className="product-title">Therapy Ball Plus Pair in Tote</p>
           <img className="product-img" src={therapy_ball} alt="" />

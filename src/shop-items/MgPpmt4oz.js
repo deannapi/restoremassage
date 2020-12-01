@@ -4,7 +4,7 @@ import four_ppmt from "../store/4oz-ppmt.jpg";
 export default class MgPpmt4oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium">
         <div>
           <p className="product-title">
             4 oz<br></br>Magnesium Cream - Peppermint

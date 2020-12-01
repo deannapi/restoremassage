@@ -1,11 +1,10 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import four_cbd_van from "../store/4oz-cbd-vanilla.jpg";
 
 export default class MgCBDVan4oz extends React.Component {
     render() {
         return (
-            <div className="product-box">
+            <div className="product-box filterDiv CBD">
             <div>
               <p className="product-title">
                 4 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Vanilla
@@ -155,6 +154,6 @@ export default class MgCBDVan4oz extends React.Component {
               </div>
             </div>
           </div>
-        )
+        );
     }
 }

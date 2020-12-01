@@ -4,7 +4,7 @@ import scrub_eight from "../store/mg_facial_scrub_8.jpg";
 export default class FaceScrub8 extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium Skincare">
         <div>
           <p className="product-title">Magnesium Facial Scrub - 8 oz</p>
           <img className="product-img" src={scrub_eight} alt="" />

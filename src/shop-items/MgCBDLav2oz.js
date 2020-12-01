@@ -4,7 +4,7 @@ import two_cbd_lav from "../store/2oz-cbd-lavender.jpg";
 export default class MgCBDLav2oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv CBD">
         <div>
           <p className="product-title">
             2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Lavender

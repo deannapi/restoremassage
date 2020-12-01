@@ -1,4 +1,5 @@
 import React from "react";
+import $ from 'jquery';
 import MgCBDLav2oz from "../shop-items/MgCBDLav2oz";
 import MgCBDPpmt2oz from "../shop-items/MgCBDPpmt2oz";
 import MgCBDUns2oz from "../shop-items/MgCBDUns2oz";
@@ -29,7 +30,25 @@ export default class Products extends React.Component {
           <h6>Ask me about a product at your next appointment.</h6>
         </div>
 
-        <div className="row">
+        <div id="myBtnContainer">
+          <button className="bttn active" id="all" onClick={() => this.filterSelection('all')}>
+            Show All
+          </button>
+          <button className="bttn" id="CBD" onClick={() => this.filterSelection('CBD')}>
+            CBD
+          </button>
+          <button className="bttn" id="Magnesium" onClick={() => this.filterSelection('Magnesium')}>
+            Magnesium
+          </button>
+          <button className="bttn" id="Skincare" onClick={() => this.filterSelection('Skincare')}>
+            Skincare
+          </button>
+          <button className="bttn" id="Therapy" onClick={() => this.filterSelection('Therapy')}>
+            Therapy
+          </button>
+        </div>
+
+        <div className="row container">
           <MgCBDLav2oz></MgCBDLav2oz>
           <MgCBDPpmt2oz></MgCBDPpmt2oz>
           <MgCBDUns2oz></MgCBDUns2oz>
@@ -55,3 +74,54 @@ export default class Products extends React.Component {
     );
   }
 }
+
+// filterSelection("all");
+
+// function filterSelection(c) {
+//   console.log("Filter button: " + c.target.id)
+//   var x, i;
+//   x = document.getElementsByClassName("filterDiv");
+//   if (c === "all") c = "";
+//   // add the "show" class (display:block) to the filtered elements
+//   // and remove the "show" class from the elements that are not selected
+//   for (i = 0; i < x.length; i++) {
+//     RemoveClass(x[i], "show");
+//     if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+//   }
+// }
+
+// // show filtered elements
+// function AddClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     if (arr1.indexOf(arr2[i]) === -1) {
+//       element.className += " " + arr2[i];
+//     }
+//   }
+// }
+
+// // hide elements that are not selected
+// function RemoveClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     while (arr1.indexOf(arr2[i]) > -1) {
+//       arr1.splice(arr1.indexOf(arr2[i]), 1);
+//     }
+//   }
+//   element.className = arr1.join(" ");
+// }
+
+// // add active class to the current control button and highlight it
+// var btnContainer = $('#myBtnContainer');
+// var btns = btnContainer.document.getElementsByClassName("bttn");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function () {
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }

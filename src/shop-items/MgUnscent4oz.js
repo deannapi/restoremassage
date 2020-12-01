@@ -4,7 +4,7 @@ import four_unscent from "../store/4oz-unscent.jpg";
 export default class MgUnscent4oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv Magnesium">
         <div>
           <p className="product-title">
             4 oz<br></br>Magnesium Cream - Unscented

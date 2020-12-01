@@ -4,7 +4,7 @@ import four_cbd_ppmt from "../store/4oz-cbd-ppmt.jpg";
 export default class MgCBDPpmt4oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv CBD">
         <div>
           <p className="product-title">
             4 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Peppermint

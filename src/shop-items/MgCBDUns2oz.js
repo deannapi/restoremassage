@@ -4,7 +4,7 @@ import two_cbd_unscent from "../store/2oz-cbd-unscent.jpg";
 export default class MgCBDUns2oz extends React.Component {
   render() {
     return (
-      <div className="product-box">
+      <div className="product-box filterDiv CBD">
         <div>
           <p className="product-title">
             2 oz<br></br>Magnesium + Full Spectrum Hemp Cream - Unscented
