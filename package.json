@@ -1,5 +1,6 @@
 {
   "name": "restoremassage",
+  "homepage": "https://www.restoremassageandbodywork.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

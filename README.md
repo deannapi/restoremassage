@@ -2,5 +2,5 @@
 
 ![](Restore_Logo_Final_trimmed.png)
 
-[Restore Massage & Bodywork](https://restoremassageandbodywork.com/)
+[Restore Massage & Bodywork](https://www.restoremassageandbodywork.com/)
 </div>
