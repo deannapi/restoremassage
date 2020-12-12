@@ -233,6 +233,10 @@ h5 {
   color: var(--lightgreen);
 }
 
+.cancellations {
+  text-align: center;
+}
+
 /* SESSION MENU */
 h2 {
   color: var(--darkgreen);

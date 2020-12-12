@@ -12,20 +12,19 @@ import Products from "./components/products";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
-
   return (
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/appointments" component={Appointments} />
-          <Route exact path="/products" component={Products} />
-          <Route exact path="/menu" component={Menu} />
-          <Route exact path="/blog" component={Blog} />
-        </Switch>
-        <Footer></Footer>
-      </Router>
+    <Router>
+      <Header></Header>
+      <Switch>
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/appointments" component={Appointments} />
+        <Route exact path="/products" component={Products} />
+        <Route exact path="/menu" component={Menu} />
+        <Route exact path="/blog" component={Blog} />
+      </Switch>
+      <Footer></Footer>
+    </Router>
   );
 }
