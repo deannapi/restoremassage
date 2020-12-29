@@ -81,7 +81,7 @@ export default class Appointments extends React.Component {
                   will charge a cancellation fee of the full service.
                   <br></br>
                   Please respect your massage therapist and your scheduled time.
-                  Any missed appointments,no shows or cancellations (within the
+                  Any missed appointments, no shows or cancellations (within the
                   48 hours) are subject to 100% charge of the session. After
                   three cancellations (within the 48 hour window) and/or no
                   shows, we will no longer be able to service you. Thank you for

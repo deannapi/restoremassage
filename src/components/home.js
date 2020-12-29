@@ -87,7 +87,7 @@ export default class Home extends React.Component {
                 <h5 className="card-title">Products</h5>
                 <p className="card-text">
                   RMBW always wants you to feel your best! Our products aid in
-                  recovery, relaxation, and extending the benefits of massage.
+                  recovery, relaxation, and extending the benefits of massage.{" "}
                   <Link to="/products" id="shop-visit">
                     Visit our shop{" "}
                   </Link>

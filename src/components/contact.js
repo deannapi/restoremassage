@@ -54,7 +54,7 @@ export default class Contact extends React.Component {
             4940 Broadway Suite #134 <br></br> San Antonio, TX 78203
           </a>
 
-          <div className="row">
+          {/* <div className="row"> */}
             <div className="card-review">
               <div className="card-body">
                 <a
@@ -72,7 +72,7 @@ export default class Contact extends React.Component {
             {/* <div className="reviews">
               <p>Google reviews will go here.</p>
             </div> */}
-          </div>
+          {/* </div> */}
           <div className="google-map">
             {/* <Maps></Maps> */}
             <iframe
