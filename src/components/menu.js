@@ -25,21 +25,9 @@ export default class Menu extends React.Component {
 
         <div className="row ">
           <div className="card card-session mb-3">
-            <div className="card-header">30 Minutes</div>
-            <div className="card-body">
-              <h5 className="card-title">$50</h5>
-              <p className="card-text">
-                Available ONLY to pre-existing clients. This session is meant to
-                be a maintenance session for ONE area treated and assessed in
-                previous sessions by the therapist. Schedule by PHONE ONLY.
-              </p>
-            </div>
-          </div>
-
-          <div className="card card-session mb-3">
             <div className="card-header">60 Minutes</div>
             <div className="card-body">
-              <h5 className="card-title">$80</h5>
+              <h5 className="card-title">$95</h5>
               <p className="card-text">
                 Enough time for a full body session with one, possibly two areas
                 of focus OR the full hour to focus on just those couple problem
@@ -51,7 +39,7 @@ export default class Menu extends React.Component {
           <div className="card card-session mb-3">
             <div className="card-header">90 Minutes</div>
             <div className="card-body">
-              <h5 className="card-title">$110</h5>
+              <h5 className="card-title">$130</h5>
               <p className="card-text">
                 Ideal for a full body session with 2-3 areas of focus OR focus
                 ONLY on 2-3 problem areas. Incorporated fascial stretching to
@@ -63,9 +51,9 @@ export default class Menu extends React.Component {
 
         <div className="row ">
           <div className="card card-session mb-3">
-            <div className="card-header">120 Minutes</div>
+            <div className="card-header">120 Minutes (2 Hours)</div>
             <div className="card-body">
-              <h5 className="card-title">$140</h5>
+              <h5 className="card-title">$160</h5>
               <p className="card-text">
                 Ample time for a full body session and even more time to relax
                 and feel refreshed! This is our therapist's favorite as it
@@ -77,10 +65,10 @@ export default class Menu extends React.Component {
 
           <div className="card card-session mb-3">
             <div className="card-header">
-              120+ Minute Session (2 hours or longer)
+              120+ Minute Session (2 hours+)
             </div>
             <div className="card-body">
-              <h5 className="card-title">$140+</h5>
+              <h5 className="card-title">$160+</h5>
               <p className="card-text">
                 This session is to be discussed and decided with your therapist
                 PRIOR to scheduling. Meant for clients with multiple (3+) areas
