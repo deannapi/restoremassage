@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
       <>
         <div className="contact">
           <h2>Get In Touch!</h2>
-          <label>Email:</label>
+          {/* <label>Email:</label>
           <a href="mailto:restoremassageandbodywork@gmail.com">
             <svg
               width="1em"
@@ -25,7 +25,7 @@ export default class Contact extends React.Component {
             </svg>
             restoremassageandbodywork@gmail.com
           </a>
-          <br />
+          <br /> */}
           <label>Phone:</label>
           <a href="tel:12104686899">
             <svg
