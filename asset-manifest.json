@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a066e372.chunk.css",
-    "main.js": "/static/js/main.3192f42f.chunk.js",
-    "main.js.map": "/static/js/main.3192f42f.chunk.js.map",
+    "main.css": "/static/css/main.635786f5.chunk.css",
+    "main.js": "/static/js/main.d3d7a0c1.chunk.js",
+    "main.js.map": "/static/js/main.d3d7a0c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68e1ae67.js",
     "runtime-main.js.map": "/static/js/runtime-main.68e1ae67.js.map",
     "static/js/2.1a15c439.chunk.js": "/static/js/2.1a15c439.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3099d8b7.chunk.js": "/static/js/3.3099d8b7.chunk.js",
     "static/js/3.3099d8b7.chunk.js.map": "/static/js/3.3099d8b7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a066e372.chunk.css.map": "/static/css/main.a066e372.chunk.css.map",
+    "static/css/main.635786f5.chunk.css.map": "/static/css/main.635786f5.chunk.css.map",
     "static/js/2.1a15c439.chunk.js.LICENSE.txt": "/static/js/2.1a15c439.chunk.js.LICENSE.txt",
     "static/media/2oz-cbd-lavender.b2b4945c.jpg": "/static/media/2oz-cbd-lavender.b2b4945c.jpg",
     "static/media/2oz-cbd-ppmt.1d81e881.jpg": "/static/media/2oz-cbd-ppmt.1d81e881.jpg",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.68e1ae67.js",
     "static/js/2.1a15c439.chunk.js",
-    "static/css/main.a066e372.chunk.css",
-    "static/js/main.3192f42f.chunk.js"
+    "static/css/main.635786f5.chunk.css",
+    "static/js/main.d3d7a0c1.chunk.js"
   ]
 }
