@@ -128,6 +128,10 @@ footer .developer {
   padding-left: 10px;
 }
 
+.btn {
+  white-space: pre-wrap;
+}
+
 /* CONTACT ME */
 .contact {
   text-align: center;
@@ -235,6 +239,15 @@ h5 {
 
 .cancellations {
   text-align: center;
+}
+
+#appt-modal a{
+  color: white;
+  font-size: 11px;
+}
+
+#appointment .modal-footer {
+  align-self: center;
 }
 
 /* SESSION MENU */
