@@ -237,8 +237,14 @@ h5 {
   color: var(--lightgreen);
 }
 
-.cancellations {
+.cancellation {
   text-align: center;
+  margin: auto;
+  width: 40%;
+  background-color: #173519;
+  color: whitesmoke;
+  padding: 4px;
+  border-radius: 35px;
 }
 
 #appt-modal a{
