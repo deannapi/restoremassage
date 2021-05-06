@@ -120,12 +120,8 @@ footer ul {
   font-size: 40px;
 }
 
-footer .developer {
+footer .developer, #deannapi {
   color: var(--lightgreen);
-}
-
-.developer a i {
-  padding-left: 10px;
 }
 
 .btn {

@@ -1,5 +1,6 @@
 import React from "react";
 import logo_2 from "../images/Restore_Logo_Final_V2 trimmed.png";
+import deannapi from "../images/deannapi.jpg";
 
 export default class Footer extends React.Component {
   render() {
@@ -33,13 +34,10 @@ export default class Footer extends React.Component {
 
         <div className="row developer">
           <p>
-            This website was built by DeAnna Martinez
-            <a
-              href="https://www.linkedin.com/in/deanna-martinez-63539a137/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin"></i>
+            Website by{" "}
+            <a href="https://www.deannapi.com" target="_blank" rel="noreferrer" id="deannapi">
+              {" "}
+              <img src={deannapi} alt="deannapi" height="20px" id="deannapi"/> DeAnna Barker
             </a>
           </p>
         </div>
