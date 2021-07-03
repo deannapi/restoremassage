@@ -6,6 +6,7 @@ import backcup2 from "../images/backcup2.jpg";
 import headaches from "../images/headaches.webp";
 import vacation from "../images/vacation.jpg";
 import magnesium from "../images/magnesium-addons.webp";
+import mg_12 from "../images/mg_12.png";
 
 export default class Blog extends React.Component {
   render() {
@@ -103,7 +104,7 @@ export default class Blog extends React.Component {
                 <div className="card">
                   <img className="card-img" src={vacation} alt="" />
                   <div className="card-img-overlay">
-                    <h5 className="card-title">
+                    <h5 className="card-title" style={{color:"#173519"}}>
                       Need vacation relaxation? Magnesium can help!
                     </h5>
                     {/* Button trigger modal */}
@@ -138,7 +139,35 @@ export default class Blog extends React.Component {
                   </div>
                 </div>
               </div>
+
+              <div className="carousel-item">
+                <div className="card">
+                  <img className="card-img" src={mg_12} alt="" />
+                  <div className="card-img-overlay">
+                    <h5 className="card-title" style={{color:"#173519"}}>
+                      Magnesium: The Missing Link For Vibrant Health
+                    </h5>
+                    {/* Button trigger modal */}
+                    <button
+                      type="button"
+                      className="btn"
+                      data-toggle="modal"
+                      data-target="#blogModal7"
+                    >
+                      <a
+                        href="https://dopeminerals.com/wp-content/uploads/2019/04/Mag-Book.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{color:"white"}}
+                      >
+                        Continue Reading
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+
             {/* CAROUSEL BUTTONS */}
             <a
               className="carousel-control-prev"
@@ -508,7 +537,7 @@ export default class Blog extends React.Component {
             </div>
           </div>
 
-          {/* Modal 5*/}
+          {/* Modal 6*/}
           <div
             className="modal fade"
             id="blogModal6"
