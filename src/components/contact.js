@@ -1,6 +1,5 @@
 import React from "react";
-// import Maps from "./map";
-import review from "../images/review_share.png";
+// import review from "../images/review_share.png";
 
 export default class Contact extends React.Component {
   render() {
@@ -8,24 +7,6 @@ export default class Contact extends React.Component {
       <>
         <div className="contact">
           <h2>Get In Touch!</h2>
-          {/* <label>Email:</label>
-          <a href="mailto:restoremassageandbodywork@gmail.com">
-            <svg
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              className="bi bi-envelope-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
-              />
-            </svg>
-            restoremassageandbodywork@gmail.com
-          </a>
-          <br /> */}
           <label>Phone:</label>
           <a href="tel:12104686899">
             <svg
@@ -54,27 +35,12 @@ export default class Contact extends React.Component {
             5170 Broadway Unit #8 <br></br> San Antonio, TX 78203
           </a>
 
-          {/* <div className="row"> */}
-            <div className="card-review">
-              <div className="card-body">
-                <a
-                  href="https://g.page/RestoreMassageBodywork/review?gm"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={review} alt="reviews" />
-                  <br></br>
-                  Leave a review
-                </a>
-              </div>
-            </div>
+          {/* GOOGLE REVIEWS */}
+          <div className="reviews">
+            <div class="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
+          </div>
 
-            {/* <div className="reviews">
-              <p>Google reviews will go here.</p>
-            </div> */}
-          {/* </div> */}
           <div className="google-map">
-            {/* <Maps></Maps> */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13894.125559261538!2d-98.462513!3d29.4716912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x865ea5a00f2bd9bb!2sRestore%20Massage%20and%20Bodywork!5e0!3m2!1sen!2sus!4v1606754081252!5m2!1sen!2sus"
               width="600"

@@ -97,6 +97,9 @@ export default class Home extends React.Component {
             </div>
           </div>
 
+          {/* GOOGLE REVIEWS */}
+     
+
           {/* CAROUSEL */}
           <div
             id="carouselExampleSlidesOnly"
@@ -120,10 +123,18 @@ export default class Home extends React.Component {
                 <img className="home-carousel-img" src={naps} alt="naps" />
               </div>
               <div className="carousel-item">
-                <img className="home-carousel-img" src={public_work} alt="work" />
+                <img
+                  className="home-carousel-img"
+                  src={public_work}
+                  alt="work"
+                />
               </div>
               <div className="carousel-item">
-                <img className="home-carousel-img" src={referrals} alt="refer" />
+                <img
+                  className="home-carousel-img"
+                  src={referrals}
+                  alt="refer"
+                />
               </div>
               <div className="carousel-item">
                 <img className="home-carousel-img" src={knees} alt="knees" />

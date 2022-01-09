@@ -146,11 +146,16 @@ footer .developer, #deannapi {
 .map {
   text-align: center;
   margin-left: 40px;
-}
+} 
 
 .google-map iframe {
   border: var(--darkgreen) 8px double;
   width: 90%;
+}
+
+.reviews {
+  width: 80%;
+  margin: auto;
 }
 
 .card-review {
