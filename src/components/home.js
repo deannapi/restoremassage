@@ -98,7 +98,9 @@ export default class Home extends React.Component {
           </div>
 
           {/* GOOGLE REVIEWS */}
-     
+          <div className="reviews">
+            <div class="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
+          </div>
 
           {/* CAROUSEL */}
           <div

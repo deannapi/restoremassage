@@ -35,11 +35,6 @@ export default class Contact extends React.Component {
             5170 Broadway Unit #8 <br></br> San Antonio, TX 78203
           </a>
 
-          {/* GOOGLE REVIEWS */}
-          <div className="reviews">
-            <div class="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
-          </div>
-
           <div className="google-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13894.125559261538!2d-98.462513!3d29.4716912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x865ea5a00f2bd9bb!2sRestore%20Massage%20and%20Bodywork!5e0!3m2!1sen!2sus!4v1606754081252!5m2!1sen!2sus"
