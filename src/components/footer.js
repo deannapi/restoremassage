@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
 
         <div className="row copyright">
           <p>
-            COPYRIGHT © 2020 RESTORE MASSAGE AND BODYWORK - ALL RIGHTS RESERVED
+            COPYRIGHT © 2018 RESTORE MASSAGE AND BODYWORK - ALL RIGHTS RESERVED
           </p>
         </div>
 

@@ -86,7 +86,6 @@ export default class Menu extends React.Component {
             <div className="card-header">Facial Cupping Rejuvenation</div>
             <div className="card-body">
               <h5 className="card-title">30 Minutes - $45</h5>
-              <h5 className="card-title">60 Minutes - $75</h5>
               <p className="card-text">
                 Manual method for the face by use of small cups to vacuum and
                 lift the facial tissue, mimicking the pumping movements of

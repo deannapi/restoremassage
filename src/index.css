@@ -228,6 +228,19 @@ h5 {
   border: var(--darkgreen) 3px double;
 }
 
+.benefits ul li {
+  list-style: none;
+}
+
+.row .second-home-row {
+  height: 50%;
+}
+
+.therapy ul li {
+  font-size: small;
+  list-style: none;
+}
+
 /* APPOINTMENTS */
 .appt h2 {
   text-align: center;

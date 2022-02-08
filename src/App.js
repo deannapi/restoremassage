@@ -8,6 +8,7 @@ import Home from "./components/home";
 import Menu from "./components/menu";
 import Blog from "./components/blog";
 import Products from "./components/products";
+import About from './components/about';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route exact path="/products" component={Products} />
         <Route exact path="/menu" component={Menu} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/about" component={About}/>
       </Switch>
       <Footer></Footer>
     </Router>

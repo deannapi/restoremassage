@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import fire from "../images/firecup_selfie.jpg";
-import greenlight from "../images/greenlight_logo.jpg";
+// import greenlight from "../images/greenlight_logo.jpg";
 import cover from "../images/cover.jpg";
 import dope from "../images/dopeminerals.jpg";
 import dope2 from "../images/dope.jpg";
@@ -26,24 +27,7 @@ export default class Home extends React.Component {
 
           <div className="row">
             <div className="card">
-              <img className="card-img-top" src={greenlight} alt="coffee" />
-              <div className="card-body">
-                <h5 className="card-title">Offers</h5>
-                <p className="card-text">
-                  At Restore Massage and Bodywork I take pride in providing the
-                  best cupping therapy service to the San Antonio, TX Area. My
-                  specialties include pain relief massage, wellness massage,
-                  sports massage, deep tissue massage, myofascial release,
-                  swedish massage, sports recovery, sports recovery massage.
-                  Other services provided are relaxation massage and relaxation
-                  for chronic pain. For pricing details,
-                  <Link to="/menu"> click here.</Link>
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              <img className="card-img-top" src={cover} alt="" />
+              <img className="card-img-top" src={cover} alt="cover" />
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
@@ -60,6 +44,8 @@ export default class Home extends React.Component {
                   Massage, Deep Tissue, Myofascial Release, Sports Massage,
                   Cupping Therapy and Instrument Assisted Soft Tissue
                   Manipulation/Graston Technique.
+                  <br></br>
+                  <Link to="/about">Read about me here.</Link>
                 </p>
               </div>
             </div>
@@ -69,16 +55,93 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">Cupping Therapy</h5>
                 <p className="card-text">
-                  Cupping therapy is used to treat headaches, neck pain, TMJ,
-                  promote relaxation and wellness, sports massage and injuries.
+                  Cupping therapy is thought to increase blood circulation to
+                  the area where the cups are placed. In return, this may
+                  relieve headaches, neck pain, TMJ, reduce inflammation, and
+                  overall promote relaxation and wellness. Athletes use cupping
+                  to improve recovery and help heal sore, tired muscles.
+                  <br></br>
                   <Link to="/appointments">
                     {" "}
                     Schedule your appointment today!
                   </Link>
                 </p>
+                <button
+                  type="button"
+                  className="btn"
+                  data-toggle="modal"
+                  data-target="#benefits"
+                >
+                  Other Benefits
+                </button>
+                <div
+                  className="modal fade"
+                  id="benefits"
+                  tabIndex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true"
+                >
+                  <div
+                    className="modal-dialog modal-dialog-centered"
+                    role="document"
+                  >
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <h5
+                          className="modal-title"
+                          id="exampleModalCenterTitle"
+                        >
+                          Other Benefits of Massage Therapy
+                        </h5>
+                        <button
+                          type="button"
+                          className="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div className="modal-body benefits container">
+                        <div className="row">
+                          <div className="col">
+                            <ul>
+                              <li>Myofascial Release</li>
+                              <li>Lymphatic Drainage</li>
+                              <li>Orthopedic Conditions</li>
+                              <li>Neuromuscular Conditions</li>
+                              <li>Sports Injuries</li>
+                              <li>Stubborn Conditions</li>
+                              <li>Fibromyalgia</li>
+                              <li>Arthritis</li>
+                            </ul>
+                          </div>
+                          <div className="row">
+                            <ul>
+                              <li>Trigger Points</li>
+                              <li>Traumatic Injuries</li>
+                              <li>Chronic Pain</li>
+                              <li>Detoxification</li>
+                              <li>TMJD (temporomandibular joint disorder)</li>
+                              <li>Migraines / Headaches</li>
+                              <li>Low Back Pain</li>
+                              <li>Digestive Disorders</li>
+                              <li>Post Operative Scar Tissue</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br></br>
+                        For pricing details, <Link to="/menu">click here.</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* <img className="card-img-top" src={greenlight} alt="benefits" /> */}
 
           <div className="row">
             <div className="card">
@@ -87,7 +150,8 @@ export default class Home extends React.Component {
                 <h5 className="card-title">Products</h5>
                 <p className="card-text">
                   RMBW always wants you to feel your best! Our products aid in
-                  recovery, relaxation, and extending the benefits of massage.{" "}
+                  recovery, relaxation, and extending the benefits of massage.
+                  <br></br>
                   <Link to="/products" id="shop-visit">
                     Visit our shop{" "}
                   </Link>
@@ -101,6 +165,7 @@ export default class Home extends React.Component {
           <div className="reviews">
             <div class="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
           </div>
+          <br></br>
 
           {/* CAROUSEL */}
           <div
