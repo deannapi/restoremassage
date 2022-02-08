@@ -18,28 +18,60 @@ code {
     /* monospace; */
 }
 
-header {
-  text-align: center;
-  align-items: baseline;
-  padding-bottom: 10px;
-}
-
-header .row {
-  display: flex;
-}
-
 nav ul li {
   list-style: none;
 }
 
-.dropright {
+.bg-img {
+  background-image: url("images/Restore_Logo_Final trimmed.png");
+  min-height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.menu-row {
+  width: 30px;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 10px;
+  width: 50%;
+  padding: 0%;
+}
+
+/* Navbar links */
+.nav {
+  padding: 16px;
+  font-weight: 600;
+  margin: 12px;
+}
+
+.nav-item a {
+  color: var(--darkgreen);
+  padding: 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-size: smaller;
+  font-variant: petite-caps;
+}
+
+.nav-item a:hover {
+  background-color: var(--darkgreen);
+  color: var(--lightgreen);
+  border-radius: 10px;
+}
+
+/* .dropright {
   padding-left: 15px;
 }
 
 #dropdownMenuButton {
   background-color: var(--darkgreen);
   font-family: "Malgun Gothic";
-  /* font-variant: small-caps; */
   text-transform: uppercase;
 }
 
@@ -67,7 +99,7 @@ nav ul li {
 
 .dropdown-menu ul li:hover {
   background-color:  var(--lightgreen);
-}
+} */
 
 footer {
   text-align: center;
@@ -253,7 +285,7 @@ h5 {
   width: 40%;
   background-color: #173519;
   color: whitesmoke;
-  padding: 4px;
+  padding: 10px;
   border-radius: 35px;
 }
 
