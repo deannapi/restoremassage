@@ -8,14 +8,14 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-    font-family: "Malgun Gothic";
+  font-family: "Malgun Gothic";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
-    /* monospace; */
+  /* monospace; */
 }
 
 nav ul li {
@@ -24,7 +24,7 @@ nav ul li {
 
 .bg-img {
   background-image: url("images/Restore_Logo_Final trimmed.png");
-  min-height: 150px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -112,7 +112,7 @@ footer {
   font-size: 11px;
 }
 
-footer .row{
+footer .row {
   display: inline;
 }
 
@@ -130,14 +130,20 @@ footer ul {
 }
 
 #insta {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   -webkit-background-clip: text;
-          /* Also define standard property for compatibility */
-          background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   font-size: 30px; /* change this to change the size*/
-  
 }
 
 #insta:hover {
@@ -152,7 +158,8 @@ footer ul {
   font-size: 40px;
 }
 
-footer .developer, #deannapi {
+footer .developer,
+#deannapi {
   color: var(--lightgreen);
 }
 
@@ -178,7 +185,7 @@ footer .developer, #deannapi {
 .map {
   text-align: center;
   margin-left: 40px;
-} 
+}
 
 .google-map iframe {
   border: var(--darkgreen) 8px double;
@@ -194,7 +201,7 @@ footer .developer, #deannapi {
   width: 100%;
 }
 
-.card-review img{
+.card-review img {
   width: 40%;
 }
 
@@ -289,7 +296,7 @@ h5 {
   border-radius: 35px;
 }
 
-#appt-modal a{
+#appt-modal a {
   color: white;
   font-size: 11px;
 }
@@ -331,7 +338,8 @@ h2 {
 }
 
 /* PRODUCTS */
-h5, h6 {
+h5,
+h6 {
   text-align: center;
 }
 
@@ -375,7 +383,7 @@ button:hover {
 
 .modal-footer button {
   background-color: var(--darkgreen);
-  color:white;
+  color: white;
 }
 
 .modal-footer button:hover {
@@ -401,13 +409,13 @@ button:hover {
 }
 
 /* BLOG */
-.blog  {
+.blog {
   text-align: center;
   background-color: var(--darkgreen);
 }
 
 .blog .card-title {
-  color:var(--lightgreen);
+  color: var(--lightgreen);
 }
 
 .carousel-item {
@@ -416,7 +424,6 @@ button:hover {
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -453,5 +460,22 @@ button:hover {
 
   .btn {
     font-size: 11px;
+  }
+
+  .nav {
+    padding: 2px;
+    width: 70%;
+    margin-left: auto;
+  }
+
+  .bg-img {
+    height: 94px;
+    background-position: left;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .cancellation {
+    width: 80%;
   }
 }

@@ -76,8 +76,8 @@ export default function Nav(props) {
               <li className="nav-item">
                 <Link to="/appointments">Appointments</Link>
               </li>
-            </ul>
-            <ul className="nav justify-content-end">
+            {/* </ul> */}
+            {/* <ul className="nav justify-content-end"> */}
               <li className="nav-item">
                 <Link to="/menu">Sessions & Prices</Link>
               </li>
