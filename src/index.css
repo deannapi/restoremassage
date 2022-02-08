@@ -25,7 +25,7 @@ header {
 }
 
 header .row {
-  display: inline-block;
+  display: flex;
 }
 
 nav ul li {
@@ -230,10 +230,6 @@ h5 {
 
 .benefits ul li {
   list-style: none;
-}
-
-.row .second-home-row {
-  height: 50%;
 }
 
 .therapy ul li {

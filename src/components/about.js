@@ -1,4 +1,5 @@
 import React from "react";
+import selfie from "../images/Allysia_selfie.JPEG"
 
 export default class About extends React.Component {
   render() {
@@ -7,7 +8,7 @@ export default class About extends React.Component {
         <div className="about">
           <div className="row">
             <div className="card">
-              {/* <img className="card-img-top" src={} alt="selfie"/> */}
+              <img className="card-img-top" src={selfie} alt="selfie"/>
               <div className="card-body">
                 <h5 className="card-title">About Me</h5>
                 <p className="card-text">
