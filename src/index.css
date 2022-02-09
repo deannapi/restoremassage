@@ -268,6 +268,10 @@ h5 {
   border: var(--darkgreen) 3px double;
 }
 
+.benefits {
+  /* background-color: white; */
+}
+
 .benefits ul li {
   list-style: none;
 }

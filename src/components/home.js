@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ReactWordcloud from "react-wordcloud";
 
 import fire from "../images/firecup_selfie.jpg";
-// import greenlight from "../images/greenlight_logo.jpg";
+import greenlight from "../images/greenlight_logo.jpg";
 import cover from "../images/cover.jpg";
 import dope from "../images/dopeminerals.jpg";
 import dope2 from "../images/dope.jpg";
@@ -14,7 +15,32 @@ import referrals from "../images/referrals.png";
 import knees from "../images/knees.png";
 import feet from "../images/feet.jpg";
 
+// word cloud
+const words = [
+  { text: "Myofascial Release", value: 52 },
+  { text: "lymphatic drainage", value: 70 },
+  { text: "orthopedic conditions", value: 64 },
+  { text: "neuromuscular conditions", value: 58 },
+  { text: "sports injuries", value: 52 },
+  { text: "stubborn conditions", value: 60 },
+  { text: "fibromyalgia", value: 57 },
+  { text: "arthritis", value: 68 },
+  { text: "trigger points", value: 55 },
+  { text: "traumatic injuries", value: 62 },
+  { text: "chronic pain", value: 58 },
+  { text: "detoxification", value: 66 },
+  { text: "TMJD (temporomandibular joint disorder)", value: 64 },
+  { text: "migraines/headaches", value: 70 },
+  { text: "low back pain", value: 63 },
+  { text: "digestive disorders", value: 62 },
+  { text: "post operative scar tissue", value: 50 },
+  { text: "inflammation", value: 66 },
+];
+
 export default class Home extends React.Component {
+  WordCloud() {
+    return <ReactWordcloud words={words} />;
+  };
   render() {
     return (
       <>
@@ -51,15 +77,41 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
+              <img className="card-img-top" src={greenlight} alt="benefits" />
+              <div className="card-body">
+                <h5 className="card-title">Performance Stretch Therapy</h5>
+                <p className="card-text">
+                  Allysia is a level 1 certified Performance Stretch Therapist.
+                  The program uses static, dynamic and pre-contraction
+                  stretching to help improve posture and provide relief from
+                  pain, discomfort and improve range of motion. Many clients
+                  deal with immobility and inflexibility issues which can lead
+                  to imbalances and eventually cause pain. This service is
+                  especially beneficial to our client population of desk
+                  workers, athletes and weekend warriors, and those experiencing
+                  the everyday stress of life (which is most of us)! If you're
+                  unsure if our performance stretch therapy is for you, we
+                  encourage you to give it a try and{" "}
+                  <Link to="/appointments">book</Link> a session. You won't be
+                  disappointed! You may even fall asleep!
+                </p>
+              </div>
+            </div>
+
+            <div className="card">
               <img className="card-img-top" src={fire} alt="" />
               <div className="card-body">
                 <h5 className="card-title">Cupping Therapy</h5>
                 <p className="card-text">
-                  Cupping therapy is thought to increase blood circulation to
-                  the area where the cups are placed. In return, this may
-                  relieve headaches, neck pain, TMJ, reduce inflammation, and
-                  overall promote relaxation and wellness. Athletes use cupping
-                  to improve recovery and help heal sore, tired muscles.
+                  Massage cupping is the combination of massage movements and
+                  negative pressure with the use of a suction cup on the skin. A
+                  vacuum is created with the cup to draw the skin and underlying
+                  tissue into the cup. The produced vacuum creates a suction
+                  effect that increases blood and lymphatic circulation
+                  systemically and to the local area, relaxes muscle tissue and
+                  connective tissue, draws stagnation, pathogenic factors and
+                  toxins out of the body and releases a myriad of pain causing
+                  factors.
                   <br></br>
                   <Link to="/appointments">
                     {" "}
@@ -72,7 +124,7 @@ export default class Home extends React.Component {
                   data-toggle="modal"
                   data-target="#benefits"
                 >
-                  Other Benefits
+                  Click here to view other benefits massage therapy can offer!
                 </button>
                 <div
                   className="modal fade"
@@ -92,7 +144,7 @@ export default class Home extends React.Component {
                           className="modal-title"
                           id="exampleModalCenterTitle"
                         >
-                          Other Benefits of Massage Therapy
+                          Benefits of Massage Therapy
                         </h5>
                         <button
                           type="button"
@@ -103,34 +155,8 @@ export default class Home extends React.Component {
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
-                      <div className="modal-body benefits container">
-                        <div className="row">
-                          <div className="col">
-                            <ul>
-                              <li>Myofascial Release</li>
-                              <li>Lymphatic Drainage</li>
-                              <li>Orthopedic Conditions</li>
-                              <li>Neuromuscular Conditions</li>
-                              <li>Sports Injuries</li>
-                              <li>Stubborn Conditions</li>
-                              <li>Fibromyalgia</li>
-                              <li>Arthritis</li>
-                            </ul>
-                          </div>
-                          <div className="row">
-                            <ul>
-                              <li>Trigger Points</li>
-                              <li>Traumatic Injuries</li>
-                              <li>Chronic Pain</li>
-                              <li>Detoxification</li>
-                              <li>TMJD (temporomandibular joint disorder)</li>
-                              <li>Migraines / Headaches</li>
-                              <li>Low Back Pain</li>
-                              <li>Digestive Disorders</li>
-                              <li>Post Operative Scar Tissue</li>
-                            </ul>
-                          </div>
-                        </div>
+                      <div className="modal-body benefits">
+                        <p>{this.WordCloud()}</p>
                         <br></br>
                         For pricing details, <Link to="/menu">click here.</Link>
                       </div>
@@ -140,8 +166,6 @@ export default class Home extends React.Component {
               </div>
             </div>
           </div>
-
-          {/* <img className="card-img-top" src={greenlight} alt="benefits" /> */}
 
           <div className="row">
             <div className="card">
@@ -163,7 +187,7 @@ export default class Home extends React.Component {
 
           {/* GOOGLE REVIEWS */}
           <div className="reviews">
-            <div class="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
+            <div className="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
           </div>
           <br></br>
 
