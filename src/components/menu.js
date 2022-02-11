@@ -19,7 +19,7 @@ export default class Menu extends React.Component {
             Therapy and Instrument Assisted Soft Tissue Manipulation/Graston
             Technique.
             <br></br>
-            ALL SESSIONS WITHIN CANCELLATION POLICY GUIDELINES.
+            <b>ALL SESSIONS WITHIN CANCELLATION POLICY GUIDELINES.</b>
           </p>
         </div>
 
@@ -81,14 +81,23 @@ export default class Menu extends React.Component {
           </div>
 
           <div className="card card-session mb-3">
-            <div className="card-header">Stretching</div>
+            <div className="card-header">Performance Stretch Therapy</div>
             <div className="card-body">
               <h5 className="card-title">60 minutes - $105</h5>
+              <p>
+                Focus on <b>ONE</b> area of stretching, such as only shoulders,
+                only hips, etc...
+              </p>
               <h5 className="card-title">90 minutes - $140</h5>
+              <p>
+                Possible full body stretch with <b>ONE</b> or <b>TWO</b> areas
+                of focus.
+              </p>
               <h5 className="card-title">120 minutes - $170</h5>
               <p className="card-text">
-                Enough time to focus on stretching specific areas of the body
-                such as shoulders, hips, back...
+                Ample time for a full body stretching session and multiple areas
+                of focus. This session length allows your therapist to work
+                efficiently and effectively through each stretch.
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import selfie from "../images/selfie_logo.png"
+import selfie from "../images/Selfie w Logo.png"
 
 export default class About extends React.Component {
   render() {
