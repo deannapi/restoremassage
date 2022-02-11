@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import ReactWordcloud from "react-wordcloud";
 
 import fire from "../images/firecup_selfie.jpg";
-import greenlight from "../images/greenlight_logo.jpg";
-import cover from "../images/cover.jpg";
+// import stretch from "../images/stretch1.png";
+import stretch2 from "../images/stretch2.png";
+// import stretch3 from "../images/stretch3.png";
+import cover from "../images/stretchneck.png";
 import dope from "../images/dopeminerals.jpg";
 import dope2 from "../images/dope.jpg";
 import selfie from "../images/selfie.jpeg";
@@ -17,11 +19,11 @@ import feet from "../images/feet.jpg";
 
 // word cloud
 const words = [
-  { text: "Myofascial Release", value: 52 },
+  { text: "Myofascial Release", value: 68 },
   { text: "lymphatic drainage", value: 70 },
   { text: "orthopedic conditions", value: 64 },
   { text: "neuromuscular conditions", value: 58 },
-  { text: "sports injuries", value: 52 },
+  { text: "sports injuries", value: 63 },
   { text: "stubborn conditions", value: 60 },
   { text: "fibromyalgia", value: 57 },
   { text: "arthritis", value: 68 },
@@ -33,14 +35,14 @@ const words = [
   { text: "migraines/headaches", value: 70 },
   { text: "low back pain", value: 63 },
   { text: "digestive disorders", value: 62 },
-  { text: "post operative scar tissue", value: 50 },
+  { text: "post operative scar tissue", value: 57 },
   { text: "inflammation", value: 66 },
 ];
 
 export default class Home extends React.Component {
   WordCloud() {
     return <ReactWordcloud words={words} />;
-  };
+  }
   render() {
     return (
       <>
@@ -77,7 +79,38 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
-              <img className="card-img-top" src={greenlight} alt="benefits" />
+              {/* <div
+                id="carouselExampleSlidesOnly"
+                className="carousel slide card-img-top"
+                data-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      className="card-img-top"
+                      src={stretch}
+                      alt="stretching"
+                    />
+                  </div>
+
+                  <div className="carousel-item">
+                    <img
+                      className="card-img-top"
+                      src={stretch2}
+                      alt="stretching"
+                    />
+                  </div>
+
+                  <div className="carousel-item"> */}
+                    <img
+                      className="card-img-top"
+                      src={stretch2}
+                      alt="stretching"
+                    />
+                  {/* </div>
+                </div>
+              </div> */}
+
               <div className="card-body">
                 <h5 className="card-title">Performance Stretch Therapy</h5>
                 <p className="card-text">
