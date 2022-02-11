@@ -64,9 +64,7 @@ export default class Menu extends React.Component {
           </div>
 
           <div className="card card-session mb-3">
-            <div className="card-header">
-              120+ Minute Session (2 hours+)
-            </div>
+            <div className="card-header">120+ Minute Session (2 hours+)</div>
             <div className="card-body">
               <h5 className="card-title">$170+</h5>
               <p className="card-text">
@@ -83,6 +81,19 @@ export default class Menu extends React.Component {
           </div>
 
           <div className="card card-session mb-3">
+            <div className="card-header">Stretching</div>
+            <div className="card-body">
+              <h5 className="card-title">60 minutes - $105</h5>
+              <h5 className="card-title">90 minutes - $140</h5>
+              <h5 className="card-title">120 minutes - $170</h5>
+              <p className="card-text">
+                Enough time to focus on stretching specific areas of the body
+                such as shoulders, hips, back...
+              </p>
+            </div>
+          </div>
+
+          <div className="card card-session mb-3">
             <div className="card-header">Facial Cupping Rejuvenation</div>
             <div className="card-body">
               <h5 className="card-title">30 Minutes - $45</h5>
@@ -93,8 +104,8 @@ export default class Menu extends React.Component {
                 circulation of the skin, increased nutrients brought to the
                 epidermis, and enhanced absorption of facial topicals. The
                 drainage of stagnant fluids from reservoir areas will reduce
-                edema and chronic puffiness. Lines and wrinkles will plump
-                while the scar tissue will soften from the negative pressure.
+                edema and chronic puffiness. Lines and wrinkles will plump while
+                the scar tissue will soften from the negative pressure.
               </p>
             </div>
           </div>
