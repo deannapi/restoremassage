@@ -6,8 +6,7 @@ export default function Nav(props) {
   return (
     <>
       <header>
-        <nav>
-          {/* <img
+        {/* <img
               src={logo_1}
               alt="logo"
               height="150px"
@@ -62,8 +61,9 @@ export default function Nav(props) {
                 </ul>
               </div>
             </div> */}
-          <div className="bg-img">
-            <ul className="nav justify-content-end">
+        <div className="bg-img"></div>
+          <nav>
+            <ul className="navbar navbar-expand-lg">
               <li className="nav-item">
                 <Link to="/home">Home</Link>
               </li>
@@ -76,8 +76,8 @@ export default function Nav(props) {
               <li className="nav-item">
                 <Link to="/appointments">Appointments</Link>
               </li>
-            {/* </ul> */}
-            {/* <ul className="nav justify-content-end"> */}
+              {/* </ul> */}
+              {/* <ul className="nav justify-content-end"> */}
               <li className="nav-item">
                 <Link to="/menu">Sessions & Prices</Link>
               </li>
@@ -97,8 +97,8 @@ export default function Nav(props) {
                 <Link to="/blog">Blog</Link>
               </li>
             </ul>
-          </div>
-        </nav>
+          </nav>
+        
       </header>
     </>
   );

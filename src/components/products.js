@@ -1,5 +1,5 @@
 import React from "react";
-// import $ from "jquery";
+
 import MgCBDLav2oz from "../shop-items/MgCBDLav2oz";
 import MgCBDPpmt2oz from "../shop-items/MgCBDPpmt2oz";
 import MgCBDUns2oz from "../shop-items/MgCBDUns2oz";
@@ -56,13 +56,23 @@ export default class Products extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <h5>All merchandise sold in store.</h5>
-          <h6>Ask me about a product at your next appointment.</h6>
+        <div className="discode">
+          <h5>
+            Purchase in store at your next session <br/> or use code "<b>Restore10</b>" at{" "}
+            <a
+              href="https://dopeminerals.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Dope Minerals
+            </a>
+            .
+          </h5>
+          {/* <h6>Ask me about a product at your next appointment.</h6> */}
         </div>
 
         <div>
-        {/* <div className="btn-group btn-group-toggle" data-toggle="buttons">
+          {/* <div className="btn-group btn-group-toggle" data-toggle="buttons">
           <button className="" onClick={() => removeFilters()}>
             all {data.length}
           </button>
@@ -121,7 +131,6 @@ export default class Products extends React.Component {
             </input>
           </label> */}
 
-          
           {/* <button
             className="bttn active"
             id="all"

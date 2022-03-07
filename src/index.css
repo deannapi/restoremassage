@@ -24,7 +24,7 @@ nav ul li {
 
 .bg-img {
   background-image: url("images/Restore_Logo_Final trimmed.png");
-  height: 140px;
+  height: 175px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -44,25 +44,25 @@ nav ul li {
 }
 
 /* Navbar links */
-.nav {
+.navbar {
   padding: 16px;
-  font-weight: 600;
-  /* margin: 12px; */
-  margin-left: auto;
+  background-color: var(--darkgreen);
+  justify-content: center;
 }
 
 .nav-item a {
-  color: var(--darkgreen);
+  color: var(--lightgreen);
   padding: 8px;
   margin: 2px;
   text-decoration: none;
   font-size: smaller;
   font-variant: petite-caps;
+  font-weight: bold;
 }
 
 .nav-item a:hover {
-  background-color: var(--darkgreen);
-  color: var(--lightgreen);
+  background-color: white;
+  color: var(--darkgreen);
   border-radius: 10px;
 }
 
@@ -348,15 +348,29 @@ h6 {
   text-align: center;
 }
 
+.discode {
+  /* background-color: var(--darkgreen); */
+  color: var(--lightgreen);
+  /* border-radius: 35px; */
+}
+
+.discode a {
+  /* color: var(--darkgreen); */
+}
+
+.discode a:hover {
+  color: var(--lightgreen);
+}
+
 .row {
   margin: 10px;
 }
 
 .product-box {
-  width: 350px;
+  width: 300px;
   text-align: center;
   border: var(--darkgreen) 2px double;
-  margin: 10px;
+  margin: 5px auto 5px auto;
 }
 
 .product-box img {
@@ -456,7 +470,7 @@ button:hover {
     width: 175px;
     display: inline-block;
     font-size: 11px;
-    margin: 5px;
+    margin: inherit;
   }
 
   .product-box img {
@@ -475,7 +489,7 @@ button:hover {
 
   .bg-img {
     height: 94px;
-    background-position: left;
+    /* background-position: left; */
     margin: 5px;
     padding: 5px;
   }
