@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ReactWordcloud from "react-wordcloud";
+// import ReactWordcloud from "react-wordcloud";
 
 import fire from "../images/firecup_selfie.jpg";
 // import stretch from "../images/stretch1.png";
@@ -18,31 +18,31 @@ import knees from "../images/knees.png";
 import feet from "../images/feet.jpg";
 
 // word cloud
-const words = [
-  { text: "Myofascial Release", value: 68 },
-  { text: "lymphatic drainage", value: 70 },
-  { text: "orthopedic conditions", value: 64 },
-  { text: "neuromuscular conditions", value: 58 },
-  { text: "sports injuries", value: 63 },
-  { text: "stubborn conditions", value: 60 },
-  { text: "fibromyalgia", value: 57 },
-  { text: "arthritis", value: 68 },
-  { text: "trigger points", value: 55 },
-  { text: "traumatic injuries", value: 62 },
-  { text: "chronic pain", value: 58 },
-  { text: "detoxification", value: 66 },
-  { text: "TMJD (temporomandibular joint disorder)", value: 64 },
-  { text: "migraines/headaches", value: 70 },
-  { text: "low back pain", value: 63 },
-  { text: "digestive disorders", value: 62 },
-  { text: "post operative scar tissue", value: 57 },
-  { text: "inflammation", value: 66 },
-];
+// const words = [
+//   { text: "Myofascial Release", value: 68 },
+//   { text: "lymphatic drainage", value: 70 },
+//   { text: "orthopedic conditions", value: 64 },
+//   { text: "neuromuscular conditions", value: 58 },
+//   { text: "sports injuries", value: 63 },
+//   { text: "stubborn conditions", value: 60 },
+//   { text: "fibromyalgia", value: 57 },
+//   { text: "arthritis", value: 68 },
+//   { text: "trigger points", value: 55 },
+//   { text: "traumatic injuries", value: 62 },
+//   { text: "chronic pain", value: 58 },
+//   { text: "detoxification", value: 66 },
+//   { text: "TMJD (temporomandibular joint disorder)", value: 64 },
+//   { text: "migraines/headaches", value: 70 },
+//   { text: "low back pain", value: 63 },
+//   { text: "digestive disorders", value: 62 },
+//   { text: "post operative scar tissue", value: 57 },
+//   { text: "inflammation", value: 66 },
+// ];
 
 export default class Home extends React.Component {
-  WordCloud() {
-    return <ReactWordcloud words={words} />;
-  }
+  // WordCloud() {
+  //   return <ReactWordcloud words={words} />;
+  // }
   render() {
     return (
       <>
@@ -102,12 +102,8 @@ export default class Home extends React.Component {
                   </div>
 
                   <div className="carousel-item"> */}
-                    <img
-                      className="card-img-top"
-                      src={stretch2}
-                      alt="stretching"
-                    />
-                  {/* </div>
+              <img className="card-img-top" src={stretch2} alt="stretching" />
+              {/* </div>
                 </div>
               </div> */}
 
@@ -189,7 +185,25 @@ export default class Home extends React.Component {
                         </button>
                       </div>
                       <div className="modal-body benefits">
-                        <p>{this.WordCloud()}</p>
+                        {/* <p>{this.WordCloud()}</p> */}
+                          <li>Myofascial Release</li>
+                          <li>lymphatic drainage</li>
+                          <li>orthopedic conditions</li>
+                          <li>neuromuscular conditions</li>
+                          <li>sports injuries</li>
+                          <li>stubborn conditions</li>
+                          <li>fibromyalgia</li>
+                          <li>arthritis</li>
+                          <li>trigger points</li>
+                          <li>traumatic injuries</li>
+                          <li>chronic pain</li>
+                          <li>detoxification</li>
+                          <li>TMJD (temporomandibular joint disorder) </li>
+                          <li>migraines/headaches</li>
+                          <li>low back pain</li>
+                          <li>digestive disorders</li>
+                          <li>post operative scar tissue</li>
+                          <li>inflammation</li>
                         <br></br>
                         For pricing details, <Link to="/menu">click here.</Link>
                       </div>

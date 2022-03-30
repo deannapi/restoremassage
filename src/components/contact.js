@@ -32,7 +32,7 @@ export default class Contact extends React.Component {
             rel="noreferrer"
           >
             <i className="fas fa-directions"></i>
-            5170 Broadway Unit #8 <br></br> San Antonio, TX 78203
+            5170 Broadway Unit #8 <br></br> San Antonio, TX 78209
           </a>
 
           <div className="google-map">
