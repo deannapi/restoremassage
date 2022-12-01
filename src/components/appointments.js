@@ -12,17 +12,18 @@ export default class Appointments extends React.Component {
             NEW Clients Must Complete the Form Before Booking Appointments
           </h5>
           <div className="cancellation">
+            <h5>Cancellation Policy</h5>
             <p>
               If you have an upcoming appointment, please notify your therapist
-              48 hours before your scheduled appointment for any cancellations.
+              24 hours before your scheduled appointment for any cancellations.
               If you arrive more than 10 minutes late for your service, we may
               not be able to accommodate you and we will charge a cancellation
               fee of the full service.
               <br></br>
               Please respect your massage therapist and your scheduled time. Any
-              missed appointments, no shows or cancellations (within the 48
+              missed appointments, no shows or cancellations (within the 24
               hours) are subject to 100% charge of the session. After three
-              cancellations (within the 48 hour window) and/or no shows, we will
+              cancellations (within the 24 hour window) and/or no shows, we will
               no longer be able to service you. Thank you for your
               understanding.
             </p>
