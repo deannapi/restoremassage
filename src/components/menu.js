@@ -83,17 +83,17 @@ export default class Menu extends React.Component {
           <div className="card card-session mb-3">
             <div className="card-header">Performance Stretch Therapy</div>
             <div className="card-body">
-              <h5 className="card-title">60 minutes - $105</h5>
+              <h5 className="card-title">60 minutes - $115</h5>
               <p>
                 Focus on <b>ONE</b> area of stretching, such as only shoulders,
                 only hips, etc...
               </p>
-              <h5 className="card-title">90 minutes - $140</h5>
+              <h5 className="card-title">90 minutes - $150</h5>
               <p>
                 Possible full body stretch with <b>ONE</b> or <b>TWO</b> areas
                 of focus.
               </p>
-              <h5 className="card-title">120 minutes - $170</h5>
+              <h5 className="card-title">120 minutes - $180</h5>
               <p className="card-text">
                 Ample time for a full body stretching session and multiple areas
                 of focus. This session length allows your therapist to work
