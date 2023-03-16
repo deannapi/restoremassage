@@ -84,7 +84,7 @@ export default function Nav(props) {
               <li className="nav-item">
                 <Link to="/products">Products</Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   href="https://squareup.com/gift/RFMDW8TJJ8M7K/order?external_source=postoffice-email&external_token=ryEMlwN1ZO4mOH0n"
                   target="_blank"
@@ -92,7 +92,7 @@ export default function Nav(props) {
                 >
                   Gift Cards
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/blog">Blog</Link>
               </li>
