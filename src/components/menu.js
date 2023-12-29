@@ -1,5 +1,5 @@
 import React from "react";
-import PriceNotice from "../images/NewPriceNotice.png";
+// import PriceNotice from "../images/NewPriceNotice.png";
 
 export default class Menu extends React.Component {
   render() {
