@@ -78,7 +78,7 @@ export default class Menu extends React.Component {
               modalities to provide relief and restoration of the body. Sessions
               can include but are not limited to modalities such as Swedish
               Massage, Deep Tissue, Myofascial Release, Sports Massage, Cupping
-              Therapy and Instrument Assisted Soft Tissue Manipulation (IASTM).
+              Therapy and Instrument Assisted Soft Tissue Manipulation (IASTM). hhhhhhhhhhhhhhhhhhhhhhhh
             </p>
           </div>
         </div>
