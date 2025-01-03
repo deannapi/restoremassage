@@ -78,7 +78,7 @@ export default class Menu extends React.Component {
               modalities to provide relief and restoration of the body. Sessions
               can include but are not limited to modalities such as Swedish
               Massage, Deep Tissue, Myofascial Release, Sports Massage, Cupping
-              Therapy and Instrument Assisted Soft Tissue Manipulation (IASTM). hhhhhhhhhhhhhhhhhhhhhhhh
+              Therapy and Instrument Assisted Soft Tissue Manipulation (IASTM).
             </p>
           </div>
         </div>
@@ -87,7 +87,6 @@ export default class Menu extends React.Component {
           <div className="card-header">Performance Stretch Therapy</div>
           <div className="card-body">
             <h5 className="card-title">1 Hour Session - $120</h5>
-        
             <h5 className="card-title">1.5 Hour Session - $160</h5>
          
             <h5 className="card-title">2 Hour Session - $190</h5>
