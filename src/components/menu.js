@@ -67,11 +67,11 @@ export default class Menu extends React.Component {
         <div className="card card-session mb-3">
           <div className="card-header">Massage & Bodywork</div>
           <div className="card-body">
-            <h5 className="card-title">1 Hour Session - $120</h5>
+            <h5 className="card-title">1 Hour Session - $125</h5>
 
-            <h5 className="card-title">1.5 Hour Session - $160</h5>
+            <h5 className="card-title">1.5 Hour Session - $165</h5>
 
-            <h5 className="card-title">2 Hour Session - $190</h5>
+            <h5 className="card-title">2 Hour Session - $195</h5>
             <p className="card-text">
               All sessions are customized to the needs of the individual client.
               The therapist uses their knowledge and experience in different
@@ -86,10 +86,10 @@ export default class Menu extends React.Component {
         <div className="card card-session mb-3">
           <div className="card-header">Performance Stretch Therapy</div>
           <div className="card-body">
-            <h5 className="card-title">1 Hour Session - $120</h5>
-            <h5 className="card-title">1.5 Hour Session - $160</h5>
+            <h5 className="card-title">1 Hour Session - $125</h5>
+            <h5 className="card-title">1.5 Hour Session - $165</h5>
          
-            <h5 className="card-title">2 Hour Session - $190</h5>
+            <h5 className="card-title">2 Hour Session - $195</h5>
             <p className="card-text">
               Fascial stretching is a floor- based assisted stretching method
               designed to improve mobility, flexibility and performance. The
@@ -107,13 +107,10 @@ export default class Menu extends React.Component {
             Hybrid Sessions: Massage + Stretch Therapy
           </div>
           <div className="card-body">
-            <h5 className="card-title">1 Hour Session - $120</h5>
-       
-            <h5 className="card-title">1.5 Hour Session - $160</h5>
-      
-            <h5 className="card-title">2 Hour Session - $190</h5>
+            <h5 className="card-title">1.5 Hour Session - $165</h5>
+            <h5 className="card-title">2 Hour Session - $195</h5>
             <h5 className="card-title">2.5 Hour Session - $245</h5>
-            <h5 className="card-title">3 Hour Session - Price Varies</h5>
+            <h5 className="card-title">3 Hour Session - $295</h5>
             {/* <p className="card-text">
               Ample time for a full body stretching session and multiple areas
               of focus. This session length allows your therapist to work
@@ -125,7 +122,7 @@ export default class Menu extends React.Component {
         <div className="card card-session mb-3">
           <div className="card-header">Facial Cupping Rejuvenation</div>
           <div className="card-body">
-            <h5 className="card-title">Half Hour - $45</h5>
+            <h5 className="card-title">Half Hour - $50</h5>
             <p className="card-text">
               Manual method for the face by use of small cups to vacuum and lift
               the facial tissue, mimicking the pumping movements of lymphatic
