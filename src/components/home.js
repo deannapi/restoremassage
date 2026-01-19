@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 // import ReactWordcloud from "react-wordcloud";
 
 import fire from "../images/firecup_selfie.jpg";
-// import stretch from "../images/stretch1.png";
-import stretch2 from "../images/stretch2.png";
-// import stretch3 from "../images/stretch3.png";
+import bodywork from "../images/firecupping.png";
+import stretch2 from "../images/backstretch.png";
 import cover from "../images/stretchneck.png";
-import dope from "../images/dopeminerals.jpg";
+import dope from "../images/moonglow_logo.jpg";
 import dope2 from "../images/dope.jpg";
 import selfie from "../images/selfie.jpeg";
 import fsa_hsa from "../images/fsa.jpg";
@@ -59,19 +58,35 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  Restore Massage & Bodywork is a resource for high-quality,
-                  effective therapy in San Antonio, Texas. I offer therapeutic
-                  massage and bodywork for the enhancement of health and well
-                  being to health minded individuals. I am dedicated to
-                  providing my clients with therapeutic treatments and
-                  exceptional service to promote recovery and self-healing. All
-                  sessions are customized to the needs of the individual client.
-                  I use my knowledge and experience in different modalities to
-                  provide relief and restoration of the body. Sessions can
-                  include but are not limited to modalities such as Swedish
-                  Massage, Deep Tissue, Myofascial Release, Sports Massage,
-                  Cupping Therapy and Instrument Assisted Soft Tissue
-                  Manipulation/Graston Technique.
+                  I’m Allysia Payen, a licensed massage therapist with nine years of 
+                  experience serving the San Antonio community. I specialize in therapeutic 
+                  bodywork and stretch therapy for active, health‑minded individuals who
+                  want to move better, recover faster, and feel stronger in their daily lives.
+                  <br></br>
+                  <br></br>
+                  Restore Massage & Bodywork is built on the belief that high‑quality, effective 
+                  therapy should support both recovery and long‑term well‑being. I’m dedicated 
+                  to providing therapeutic treatments and exceptional service that promote healing, 
+                  mobility, and self‑care. Every session is fully customized to the needs of each 
+                  client, drawing from a range of modalities including Swedish Massage, Deep Tissue, 
+                  Myofascial Release, Sports Massage, Cupping Therapy, and Instrument Assisted Soft 
+                  Tissue Manipulation.
+                  <br></br>
+                  <br></br>
+                  My background in CrossFit and competitive Olympic weightlifting gives me a deep 
+                  understanding of biomechanics and functional movement, allowing me to create 
+                  treatments that truly support the demands of an active lifestyle. I have been 
+                  certified in the Performance Stretch System for 5 years, which has transformed 
+                  both my approach and my clients’ outcomes—enhancing mobility, improving recovery, 
+                  and elevating overall treatment effectiveness. In 2025, I became part of the PSS 
+                  team as an instructor, teaching workshops designed to empower professionals with 
+                  innovative floor‑based stretching systems. This work reflects our shared mission 
+                  to build a globally connected community of knowledgeable, skilled therapists.
+                  <br></br>
+                  <br></br>
+                  I hope the passion I bring to my work empowers others to move with confidence 
+                  and build a deeper understanding of their bodies.
+
                   <br></br>
                   <Link to="/about">Read about me here.</Link>
                 </p>
@@ -79,47 +94,26 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
-              {/* <div
-                id="carouselExampleSlidesOnly"
-                className="carousel slide card-img-top"
-                data-ride="carousel"
-              >
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img
-                      className="card-img-top"
-                      src={stretch}
-                      alt="stretching"
-                    />
-                  </div>
-
-                  <div className="carousel-item">
-                    <img
-                      className="card-img-top"
-                      src={stretch2}
-                      alt="stretching"
-                    />
-                  </div>
-
-                  <div className="carousel-item"> */}
               <img className="card-img-top" src={stretch2} alt="stretching" />
-              {/* </div>
-                </div>
-              </div> */}
-
               <div className="card-body">
                 <h5 className="card-title">Performance Stretch Therapy</h5>
                 <p className="card-text">
-                  Allysia is a level 1 certified Performance Stretch Therapist.
-                  The program uses static, dynamic and pre-contraction
-                  stretching to help improve posture and provide relief from
-                  pain, discomfort and improve range of motion. Many clients
-                  deal with immobility and inflexibility issues which can lead
-                  to imbalances and eventually cause pain. This service is
-                  especially beneficial to our client population of desk
-                  workers, athletes and weekend warriors, and those experiencing
-                  the everyday stress of life (which is most of us)! If you're
-                  unsure if our performance stretch therapy is for you, we
+                  Allysia is a Level Two Stretch Therapist and Instructor with the Performance
+                  Stretch System. Stretch therapy sessions follow a structured, floor‑based
+                  approach to assisted stretching designed to enhance mobility, flexibility,
+                  and overall physical performance. The movements draw inspiration from
+                  disciplines such as Thai massage, judo, fascial stretch therapy, and more,
+                  blending traditional techniques with modern, evidence‑based practices to
+                  create a comprehensive stretching experience.
+                  <br></br>
+                  <br></br>
+                  This system focuses on improving range of motion, reducing muscle tension,
+                  and enhancing functional movement. Each session is client‑centered,
+                  prioritizing comfort, education, and empowerment to foster a collaborative
+                  and supportive experience between therapist and client.
+                  <br></br>
+                  <br></br>
+                  If you're unsure if our performance stretch therapy is for you, we
                   encourage you to give it a try and{" "}
                   <Link to="/appointments">book</Link> a session. You won't be
                   disappointed! You may even fall asleep!
@@ -127,6 +121,53 @@ export default class Home extends React.Component {
               </div>
             </div>
 
+            <div className="card">
+              <img className="card-img-top" src={bodywork} alt="bodywork"/>
+              <div className="card-body">
+                <h5 className="card-title">Bodywork</h5>
+                <p className="card-text">
+                  Bodywork at Restore goes far beyond a traditional massage. 
+                  These sessions are holistic, integrative, and intentionally designed 
+                  to support the whole person. Every body carries its own story — your 
+                  patterns, habits, stressors, and strengths — and your treatment should 
+                  reflect that. No two people are the same, and neither are the sessions.
+                  <br></br>
+                  <br></br>
+                  Bodywork is about helping you build a deeper awareness of your body: 
+                  how it moves, where it holds tension, what it’s protecting, and how it 
+                  can return to ease. My role isn’t to “fix” you — it’s to create a space 
+                  where your body feels safe enough to soften, release, and do the healing 
+                  it’s naturally capable of.
+                  <br></br>
+                  <br></br>
+                  This work is active, conscious, and collaborative. We work together to 
+                  explore what your body is holding and why. Often, patterns that once 
+                  served a purpose — protection, compensation, survival — linger long after 
+                  they’re needed. Through bodywork, we gently guide the body back toward balance, 
+                  integration, and a sense of wholeness.
+                  <br></br>
+                  <br></br>
+                  Bodywork can support:
+                  <ul className="no-bullets">
+                    <li>Muscle pain and tension</li>
+                    <li>Postural imbalances</li>
+                    <li>Injury recovery</li>
+                    <li>Stress and anxiety</li>
+                    <li>Nervous system dysregulation</li>
+                    <li>Digestive discomfort</li>
+                    <li>Sleep disturbances</li>
+                  </ul>
+                  
+                  <br></br>
+                  <br></br>
+                  Bodywork at Restore is designed to help you feel more aligned, more grounded, 
+                  and more connected to your body — both on and off the table.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div  className="row">
             <div className="card">
               <img className="card-img-top" src={fire} alt="" />
               <div className="card-body">
@@ -186,24 +227,24 @@ export default class Home extends React.Component {
                       </div>
                       <div className="modal-body benefits">
                         {/* <p>{this.WordCloud()}</p> */}
-                          <li>Myofascial Release</li>
-                          <li>lymphatic drainage</li>
-                          <li>orthopedic conditions</li>
-                          <li>neuromuscular conditions</li>
-                          <li>sports injuries</li>
-                          <li>stubborn conditions</li>
-                          <li>fibromyalgia</li>
-                          <li>arthritis</li>
-                          <li>trigger points</li>
-                          <li>traumatic injuries</li>
-                          <li>chronic pain</li>
-                          <li>detoxification</li>
-                          <li>TMJD (temporomandibular joint disorder) </li>
-                          <li>migraines/headaches</li>
-                          <li>low back pain</li>
-                          <li>digestive disorders</li>
-                          <li>post operative scar tissue</li>
-                          <li>inflammation</li>
+                        <li>Myofascial Release</li>
+                        <li>lymphatic drainage</li>
+                        <li>orthopedic conditions</li>
+                        <li>neuromuscular conditions</li>
+                        <li>sports injuries</li>
+                        <li>stubborn conditions</li>
+                        <li>fibromyalgia</li>
+                        <li>arthritis</li>
+                        <li>trigger points</li>
+                        <li>traumatic injuries</li>
+                        <li>chronic pain</li>
+                        <li>detoxification</li>
+                        <li>TMJD (temporomandibular joint disorder) </li>
+                        <li>migraines/headaches</li>
+                        <li>low back pain</li>
+                        <li>digestive disorders</li>
+                        <li>post operative scar tissue</li>
+                        <li>inflammation</li>
                         <br></br>
                         For pricing details, <Link to="/menu">click here.</Link>
                       </div>
@@ -216,11 +257,11 @@ export default class Home extends React.Component {
 
           <div className="row">
             <div className="card">
-              <img className="card-img-top" src={dope} alt="" />
+              <img className="card-img-top" src={dope} alt="" height={100} />
               <div className="card-body">
                 <h5 className="card-title">Products</h5>
                 <p className="card-text">
-                  RMBW always wants you to feel your best! Our products aid in
+                  Restore Massage and Bodywork always wants you to feel your best! Our products aid in
                   recovery, relaxation, and extending the benefits of massage.
                   <br></br>
                   <Link to="/products" id="shop-visit">

@@ -222,6 +222,12 @@ footer .developer,
   border-top: var(--darkgreen) 10px double;
 }
 
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 h1 {
   font-family: "Malgun Gothic";
   color: var(--lightgreen);
@@ -242,6 +248,9 @@ h5 {
 
 .card-img-top {
   width: 100%;
+  height: 350px;
+  object-fit: fill;    
+  display: block;
 }
 
 .card-body {
@@ -369,12 +378,31 @@ h6 {
 .product-box {
   width: 300px;
   text-align: center;
-  border: var(--darkgreen) 2px double;
+  border: var(--lightgreen) 2px double;
   margin: 5px auto 5px auto;
+}
+
+.product-title a{
+  color: var(--darkgreen);
+  text-decoration: underline;
+}
+
+.product-title a:hover{
+  color: var(--lightgreen);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .product-box img {
   height: 200px;
+  padding-bottom: 10px;
+}
+
+.product-box img:hover{
+  height: 230px;
+  /* padding-bottom: 10px; */
+  /* opacity: .8; */
 }
 
 button {
