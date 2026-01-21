@@ -1,6 +1,6 @@
 import React from "react";
 import logo_2 from "../images/Restore_Logo_Final_V2 trimmed.png";
-import deannapi from "../images/deannapi.jpg";
+// import deannapi from "../images/deannapi.jpg";
 
 export default class Footer extends React.Component {
   render() {
@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
           </p>
         </div>
 
-        <div className="row developer">
+        {/* <div className="row developer">
           <p>
             Website by{" "}
             <a href="https://www.deannapi.com" target="_blank" rel="noreferrer" id="deannapi">
@@ -40,12 +40,6 @@ export default class Footer extends React.Component {
               <img src={deannapi} alt="deannapi" height="20px" id="deannapi"/> DeAnna Barker
             </a>
           </p>
-        </div>
-        {/* <div>
-          <ul>
-            <li><a>Privacy Policy</a></li>
-            <li><a>Terms and Conditions</a></li>
-          </ul>
         </div> */}
       </footer>
     );

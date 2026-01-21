@@ -16,7 +16,7 @@ import referrals from "../images/referrals.png";
 import knees from "../images/knees.png";
 import feet from "../images/feet.jpg";
 
-const TEXTS = [
+const TEXTS_bodywork = [
   "Muscle pain and tension",
   "Postural imbalances",
   "Injury recovery",
@@ -25,6 +25,28 @@ const TEXTS = [
   "Digestive discomfort",
   "Sleep disturbances"
 ]
+
+const cupping_words = [
+  "Myofascial Release",
+  "lymphatic drainage",
+  "orthopedic conditions",
+  "neuromuscular conditions",
+  "sports injuries",
+  "stubborn conditions",
+  "fibromyalgia",
+  "arthritis",
+  "trigger points",
+  "traumatic injuries",
+  "chronic pain",
+  "detoxification",
+  "TMJD (temporomandibular joint disorder)",
+  "migraines/headaches",
+  "low back pain",
+  "digestive disorders",
+  "post operative scar tissue",
+  "inflammation"
+]
+
 
 function WordSwap() {
   const [index, setIndex] = React.useState(0);
@@ -38,9 +60,29 @@ function WordSwap() {
   }, []);
 
   return (
-    <span style={{ display: "inline-block", minWidth: 140 }}>
+    <span style={{ minWidth: 140 }}>
       <TextTransition springConfig={presets.wobbly}>
-        {TEXTS[index % TEXTS.length]}
+        {TEXTS_bodywork[index % TEXTS_bodywork.length]}
+      </TextTransition>
+    </span>
+  );
+}
+
+function WordCupping() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((i) => i + 1);
+    }, 1500);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <span style={{  minWidth: 140 }}>
+      <TextTransition springConfig={presets.wobbly}>
+        {cupping_words[index % cupping_words.length]}
       </TextTransition>
     </span>
   );
@@ -173,14 +215,12 @@ export default class Home extends React.Component {
                   they’re needed. Through bodywork, we gently guide the body back toward balance,
                   integration, and a sense of wholeness.
                 </p>
-                  <br></br>
-                  <br></br>
-                  <div className="product-box">
-                    <h4 className="product-title">Bodywork can support:</h4>
-                    <WordSwap />
-                  </div>
-                  <br></br>
-                  <br></br>
+                <br></br>
+                <div className="card-bodywork">
+                  <h4>Bodywork can support:</h4>
+                  <p><WordSwap /></p>
+                </div>
+                <br></br>
                 <p>
                   Bodywork at Restore is designed to help you feel more aligned, more grounded,
                   and more connected to your body — both on and off the table.
@@ -210,68 +250,9 @@ export default class Home extends React.Component {
                     Schedule your appointment today!
                   </Link>
                 </p>
-                {/* <button
-                  type="button"
-                  className="btn"
-                  data-toggle="modal"
-                  data-target="#benefits"
-                >
-                  Click here to view other benefits massage therapy can offer!
-                </button> */}
-                <div
-                  className="modal fade"
-                  id="benefits"
-                  tabIndex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    className="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h5
-                          className="modal-title"
-                          id="exampleModalCenterTitle"
-                        >
-                          Benefits of Massage Therapy
-                        </h5>
-                        <button
-                          type="button"
-                          className="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div className="modal-body benefits">
-                        {/* <p>{this.WordCloud()}</p> */}
-                        <li>Myofascial Release</li>
-                        <li>lymphatic drainage</li>
-                        <li>orthopedic conditions</li>
-                        <li>neuromuscular conditions</li>
-                        <li>sports injuries</li>
-                        <li>stubborn conditions</li>
-                        <li>fibromyalgia</li>
-                        <li>arthritis</li>
-                        <li>trigger points</li>
-                        <li>traumatic injuries</li>
-                        <li>chronic pain</li>
-                        <li>detoxification</li>
-                        <li>TMJD (temporomandibular joint disorder) </li>
-                        <li>migraines/headaches</li>
-                        <li>low back pain</li>
-                        <li>digestive disorders</li>
-                        <li>post operative scar tissue</li>
-                        <li>inflammation</li>
-                        <br></br>
-                        For pricing details, <Link to="/menu">click here.</Link>
-                      </div>
-                    </div>
-                  </div>
+                <div className="card-bodywork">
+                  <h4>Benefits of Cupping</h4>
+                  <p><WordCupping /></p>
                 </div>
               </div>
             </div>
@@ -279,7 +260,7 @@ export default class Home extends React.Component {
 
           <div className="row">
             <div className="card">
-              <img className="card-img-top" src={dope} alt="" height={100} />
+              <img className="card-img-top" src={dope} alt="" id="moonglow_logo" />
               <div className="card-body">
                 <h5 className="card-title">Products</h5>
                 <p className="card-text">

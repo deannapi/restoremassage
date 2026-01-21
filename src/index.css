@@ -3,12 +3,22 @@
   --darkgreen: #173519;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+}
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   font-family: "Malgun Gothic";
+  /* padding-top: 80px; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,42 +75,6 @@ nav ul li {
   color: var(--darkgreen);
   border-radius: 10px;
 }
-
-/* .dropright {
-  padding-left: 15px;
-}
-
-#dropdownMenuButton {
-  background-color: var(--darkgreen);
-  font-family: "Malgun Gothic";
-  text-transform: uppercase;
-}
-
-#dropdownMenuButton:hover {
-  background-color: var(--lightgreen);
-  color: var(--darkgreen);
-}
-
-.dropdown-menu {
-  border:  var(--lightgreen) 1px solid;
-}
-
-.dropdown-menu ul li a {
-  color: var(--darkgreen);
-  font-variant: small-caps;
-}
-
-.dropdown-menu ul {
-  padding-left: 10px;
-}
-
-.dropdown-menu ul li a:hover {
-  color: var(--darkgreen);
-}
-
-.dropdown-menu ul li:hover {
-  background-color:  var(--lightgreen);
-} */
 
 footer {
   text-align: center;
@@ -220,6 +194,7 @@ footer .developer,
 .home-title {
   border-bottom: var(--darkgreen) 10px double;
   border-top: var(--darkgreen) 10px double;
+  /* padding-top: 25%; */
 }
 
 .no-bullets {
@@ -238,7 +213,6 @@ h1 {
 h4 h5 {
   font-family: "Malgun Gothic";
   color: var(--darkgreen);
-  /* font-weight: bold; */
 }
 
 h5 {
@@ -253,6 +227,15 @@ h5 {
   display: block;
 }
 
+#moonglow_logo {
+  width: 100%;
+  height: 70%;
+}
+
+#aboutme {
+  height: auto;
+}
+
 .card-body {
   width: 100%;
   text-align: center;
@@ -262,6 +245,26 @@ h5 {
   border: var(--darkgreen) 2px solid;
   width: 30%;
   margin: 10px auto 10px auto;
+  box-shadow: 0 0 10px var(--lightgreen), 
+      0 0 12px var(--lightgreen);
+}
+
+.card-bodywork {
+  width: 100%;
+  border: var(--lightgreen) 2px solid;
+  margin: auto;
+  box-shadow: 0 0 4px var(--lightgreen), 
+      0 0 4px var(--lightgreen);
+}
+.card-bodywork h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-bodywork p {
+  color: var(--lightgreen);
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
 }
 
 #shop-visit:hover {
@@ -351,8 +354,12 @@ h2 {
   font-size: 28px;
 }
 
+.card-text {
+  font-size: 14px;
+}
+
 /* PRODUCTS */
-h5,
+h5, h4,
 h6 {
   text-align: center;
 }
