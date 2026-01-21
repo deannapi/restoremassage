@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import ReactWordcloud from "react-wordcloud";
+import TextTransition, { presets } from 'react-text-transition';
 
 import fire from "../images/firecup_selfie.jpg";
 import bodywork from "../images/firecupping.png";
@@ -15,6 +15,36 @@ import public_work from "../images/public.jpg";
 import referrals from "../images/referrals.png";
 import knees from "../images/knees.png";
 import feet from "../images/feet.jpg";
+
+const TEXTS = [
+  "Muscle pain and tension",
+  "Postural imbalances",
+  "Injury recovery",
+  "Stress and anxiety",
+  "Nervous system dysregulation",
+  "Digestive discomfort",
+  "Sleep disturbances"
+]
+
+function WordSwap() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((i) => i + 1);
+    }, 1500);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <span style={{ display: "inline-block", minWidth: 140 }}>
+      <TextTransition springConfig={presets.wobbly}>
+        {TEXTS[index % TEXTS.length]}
+      </TextTransition>
+    </span>
+  );
+}
 
 // word cloud
 // const words = [
@@ -39,9 +69,6 @@ import feet from "../images/feet.jpg";
 // ];
 
 export default class Home extends React.Component {
-  // WordCloud() {
-  //   return <ReactWordcloud words={words} />;
-  // }
   render() {
     return (
       <>
@@ -58,33 +85,33 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  I’m Allysia Payen, a licensed massage therapist with nine years of 
-                  experience serving the San Antonio community. I specialize in therapeutic 
+                  I’m Allysia Payen, a licensed massage therapist with nine years of
+                  experience serving the San Antonio community. I specialize in therapeutic
                   bodywork and stretch therapy for active, health‑minded individuals who
                   want to move better, recover faster, and feel stronger in their daily lives.
                   <br></br>
                   <br></br>
-                  Restore Massage & Bodywork is built on the belief that high‑quality, effective 
-                  therapy should support both recovery and long‑term well‑being. I’m dedicated 
-                  to providing therapeutic treatments and exceptional service that promote healing, 
-                  mobility, and self‑care. Every session is fully customized to the needs of each 
-                  client, drawing from a range of modalities including Swedish Massage, Deep Tissue, 
-                  Myofascial Release, Sports Massage, Cupping Therapy, and Instrument Assisted Soft 
+                  Restore Massage & Bodywork is built on the belief that high‑quality, effective
+                  therapy should support both recovery and long‑term well‑being. I’m dedicated
+                  to providing therapeutic treatments and exceptional service that promote healing,
+                  mobility, and self‑care. Every session is fully customized to the needs of each
+                  client, drawing from a range of modalities including Swedish Massage, Deep Tissue,
+                  Myofascial Release, Sports Massage, Cupping Therapy, and Instrument Assisted Soft
                   Tissue Manipulation.
                   <br></br>
                   <br></br>
-                  My background in CrossFit and competitive Olympic weightlifting gives me a deep 
-                  understanding of biomechanics and functional movement, allowing me to create 
-                  treatments that truly support the demands of an active lifestyle. I have been 
-                  certified in the Performance Stretch System for 5 years, which has transformed 
-                  both my approach and my clients’ outcomes—enhancing mobility, improving recovery, 
-                  and elevating overall treatment effectiveness. In 2025, I became part of the PSS 
-                  team as an instructor, teaching workshops designed to empower professionals with 
-                  innovative floor‑based stretching systems. This work reflects our shared mission 
+                  My background in CrossFit and competitive Olympic weightlifting gives me a deep
+                  understanding of biomechanics and functional movement, allowing me to create
+                  treatments that truly support the demands of an active lifestyle. I have been
+                  certified in the Performance Stretch System for 5 years, which has transformed
+                  both my approach and my clients’ outcomes—enhancing mobility, improving recovery,
+                  and elevating overall treatment effectiveness. In 2025, I became part of the PSS
+                  team as an instructor, teaching workshops designed to empower professionals with
+                  innovative floor‑based stretching systems. This work reflects our shared mission
                   to build a globally connected community of knowledgeable, skilled therapists.
                   <br></br>
                   <br></br>
-                  I hope the passion I bring to my work empowers others to move with confidence 
+                  I hope the passion I bring to my work empowers others to move with confidence
                   and build a deeper understanding of their bodies.
 
                   <br></br>
@@ -122,52 +149,47 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
-              <img className="card-img-top" src={bodywork} alt="bodywork"/>
+              <img className="card-img-top" src={bodywork} alt="bodywork" />
               <div className="card-body">
                 <h5 className="card-title">Bodywork</h5>
                 <p className="card-text">
-                  Bodywork at Restore goes far beyond a traditional massage. 
-                  These sessions are holistic, integrative, and intentionally designed 
-                  to support the whole person. Every body carries its own story — your 
-                  patterns, habits, stressors, and strengths — and your treatment should 
+                  Bodywork at Restore goes far beyond a traditional massage.
+                  These sessions are holistic, integrative, and intentionally designed
+                  to support the whole person. Every body carries its own story — your
+                  patterns, habits, stressors, and strengths — and your treatment should
                   reflect that. No two people are the same, and neither are the sessions.
                   <br></br>
                   <br></br>
-                  Bodywork is about helping you build a deeper awareness of your body: 
-                  how it moves, where it holds tension, what it’s protecting, and how it 
-                  can return to ease. My role isn’t to “fix” you — it’s to create a space 
-                  where your body feels safe enough to soften, release, and do the healing 
+                  Bodywork is about helping you build a deeper awareness of your body:
+                  how it moves, where it holds tension, what it’s protecting, and how it
+                  can return to ease. My role isn’t to “fix” you — it’s to create a space
+                  where your body feels safe enough to soften, release, and do the healing
                   it’s naturally capable of.
                   <br></br>
                   <br></br>
-                  This work is active, conscious, and collaborative. We work together to 
-                  explore what your body is holding and why. Often, patterns that once 
-                  served a purpose — protection, compensation, survival — linger long after 
-                  they’re needed. Through bodywork, we gently guide the body back toward balance, 
+                  This work is active, conscious, and collaborative. We work together to
+                  explore what your body is holding and why. Often, patterns that once
+                  served a purpose — protection, compensation, survival — linger long after
+                  they’re needed. Through bodywork, we gently guide the body back toward balance,
                   integration, and a sense of wholeness.
+                </p>
                   <br></br>
                   <br></br>
-                  Bodywork can support:
-                  <ul className="no-bullets">
-                    <li>Muscle pain and tension</li>
-                    <li>Postural imbalances</li>
-                    <li>Injury recovery</li>
-                    <li>Stress and anxiety</li>
-                    <li>Nervous system dysregulation</li>
-                    <li>Digestive discomfort</li>
-                    <li>Sleep disturbances</li>
-                  </ul>
-                  
+                  <div className="product-box">
+                    <h4 className="product-title">Bodywork can support:</h4>
+                    <WordSwap />
+                  </div>
                   <br></br>
                   <br></br>
-                  Bodywork at Restore is designed to help you feel more aligned, more grounded, 
+                <p>
+                  Bodywork at Restore is designed to help you feel more aligned, more grounded,
                   and more connected to your body — both on and off the table.
                 </p>
               </div>
             </div>
           </div>
 
-          <div  className="row">
+          <div className="row">
             <div className="card">
               <img className="card-img-top" src={fire} alt="" />
               <div className="card-body">
@@ -188,14 +210,14 @@ export default class Home extends React.Component {
                     Schedule your appointment today!
                   </Link>
                 </p>
-                <button
+                {/* <button
                   type="button"
                   className="btn"
                   data-toggle="modal"
                   data-target="#benefits"
                 >
                   Click here to view other benefits massage therapy can offer!
-                </button>
+                </button> */}
                 <div
                   className="modal fade"
                   id="benefits"
