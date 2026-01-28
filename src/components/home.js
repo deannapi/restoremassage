@@ -7,15 +7,8 @@ import bodywork from "../images/firecupping.png";
 import stretch2 from "../images/backstretch.png";
 import cover from "../images/stretchneck.png";
 import dope from "../images/moonglow_logo.jpg";
-import zerotolerance from "../images/zerotolerance.jpg";
-// import dope2 from "../images/dope.jpg";
-// import selfie from "../images/selfie.jpeg";
-// import fsa_hsa from "../images/fsa.jpg";
-// import naps from "../images/naps.jpg";
-// import public_work from "../images/public.jpg";
-// import referrals from "../images/referrals.png";
-// import knees from "../images/knees.png";
-// import feet from "../images/feet.jpg";
+// import zerotolerance from "../images/zerotolerance.jpg";
+
 
 const TEXTS_bodywork = [
   "Muscle pain and tension",
