@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
+import ZeroTolerance from "./ZeroTolerance";
 
 import fire from "../images/firecup_selfie.jpg";
 import bodywork from "../images/firecupping.png";
 import stretch2 from "../images/backstretch.png";
 import cover from "../images/stretchneck.png";
 import dope from "../images/moonglow_logo.jpg";
-// import zerotolerance from "../images/zerotolerance.jpg";
-
 
 const TEXTS_bodywork = [
   "Muscle pain and tension",
@@ -290,102 +289,12 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            {/* <div className="card">
-              <button>
-                Read the Zero Tolerance Policy
-                <img
-                  className="card-img-top"
-                  src={zerotolerance}
-                  id="zerotolerance"
-                />
-              </button>
+            <ZeroTolerance />
 
-              <div className="card-body">
-                <p className="card-text">
-                  Restore Massage & Bodywork is a professional therapeutic
-                  practice. To ensure a safe, respectful, and ethical
-                  environment for both clients and practitioner, the following
-                  Zero Tolerance Policy is strictly upheld:
-                  <br></br>• Any form of sexual language, innuendo,
-                  solicitation, or inappropriate behavior is not permitted.
-                  <br></br>
-                  This includes verbal comments, gestures, requests, or actions
-                  that are sexual in nature or violate professional boundaries.
-                  <br></br>• Bodywork and massage therapy are strictly
-                  non‑sexual services.
-                  <br></br>
-                  Any attempt to shift the session toward sexual intent will
-                  result in the immediate termination of the appointment.
-                  <br></br>• The session will end immediately if inappropriate
-                  behavior occurs.
-                  <br></br>
-                  Payment for the full session will still be required, and the
-                  client will be permanently dismissed from the practice.
-                  <br></br>• Respect for personal and professional boundaries is
-                  expected at all times.
-                  <br></br>
-                  Clients must communicate respectfully, follow draping
-                  guidelines, and honor the therapeutic nature of the work.
-                  <br></br>• Safety is the top priority.
-                  <br></br>
-                  This policy exists to protect the integrity of the therapeutic
-                  relationship and ensure a safe, comfortable environment for
-                  healing and recovery.
-                  <br></br>
-                  By booking a session at Restore Massage & Bodywork, clients
-                  agree to uphold these standards and participate in a
-                  professional, respectful therapeutic experience.
-                </p>
-              </div>
-            </div> */}
-
-            {/* <div className="card">
-              <div
-                id="carouselExampleSlidesOnly"
-                className="carousel slide home-carousel"
-                data-ride="carousel"
-              >
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img className="home-carousel-img" src={dope2} alt="dope" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="home-carousel-img" src={fsa_hsa} alt="fsa" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="home-carousel-img" src={feet} alt="feet" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="home-carousel-img" src={selfie} alt="selfie" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="home-carousel-img" src={naps} alt="naps" />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="home-carousel-img"
-                      src={public_work}
-                      alt="work"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="home-carousel-img"
-                      src={referrals}
-                      alt="refer"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="home-carousel-img" src={knees} alt="knees" />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-
-          {/* GOOGLE REVIEWS */}
-          <div className="reviews">
-            <div className="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
+            {/* GOOGLE REVIEWS */}
+            <div className="reviews">
+              <div className="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
+            </div>
           </div>
         </div>
       </>

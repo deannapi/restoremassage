@@ -102,29 +102,13 @@ export default class Appointments extends React.Component {
                         </a>
                       </button>
 
-                      {/* <button
-                        type="button"
-                        className="btn btn-secondary"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          window.location.href =
-                            "https://forms.office.com/Pages/ResponsePage.aspx?id=HLL39TyF4kOpSQMQssnEsRgU7hBnhSBKgQZZx1w59_lURU9BRUtHS09GVDlLOUdZSUpIUVpEUVZNQyQlQCN0PWcu";
-                        }}
-                      >
-                        Oops! No, take me to the form.
-                      </button> */}
+                
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* <a
-                href="https://square.site/book/S3JQTRESFMDNN/restore-massage-bodywork-san-antonio-tx"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Book an Appointment
-              </a> */}
+     
             </div>
           </div>
 

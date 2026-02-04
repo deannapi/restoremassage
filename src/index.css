@@ -203,6 +203,10 @@ footer .developer,
   margin: 0;
 }
 
+.indent {
+  text-indent: 10px;
+}
+
 h1 {
   font-family: "Malgun Gothic";
   color: var(--lightgreen);
@@ -234,12 +238,6 @@ h5 {
 
 #moonglow_card {
   height: 50%;
-}
-
-#zerotolerance {
-  height: 50%;
-  width: 50%;
-  align-self: anchor-center;
 }
 
 #aboutme {
@@ -471,6 +469,66 @@ button:hover {
 .show {
   display: block;
 }
+
+/* ZERO TOLERANCE */
+.zt_header {
+  color: white;
+  background-color: var(--darkgreen);
+  
+}
+
+#zerotolerance_card {
+  height: 50%;
+}
+
+#zerotolerance_img {
+  height: auto;
+  width: 80%;
+  align-self: center;
+}
+
+#zerotolerance, ul li {
+  /* font-size: 10px; */
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Main list spacing */
+.zt-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  }
+
+.zt-list > li {
+  /* margin-bottom: 0.75rem; */
+  list-style: none;
+}
+
+.zt-firstitem h2 {
+  font-weight: bold;
+  font-size: 12px;
+  font-variant: normal;
+}
+
+/* Nested sub-bullets are indented */
+.zt-sublist {
+  /* margin-top: 0.35rem; */
+  padding-left: 1.5rem; /* <- controls indent */
+  list-style-type: none; 
+}
+
+.zt-sublist > li {
+  margin-bottom: 0;
+}
+
+/* Optional: footer paragraph spacing */
+.zt-footer {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
 
 /* BLOG */
 .blog {
