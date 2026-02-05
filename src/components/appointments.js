@@ -101,14 +101,10 @@ export default class Appointments extends React.Component {
                           I am not new, I'm ready to book an appointment.
                         </a>
                       </button>
-
-                
                     </div>
                   </div>
                 </div>
               </div>
-
-     
             </div>
           </div>
 

@@ -80,28 +80,6 @@ function WordCupping() {
   );
 }
 
-// word cloud
-// const words = [
-//   { text: "Myofascial Release", value: 68 },
-//   { text: "lymphatic drainage", value: 70 },
-//   { text: "orthopedic conditions", value: 64 },
-//   { text: "neuromuscular conditions", value: 58 },
-//   { text: "sports injuries", value: 63 },
-//   { text: "stubborn conditions", value: 60 },
-//   { text: "fibromyalgia", value: 57 },
-//   { text: "arthritis", value: 68 },
-//   { text: "trigger points", value: 55 },
-//   { text: "traumatic injuries", value: 62 },
-//   { text: "chronic pain", value: 58 },
-//   { text: "detoxification", value: 66 },
-//   { text: "TMJD (temporomandibular joint disorder)", value: 64 },
-//   { text: "migraines/headaches", value: 70 },
-//   { text: "low back pain", value: 63 },
-//   { text: "digestive disorders", value: 62 },
-//   { text: "post operative scar tissue", value: 57 },
-//   { text: "inflammation", value: 66 },
-// ];
-
 export default class Home extends React.Component {
   render() {
     return (

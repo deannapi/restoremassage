@@ -58,6 +58,7 @@ nav ul li {
   padding: 16px;
   background-color: var(--darkgreen);
   justify-content: center;
+  display: contents;
 }
 
 .nav-item a {
@@ -71,9 +72,11 @@ nav ul li {
 }
 
 .nav-item a:hover {
-  background-color: white;
-  color: var(--darkgreen);
+  /* background-color: white; */
+  /* color: var(--darkgreen); */
+  color: white;
   border-radius: 10px;
+  font-size: large;
 }
 
 footer {
@@ -97,6 +100,7 @@ footer img {
 
 footer ul li {
   list-style: none;
+  text-align: center;
 }
 
 footer ul {
@@ -227,7 +231,7 @@ h5 {
 .card-img-top {
   width: 100%;
   height: 350px;
-  object-fit: fill;    
+  object-fit: fill;
   display: block;
 }
 
@@ -253,16 +257,18 @@ h5 {
   border: var(--darkgreen) 2px solid;
   width: 30%;
   margin: 10px auto 10px auto;
-  box-shadow: 0 0 10px var(--lightgreen), 
-      0 0 12px var(--lightgreen);
+  box-shadow:
+    0 0 10px var(--lightgreen),
+    0 0 12px var(--lightgreen);
 }
 
 .card-bodywork {
   width: 100%;
   border: var(--lightgreen) 2px solid;
   margin: auto;
-  box-shadow: 0 0 4px var(--lightgreen), 
-      0 0 4px var(--lightgreen);
+  box-shadow:
+    0 0 4px var(--lightgreen),
+    0 0 4px var(--lightgreen);
 }
 .card-bodywork h4 {
   font-size: 14px;
@@ -367,7 +373,8 @@ h2 {
 }
 
 /* PRODUCTS */
-h5, h4,
+h5,
+h4,
 h6 {
   text-align: center;
 }
@@ -397,12 +404,12 @@ h6 {
   margin: 5px auto 5px auto;
 }
 
-.product-title a{
+.product-title a {
   color: var(--darkgreen);
   text-decoration: underline;
 }
 
-.product-title a:hover{
+.product-title a:hover {
   color: var(--lightgreen);
   text-decoration: underline;
   font-weight: bold;
@@ -414,7 +421,7 @@ h6 {
   padding-bottom: 10px;
 }
 
-.product-box img:hover{
+.product-box img:hover {
   height: 230px;
   /* padding-bottom: 10px; */
   /* opacity: .8; */
@@ -474,7 +481,6 @@ button:hover {
 .zt_header {
   color: white;
   background-color: var(--darkgreen);
-  
 }
 
 #zerotolerance_card {
@@ -487,7 +493,8 @@ button:hover {
   align-self: center;
 }
 
-#zerotolerance, ul li {
+#zerotolerance,
+ul li {
   /* font-size: 10px; */
   width: 100%;
   text-align: left;
@@ -498,7 +505,7 @@ button:hover {
 .zt-list {
   margin: 0;
   padding-left: 1.25rem;
-  }
+}
 
 .zt-list > li {
   /* margin-bottom: 0.75rem; */
@@ -515,7 +522,7 @@ button:hover {
 .zt-sublist {
   /* margin-top: 0.35rem; */
   padding-left: 1.5rem; /* <- controls indent */
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .zt-sublist > li {
@@ -528,7 +535,6 @@ button:hover {
   margin-bottom: 0;
   font-style: italic;
 }
-
 
 /* BLOG */
 .blog {
@@ -588,6 +594,24 @@ button:hover {
     padding: 2px;
     width: 70%;
     margin-left: auto;
+    /* display:flex; */
+  }
+  .navbar {
+    background: var(--darkgreen);
+    display: flex;
+  }
+
+  .navbar-collapse {
+    padding: 0.75rem 0;
+    color: var(--darkgreen);
+  }
+
+  .navbar-toggler-icon {
+    color: var(--darkgreen);
+  }
+
+  .navbar-toggler {
+    color: var(--darkgreen);
   }
 
   .bg-img {
@@ -599,5 +623,9 @@ button:hover {
 
   .cancellation {
     width: 80%;
+  }
+
+  footer ul li {
+    text-align: center;
   }
 }
