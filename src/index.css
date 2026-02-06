@@ -54,6 +54,14 @@ nav ul li {
 }
 
 /* Navbar links */
+ .nav {
+    padding: 2px;
+    width: 70%;
+    margin-left: auto;
+    text-align: center;
+    background-color: var(--darkgreen);
+  }
+
 .navbar {
   padding: 16px;
   background-color: var(--darkgreen);
@@ -601,28 +609,27 @@ ul li {
     font-size: 11px;
   }
 
-  .nav {
-    padding: 2px;
-    width: 70%;
-    margin-left: auto;
-    /* display:flex; */
-  }
   .navbar {
-    background: var(--darkgreen);
     display: flex;
+    justify-content: center; /* ⬅ centers the toggler horizontally */
+    align-items: center;     /* ⬅ centers vertically */
+  }
+
+  .navbar-toggler {
+    display: inline;
   }
 
   .navbar-collapse {
     padding: 0.75rem 0;
     color: var(--darkgreen);
+    align-content: center;
   }
 
   .navbar-toggler-icon {
-    color: var(--darkgreen);
-  }
-
-  .navbar-toggler {
-    color: var(--darkgreen);
+    align-content: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;  
   }
 
   .bg-img {

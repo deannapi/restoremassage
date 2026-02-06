@@ -88,8 +88,6 @@ export default class Home extends React.Component {
           <div className="home-title">
             <h1>Bodywork &#8226; Massage &#8226; Stretch Therapy</h1>
             <h4>Move Better &#8226; Recover Smarter &#8226; Live Stronger</h4>
-            {/* <h4>Recover smarter</h4> */}
-            {/* <h4>Live stronger</h4> */}
           </div>
 
           <div className="row">
