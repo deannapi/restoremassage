@@ -395,6 +395,7 @@ h6 {
 
 .row {
   margin: 10px;
+  align-content: center;
 }
 
 .product-box {
@@ -568,7 +569,8 @@ ul li {
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   .row {
-    display: contents;
+    /* display: contents; */
+    text-align: center;
   }
 
   .card {
@@ -576,7 +578,8 @@ ul li {
   }
 
   .product-box {
-    width: 175px;
+    /* width: 175px; */
+    width: 70%;
     display: inline-block;
     font-size: 11px;
     margin: inherit;

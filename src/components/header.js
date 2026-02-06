@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-// import logo_1 from "../images/Restore_Logo_Final trimmed.png";
 
 export default function Nav(props) {
   return (
@@ -45,7 +43,7 @@ export default function Nav(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/menu">
+                <Link className="nav-link" to="/SessionsPrices">
                   Sessions & Prices
                 </Link>
               </li>

@@ -123,80 +123,9 @@ export default class Appointments extends React.Component {
               >
                 Please complete the new client form before booking appointments.
               </button>
-              {/* <a
-                href="https://forms.office.com/Pages/ResponsePage.aspx?id=HLL39TyF4kOpSQMQssnEsRgU7hBnhSBKgQZZx1w59_lURU9BRUtHS09GVDlLOUdZSUpIUVpEUVZNQyQlQCN0PWcu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Please complete the new client form before booking appointments.
-              </a> */}
             </div>
           </div>
         </div>
-
-        {/* CANCELLATION MODAL */}
-        {/* <div className="cancellation">
-          <button
-            type="button"
-            className="btn"
-            data-toggle="modal"
-            data-target="#blogModal1"
-          >
-            Cancellation Policy
-          </button>
-        </div>
-
-        <div
-          className="modal fade"
-          id="blogModal1"
-          tabIndex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog modal-dialog-centered" role="document">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalCenterTitle">
-                  Cancellation Policy
-                </h5>
-                <button
-                  type="button"
-                  className="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                <p>
-                  If you have an upcoming appointment, please notify your
-                  therapist 48 hours before your scheduled appointment for any
-                  cancellations. If you arrive more than 10 minutes late for
-                  your service, we may not be able to accommodate you and we
-                  will charge a cancellation fee of the full service.
-                  <br></br>
-                  Please respect your massage therapist and your scheduled time.
-                  Any missed appointments, no shows or cancellations (within the
-                  48 hours) are subject to 100% charge of the session. After
-                  three cancellations (within the 48 hour window) and/or no
-                  shows, we will no longer be able to service you. Thank you for
-                  your understanding.
-                </p>
-              </div>
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </>
     );
   }

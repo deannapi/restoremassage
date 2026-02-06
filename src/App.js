@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Appointments from "./components/appointments";
 import Home from "./components/home";
-import Menu from "./components/menu";
+import SessionsPrices from "./components/SessionsPrices";
 import Blog from "./components/blog";
 import Products from "./components/products";
 import About from './components/about';
@@ -22,7 +22,7 @@ export default function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/appointments" component={Appointments} />
         <Route exact path="/products" component={Products} />
-        <Route exact path="/menu" component={Menu} />
+        <Route exact path="/SessionsPrices" component={SessionsPrices} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/about" component={About}/>
       </Switch>
