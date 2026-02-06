@@ -519,6 +519,14 @@ ul li {
   font-variant: normal;
 }
 
+.zt-firstitem-sessions h2 {
+  color: var(--lightgreen);
+  font-weight: bold;
+  font-size: 12px;
+  font-variant: normal;
+  text-align: left;
+}
+
 /* Nested sub-bullets are indented */
 .zt-sublist {
   /* margin-top: 0.35rem; */
