@@ -60,10 +60,11 @@ nav ul li {
     margin-left: auto;
     text-align: center;
     background-color: var(--darkgreen);
+    display: contents;
   }
 
-.navbar {
-  padding: 16px;
+.navbar #mainNavbar{
+  /* padding: 16px; */
   background-color: var(--darkgreen);
   justify-content: center;
   display: contents;
@@ -80,7 +81,7 @@ nav ul li {
 }
 
 .nav-item a:hover {
-  /* background-color: white; */
+  background-color: var(--darkgreen);
   /* color: var(--darkgreen); */
   color: white;
   border-radius: 10px;
@@ -623,6 +624,14 @@ ul li {
     padding: 0.75rem 0;
     color: var(--darkgreen);
     align-content: center;
+  }
+
+  .nav-item a:hover,
+  .nav-item a:focus,
+  .nav-item a:active {
+    color: var(--lightgreen);
+    background-color: transparent;
+    font-size: smaller;
   }
 
   .navbar-toggler-icon {

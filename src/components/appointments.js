@@ -122,6 +122,7 @@ export default class Appointments extends React.Component {
             </div>
           </div>
         </div>
+        
         <div className="row">
           <div className="card">
             <img src={blading} alt="blading" />
