@@ -1,27 +1,35 @@
 import { Link } from "react-router-dom";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Nav(props) {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
+
   return (
     <>
       <header>
         <div className="bg-img"></div>
 
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-links navbar-primary">
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#mainNavbar"
-            aria-controls="mainNavbar"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
 
           {/* Collapsible links */}
-          <div className="collapse navbar-collapse" id="mainNavbar">
-            <ul className="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul className="navbar-nav header-nav-list">
               <li className="nav-item">
                 <Link className="nav-link" to="/home">
                   Home

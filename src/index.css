@@ -9,23 +9,15 @@ header {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: #fff;
+  /* background: #fff; */
 }
 
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+ 
   font-family: "Malgun Gothic";
-  /* padding-top: 80px; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
-  /* monospace; */
 }
 
 nav ul li {
@@ -54,23 +46,42 @@ nav ul li {
 }
 
 /* Navbar links */
- .nav {
-    padding: 2px;
-    width: 70%;
-    margin-left: auto;
-    text-align: center;
-    background-color: var(--darkgreen);
-    display: contents;
-  }
-
-.navbar #mainNavbar{
-  /* padding: 16px; */
+.navbar{
+  padding: 2px;
+  width: 100%;
+  text-align: center;
   background-color: var(--darkgreen);
+  display: flex;
   justify-content: center;
-  display: contents;
+  flex-wrap: wrap;
 }
 
-.nav-item a {
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: .25rem;
+  border: 1px solid white;
+  background-color: var(--lightgreen);
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.header-navbar #mainNavbar {
+  background-color: var(--darkgreen);
+}
+
+.header-nav-list {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.nav-link {
   color: var(--lightgreen);
   padding: 8px;
   margin: 2px;
@@ -80,9 +91,7 @@ nav ul li {
   font-weight: bold;
 }
 
-.nav-item a:hover {
-  background-color: var(--darkgreen);
-  /* color: var(--darkgreen); */
+.nav-link:hover {
   color: white;
   border-radius: 10px;
   font-size: large;
@@ -294,17 +303,9 @@ h5 {
   color: var(--lightgreen);
 }
 
-.home-carousel {
-  /* background-color: var(--darkgreen); */
-}
-
 .home-carousel-img {
   width: 30%;
   border: var(--darkgreen) 3px double;
-}
-
-.benefits {
-  /* background-color: white; */
 }
 
 .benefits li {
@@ -389,13 +390,7 @@ h6 {
 }
 
 .discode {
-  /* background-color: var(--darkgreen); */
   color: var(--lightgreen);
-  /* border-radius: 35px; */
-}
-
-.discode a {
-  /* color: var(--darkgreen); */
 }
 
 .discode a:hover {
@@ -433,8 +428,6 @@ h6 {
 
 .product-box img:hover {
   height: 230px;
-  /* padding-bottom: 10px; */
-  /* opacity: .8; */
 }
 
 button {
@@ -505,7 +498,6 @@ button:hover {
 
 #zerotolerance,
 ul li {
-  /* font-size: 10px; */
   width: 100%;
   text-align: left;
   padding: 8px;
@@ -518,7 +510,6 @@ ul li {
 }
 
 .zt-list > li {
-  /* margin-bottom: 0.75rem; */
   list-style: none;
 }
 
@@ -538,7 +529,6 @@ ul li {
 
 /* Nested sub-bullets are indented */
 .zt-sublist {
-  /* margin-top: 0.35rem; */
   padding-left: 1.5rem; /* <- controls indent */
   list-style-type: none;
 }
@@ -564,12 +554,38 @@ ul li {
   color: var(--lightgreen);
 }
 
-.carousel-item {
-  /* border-radius: 40px; */
-}
-
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+}
+
+/* Bootstrap lg breakpoint and smaller */
+@media screen and (max-width: 991.98px) {
+  .header-navbar.navbar {
+    position: relative;
+    background-color: var(--darkgreen);
+    min-height: 56px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-navbar.navbar .navbar-toggler {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 !important;
+  }
+
+  .header-navbar.navbar .navbar-collapse {
+    width: 100%;
+    margin-top: 56px;
+    background-color: var(--darkgreen);
+    text-align: center;
+  }
+
+  .header-navbar.navbar .navbar-nav {
+    align-items: center;
+  }
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -586,7 +602,6 @@ ul li {
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   .row {
-    /* display: contents; */
     text-align: center;
   }
 
@@ -594,8 +609,11 @@ ul li {
     width: 90%;
   }
 
+.navbar button{
+    background-color: var(--darkgreen);
+  }
+
   .product-box {
-    /* width: 175px; */
     width: 70%;
     display: inline-block;
     font-size: 11px;
@@ -610,40 +628,8 @@ ul li {
     font-size: 11px;
   }
 
-  .navbar {
-    display: flex;
-    justify-content: center; /* ⬅ centers the toggler horizontally */
-    align-items: center;     /* ⬅ centers vertically */
-  }
-
-  .navbar-toggler {
-    display: inline;
-  }
-
-  .navbar-collapse {
-    padding: 0.75rem 0;
-    color: var(--darkgreen);
-    align-content: center;
-  }
-
-  .nav-item a:hover,
-  .nav-item a:focus,
-  .nav-item a:active {
-    color: var(--lightgreen);
-    background-color: transparent;
-    font-size: smaller;
-  }
-
-  .navbar-toggler-icon {
-    align-content: center;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;  
-  }
-
   .bg-img {
     height: 94px;
-    /* background-position: left; */
     margin: 5px;
     padding: 5px;
   }
