@@ -28,9 +28,11 @@ export default class SessionsPrices extends React.Component {
             <div className="card-body">
               <h5 className="card-title">1 Hour Session - $125</h5>
 
-              <h5 className="card-title">1.5 Hour Session - $165</h5>
+              <h5 className="card-title">1.5 Hour Session - $170</h5>
 
-              <h5 className="card-title">2 Hour Session - $195</h5>
+              <h5 className="card-title">2 Hour Session - $205</h5>
+              <h5 className="card-title">2.5 Hour Session - $250</h5>
+              <h5 className="card-title">3 Hour Session - $300</h5>
               <p className="card-text">
                 Sessions are tailored to your unique patterns, lifestyle, and
                 goals, using a blend of therapeutic modalities such as
