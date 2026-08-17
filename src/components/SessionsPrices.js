@@ -10,13 +10,18 @@ export default class SessionsPrices extends React.Component {
 
         <div className="mbwk">
           <p>
-            All sessions are customized to the needs of the individual client.
-            The therapist uses their knowledge and experience in different
-            modalities to provide relief and restoration of the body. Sessions
-            can include but are not limited to modalities such as Swedish
-            Massage, Deep Tissue, Myofascial Release, Sports Massage, Cupping
-            Therapy and Instrument Assisted Soft Tissue Manipulation/Graston
-            Technique.
+            Every session at Restore begins with the principles of
+            <b> Sarga Bodywork</b> — fluid, barefoot, fascia‑focused pressure
+            that creates deep therapeutic change without pain or force. From
+            that foundation, your session may blend in myofascial release,
+            sports massage, cupping, IASTM, or assisted stretch therapy,
+            depending on what your body needs.
+            <br></br>
+            <br></br>
+            Whether you choose <b>bodywork</b>, <b>stretch‑only</b>, or a <b>hybrid session</b>, the
+            work is integrative, grounded, and fully customized. All sessions
+            are booked by time, allowing the treatment to evolve naturally and
+            support mobility, recovery, and whole‑body balance.
             <br></br>
             <b>ALL SESSIONS WITHIN CANCELLATION POLICY GUIDELINES.</b>
           </p>

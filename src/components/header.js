@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { useRef } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Nav(props) {
-  const navRef = useRef();
+  // const navRef = useRef();
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  };
+  // const showNavbar = () => {
+  //   navRef.current.classList.toggle("responsive_nav");
+  // };
 
   return (
     <>
@@ -50,6 +50,11 @@ export default function Nav(props) {
                   Appointments
                 </Link>
               </li>
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/Sarga">
+                  What is Sarga?
+                </Link>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/SessionsPrices">
                   Sessions & Prices

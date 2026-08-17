@@ -96,41 +96,43 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  I’m Allysia Payen, a licensed massage therapist with nine
-                  years of experience serving the San Antonio community. I
-                  specialize in therapeutic bodywork and stretch therapy for
-                  active, health‑minded individuals who want to move better,
-                  recover faster, and feel stronger in their daily lives.
+                  I am Allysia Payen, a licensed massage therapist with nine years of
+                  experience serving the San Antonio community. I specialize in
+                  therapeutic bodywork and stretch therapy for active,
+                  health‑minded individuals who want to move better, recover
+                  faster, and feel stronger in their daily lives. 
                   <br></br>
                   <br></br>
-                  Restore Massage & Bodywork is built on the belief that
-                  high‑quality, effective therapy should support both recovery
-                  and long‑term well‑being. I’m dedicated to providing
-                  therapeutic treatments and exceptional service that promote
-                  healing, mobility, and self‑care. Every session is fully
-                  customized to the needs of each client, drawing from a range
-                  of modalities including Swedish Massage, Deep Tissue,
-                  Myofascial Release, Sports Massage, Cupping Therapy, and
-                  Instrument Assisted Soft Tissue Manipulation.
+                  Restore Massage & Bodywork is built on the belief that high‑quality,
+                  effective therapy should support both recovery and long‑term
+                  well‑being. I’m dedicated to providing therapeutic treatments
+                  and exceptional service that promote healing, mobility, and
+                  self‑care. Every session is fully customized to the needs of
+                  each client, drawing from a range of modalities including
+                  Swedish Massage, Deep Tissue, Myofascial Release, Sports
+                  Massage, Cupping Therapy, and Instrument Assisted Soft Tissue
+                  Manipulation. 
                   <br></br>
                   <br></br>
-                  My background in CrossFit and competitive Olympic
-                  weightlifting gives me a deep understanding of biomechanics
-                  and functional movement, allowing me to create treatments that
-                  truly support the demands of an active lifestyle. I have been
-                  certified in the Performance Stretch System for 5 years, which
-                  has transformed both my approach and my clients’
-                  outcomes—enhancing mobility, improving recovery, and elevating
-                  overall treatment effectiveness. In 2025, I became part of the
-                  PSS team as an instructor, teaching workshops designed to
-                  empower professionals with innovative floor‑based stretching
-                  systems. This work reflects our shared mission to build a
-                  globally connected community of knowledgeable, skilled
-                  therapists.
+                  My background in CrossFit and competitive
+                  Olympic weightlifting gives me a deep understanding of
+                  biomechanics and functional movement, allowing me to create
+                  treatments that truly support the demands of an active
+                  lifestyle. I have been certified in the Performance Stretch
+                  System for 5 years, which has transformed both my approach and
+                  my clients’ outcomes—enhancing mobility, improving recovery,
+                  and elevating overall treatment effectiveness. In 2025, I
+                  became part of the PSS team as an instructor, teaching
+                  workshops designed to empower professionals with innovative
+                  floor‑based stretching systems. This work reflects our shared
+                  mission to build a globally connected community of
+                  knowledgeable, skilled therapists. 
                   <br></br>
-                  <br></br>I hope the passion I bring to my work empowers others
-                  to move with confidence and build a deeper understanding of
-                  their bodies.
+                  <br></br>
+                  I hope the passion I bring
+                  to my work empowers others to move with confidence and build a
+                  deeper understanding of their bodies.
+                  <br></br>
                   <br></br>
                   <Link to="/about">Read about me here.</Link>
                 </p>
@@ -181,6 +183,14 @@ export default class Home extends React.Component {
                   same, and neither are the sessions.
                   <br></br>
                   <br></br>
+                  What’s different about bodywork sessions at Restore is that
+                  all of my work is deep and therapeutic without the pain,
+                  force, or discomfort people often associate with traditional
+                  deep tissue massage. The depth comes from grounded, sustained
+                  pressure, fascial engagement, and modalities like Sarga
+                  Bodywork — not from pushing harder.
+                  <br></br>
+                  <br></br>
                   Bodywork is about helping you build a deeper awareness of your
                   body: how it moves, where it holds tension, what it’s
                   protecting, and how it can return to ease. My role isn’t to
@@ -195,6 +205,16 @@ export default class Home extends React.Component {
                   compensation, survival — linger long after they’re needed.
                   Through bodywork, we gently guide the body back toward
                   balance, integration, and a sense of wholeness.
+                  <br></br>
+                  <br></br>
+                  Sessions may include a blend of therapeutic modalities such as
+                  deep tissue work, myofascial release, sports massage, cupping
+                  therapy, IASTM, and Sarga Bodywork, a barefoot, fascia‑focused
+                  approach using long, sustained pressure and anchored tension
+                  to melt through deep patterns without force. All sessions are
+                  booked by time, allowing the work to unfold naturally based on
+                  what your body needs that day.
+                  <br></br>
                 </p>
                 <br></br>
                 <div className="card-bodywork">
