@@ -50,11 +50,11 @@ export default function Nav(props) {
                   Appointments
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link" to="/Sarga">
                   What is Sarga?
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/SessionsPrices">
                   Sessions & Prices

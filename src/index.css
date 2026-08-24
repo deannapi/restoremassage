@@ -504,6 +504,28 @@ ul li {
   padding: 8px;
 }
 
+
+
+/* Sarga */
+.Sarga h1 {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.Sarga h4 {
+  color: var(--darkgreen);
+  background-color: var(--lightgreen);
+  padding: 10px;
+  margin: 10px;
+}
+
+.sarga-faq {
+  width: 80%;
+  text-align: center;
+  padding: 8px;
+}
+
 /* Main list spacing */
 .zt-list {
   margin: 0;
