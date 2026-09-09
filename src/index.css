@@ -449,6 +449,160 @@ h2 {
   font-variant: small-caps;
 }
 
+.sessions-intro {
+  position: relative;
+  padding: 70px 30px 75px;
+  overflow: hidden;
+  /* background: linear-gradient(
+    135deg,
+    #fffef9 0%,
+    #faf9f1 50%,
+    #fffef9 100%
+  ); */
+}
+
+.sessions-intro-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.sessions-heading {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.sessions-heading h1 {
+  margin: 0;
+  color: #164c28;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.sessions-heading-accent {
+  width: 72px;
+  height: 2px;
+  margin: 17px auto 0;
+  background-color: #749b62;
+}
+
+.sessions-copy {
+  color: #29342e;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.sessions-copy p {
+  margin: 0;
+}
+
+.sessions-copy p + p {
+  margin-top: 30px;
+}
+
+.sessions-copy strong {
+  color: #1c3927;
+  font-weight: 700;
+}
+
+.cancellation-notice {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  margin: 42px auto 0;
+  padding: 15px 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background-color: rgba(233, 241, 226, 0.8);
+  border: 1px solid #a6b99d;
+  border-radius: 14px;
+  color: #23472d;
+}
+
+.cancellation-notice p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.cancellation-icon {
+  width: 27px;
+  height: 27px;
+  flex: 0 0 27px;
+  fill: none;
+  stroke: #396d3f;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.sessions-branch {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  fill: none;
+  stroke: #789b68;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.sessions-branch-left {
+  top: 0;
+  left: -40px;
+  z-index: 99;
+}
+
+.sessions-branch-right {
+  right: -40px;
+  bottom: 0;
+  transform: scaleX(-1);
+  z-index: 99;
+}
+
+@media (max-width: 900px) {
+  .sessions-intro-content {
+    max-width: 720px;
+  }
+
+  .sessions-branch {
+    width: 190px;
+    opacity: 0.12;
+  }
+}
+
+@media (max-width: 600px) {
+  .sessions-intro {
+    padding: 70px 20px 55px;
+  }
+
+  .sessions-branch {
+    width: 120px;
+    opacity: 0.1;
+  }
+
+  .sessions-branch-left {
+    top: 42px;
+    left: 0;
+  }
+
+  .sessions-branch-right {
+    right: 0;
+    bottom: 0;
+  }
+}
+
 .session-title {
   text-align: center;
 }
@@ -478,6 +632,8 @@ h2 {
 .card-text {
   font-size: 14px;
 }
+
+
 
 /* PRODUCTS */
 h5,
