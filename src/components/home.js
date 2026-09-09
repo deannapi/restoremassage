@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
 import ZeroTolerance from "./ZeroTolerance";
 
-// import fire from "../images/firecup_selfie.jpg";
 import cupping from "../images/firecupping.png";
-import stretch2 from "../images/backstretch.png";
 import cover from "../images/stretchneck.png";
 import dope from "../images/moonglow_logo.jpg";
 import sargaback from "../images/Sarga_back.png";
@@ -104,9 +102,10 @@ export default class Home extends React.Component {
               barefoot Sarga Bodywork, myofascial release, and stretch therapy
               in San Antonio. Every session blends fascia focused barefoot
               techniques with deep, fluid pressure to support mobility,
-              recovery, and long term tension relief. Learn more about <Link to="/Sarga">barefoot
-              massage</Link> on my Sarga Bodywork page, or explore stretch therapy
-              options designed to support mobility and recovery.
+              recovery, and long term tension relief. Learn more about{" "}
+              <Link to="/Sarga">barefoot massage</Link> on my Sarga Bodywork
+              page, or explore stretch therapy options designed to support
+              mobility and recovery.
             </p>
 
             <h2>What I offer:</h2>
@@ -166,7 +165,16 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
-              <img className="card-img-top" src={stretch2} alt="stretching" />
+              <div className="instagram-video-wrapper">
+                <iframe
+                  className="instagram-video"
+                  src="https://www.instagram.com/reel/DVZs0HSERcw/embed"
+                  title="Performance Stretch Therapy demonstration"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Performance Stretch Therapy</h5>
                 <p className="card-text">
