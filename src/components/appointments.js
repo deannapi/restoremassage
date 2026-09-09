@@ -7,10 +7,68 @@ export default class Appointments extends React.Component {
     return (
       <>
         <div className="appt">
-          <h2>Appointments</h2>
-          <h5>
-            NEW Clients Must Complete the Form Before Booking Appointments
-          </h5>
+          <section className="appointments-hero">
+            <svg
+              className="appointments-branch appointments-branch-left"
+              viewBox="0 0 260 190"
+              aria-hidden="true"
+            >
+              <path d="M0 170C62 128 119 80 220 20" />
+              <path d="M45 139C25 111 28 79 46 54C65 82 64 111 45 139Z" />
+              <path d="M91 104C73 76 80 46 102 24C117 55 111 82 91 104Z" />
+              <path d="M132 77C123 50 136 27 162 12C168 40 156 64 132 77Z" />
+              <path d="M69 122C88 92 116 83 145 91C125 116 98 129 69 122Z" />
+              <path d="M120 85C143 61 170 58 197 70C174 91 148 97 120 85Z" />
+            </svg>
+
+            <div className="appointments-content">
+              <header className="appointments-heading">
+                <h1>Appointments</h1>
+
+                <div className="appointments-title-accent" aria-hidden="true">
+                  <span />
+
+                  <svg viewBox="0 0 28 22">
+                    <path d="M14 20C13 12 8 7 2 3C3 12 7 18 14 20Z" />
+                    <path d="M14 20C15 12 20 7 26 3C25 12 21 18 14 20Z" />
+                  </svg>
+
+                  <span />
+                </div>
+              </header>
+
+              <aside className="new-client-notice">
+                <svg
+                  className="new-client-icon"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                >
+                  <rect x="9" y="8" width="27" height="34" rx="3" />
+                  <path d="M17 8V5.5C17 4.1 18.1 3 19.5 3h6C26.9 3 28 4.1 28 5.5V8" />
+                  <path d="M17 26l5 5 9-11" />
+                  <path d="M31 39c1.5-5 5.5-8 11-8-1 5.5-4.5 9-11 8Z" />
+                  <path d="M31 39c-1-4-3.5-6.5-7-8 0 4.5 2 7.5 7 8Z" />
+                </svg>
+
+                <p>
+                  New clients must complete the form before booking appointments
+                </p>
+              </aside>
+            </div>
+
+            <svg
+              className="appointments-branch appointments-branch-right"
+              viewBox="0 0 260 190"
+              aria-hidden="true"
+            >
+              <path d="M0 170C62 128 119 80 220 20" />
+              <path d="M45 139C25 111 28 79 46 54C65 82 64 111 45 139Z" />
+              <path d="M91 104C73 76 80 46 102 24C117 55 111 82 91 104Z" />
+              <path d="M132 77C123 50 136 27 162 12C168 40 156 64 132 77Z" />
+              <path d="M69 122C88 92 116 83 145 91C125 116 98 129 69 122Z" />
+              <path d="M120 85C143 61 170 58 197 70C174 91 148 97 120 85Z" />
+            </svg>
+          </section>
           <div className="row">
             <div className="cancellation">
               <h5>Cancellation Policy</h5>
@@ -122,7 +180,7 @@ export default class Appointments extends React.Component {
             </div>
           </div>
         </div>
-        
+
         <div className="row">
           <div className="card">
             <img src={blading} alt="blading" />
