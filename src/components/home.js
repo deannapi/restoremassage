@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
 import ZeroTolerance from "./ZeroTolerance";
 
-import fire from "../images/firecup_selfie.jpg";
-import bodywork from "../images/firecupping.png";
+// import fire from "../images/firecup_selfie.jpg";
+import cupping from "../images/firecupping.png";
 import stretch2 from "../images/backstretch.png";
 import cover from "../images/stretchneck.png";
 import dope from "../images/moonglow_logo.jpg";
+import sargaback from "../images/Sarga_back.png";
 
 const TEXTS_bodywork = [
   "Muscle pain and tension",
@@ -196,7 +197,7 @@ export default class Home extends React.Component {
             </div>
 
             <div className="card">
-              <img className="card-img-top" src={bodywork} alt="bodywork" />
+              <img className="card-img-top" src={sargaback} alt="bodywork" />
               <div className="card-body">
                 <h5 className="card-title">Bodywork</h5>
                 <p className="card-text">
@@ -260,7 +261,7 @@ export default class Home extends React.Component {
 
           <div className="row">
             <div className="card">
-              <img className="card-img-top" src={fire} alt="" />
+              <img className="card-img-top" src={cupping} alt="" />
               <div className="card-body">
                 <h5 className="card-title">Cupping Therapy</h5>
                 <p className="card-text">
@@ -275,7 +276,6 @@ export default class Home extends React.Component {
                   factors.
                   <br></br>
                   <Link to="/appointments">
-                    {" "}
                     Schedule your appointment today!
                   </Link>
                 </p>

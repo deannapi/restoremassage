@@ -1,4 +1,5 @@
 import React from "react";
+import SargaVideo from "../images/Sarga_Vid1.mp4";
 
 const sargaFaqs = [
   {
@@ -74,13 +75,17 @@ export default class Sarga extends React.Component {
             </svg>
 
             <div className="sarga-hero-content">
-              <h1>Sarga Bodywork</h1>
+              <h1>Sarga Bodywork & Barefoot Massage in San Antonio</h1>
 
               <div className="sarga-title-accent" aria-hidden="true" />
 
               <p>
-                A grounded, barefoot approach to deep, therapeutic,
-                fascia-focused bodywork.
+                Sarga Bodywork is a barefoot massage modality that uses long,
+                grounded, fascia focused strokes to create deep therapeutic
+                change without pain or force. At Restore Massage & Bodywork in
+                San Antonio, Sarga is the foundation of every session — offering
+                deep, fluid pressure that supports mobility, recovery, and long
+                held tension patterns.
               </p>
             </div>
 
@@ -97,6 +102,18 @@ export default class Sarga extends React.Component {
               <path d="M114 63C130 43 151 38 174 44C159 62 139 70 114 63Z" />
               <path d="M157 42C173 25 193 22 215 30C198 47 179 51 157 42Z" />
             </svg>
+          </section>
+
+          <section className="sarga-video-section">
+            <video
+              className="sarga-video"
+              controls
+              playsInline
+              preload="metadata"
+            >
+              <source src={SargaVideo} type="video/mp4" />
+              Your browser does not support the video element.
+            </video>
           </section>
 
           <div className="row">
