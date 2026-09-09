@@ -1,79 +1,100 @@
-import { Link } from "react-router-dom";
-// import { useRef } from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
-export default function Nav(props) {
-  // const navRef = useRef();
+export default function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
-  // const showNavbar = () => {
-  //   navRef.current.classList.toggle("responsive_nav");
-  // };
+  // Close the mobile menu whenever the route changes.
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
-    <>
-      <header>
-        <div className="bg-img"></div>
+    <header>
+      <div className="bg-img" />
 
-        <nav class="navbar navbar-expand-lg navbar-links navbar-primary">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#mainNavbar"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav className="navbar navbar-expand-lg navbar-links navbar-primary">
+        <button
+          className="navbar-toggler"
+          type="button"
+          aria-controls="mainNavbar"
+          aria-expanded={menuOpen}
+          aria-label={menuOpen ? "Close navigation" : "Open navigation"}
+          onClick={() => setMenuOpen((current) => !current)}
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
 
-          {/* Collapsible links */}
-          <div class="collapse navbar-collapse" id="mainNavbar">
-            <ul className="navbar-nav header-nav-list">
-              <li className="nav-item">
-                <Link className="nav-link" to="/home">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  About Me
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  Contact Me
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/appointments">
-                  Appointments
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Sarga">
-                  What is Sarga?
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/SessionsPrices">
-                  Sessions & Prices
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/products">
-                  Products
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/blog">
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </>
+        <div
+          className={`collapse navbar-collapse ${
+            menuOpen ? "show" : ""
+          }`}
+          id="mainNavbar"
+        >
+          <ul className="navbar-nav header-nav-list">
+            <li className="nav-item">
+              <Link className="nav-link" to="/home" onClick={closeMenu}>
+                Home
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/about" onClick={closeMenu}>
+                About Me
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact" onClick={closeMenu}>
+                Contact Me
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/appointments"
+                onClick={closeMenu}
+              >
+                Appointments
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/Sarga" onClick={closeMenu}>
+                What is Sarga?
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="/SessionsPrices"
+                onClick={closeMenu}
+              >
+                Sessions &amp; Prices
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/products" onClick={closeMenu}>
+                Products
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/blog" onClick={closeMenu}>
+                Blog
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 }
