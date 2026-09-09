@@ -40,6 +40,14 @@ const cupping_words = [
   "inflammation",
 ];
 
+const LeafIcon = () => (
+  <svg className="service-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.8 3.2C13.5 3.5 8.7 6 6.4 10.1c-1.5 2.8-.8 5.5.1 7.2" />
+    <path d="M20.8 3.2c-.2 7.4-3 12.2-7.4 13.8-2.4.9-4.8.3-6.9.3" />
+    <path d="M4 21c2.1-5.4 6.3-9.8 12.3-13.2" />
+  </svg>
+);
+
 function WordSwap() {
   const [index, setIndex] = React.useState(0);
 
@@ -85,10 +93,57 @@ export default class Home extends React.Component {
     return (
       <>
         <div className="home">
-          <div className="home-title">
-            <h1>Bodywork &#8226; Massage &#8226; Stretch Therapy</h1>
-            <h4>Move Better &#8226; Recover Smarter &#8226; Live Stronger</h4>
-          </div>
+          <section className="bodywork-intro">
+            <h1>Massage &amp; Barefoot Bodywork in San Antonio</h1>
+
+            <div className="heading-accent" aria-hidden="true" />
+
+            <p className="bodywork-description">
+              Restore Massage &amp; Bodywork offers therapeutic massage,
+              barefoot Sarga Bodywork, myofascial release, and stretch therapy
+              in San Antonio. Every session blends fascia focused barefoot
+              techniques with deep, fluid pressure to support mobility,
+              recovery, and long term tension relief. Learn more about <Link to="/Sarga">barefoot
+              massage</Link> on my Sarga Bodywork page, or explore stretch therapy
+              options designed to support mobility and recovery.
+            </p>
+
+            <h2>What I offer:</h2>
+
+            <div className="heading-accent" aria-hidden="true" />
+
+            <ul className="services-grid">
+              <li className="service-item">
+                <LeafIcon />
+                <span>Barefoot massage (Sarga bodywork)</span>
+              </li>
+
+              <li className="service-item">
+                <LeafIcon />
+                <span>Myofascial release</span>
+              </li>
+
+              <li className="service-item">
+                <LeafIcon />
+                <span>Deep tissue massage</span>
+              </li>
+
+              <li className="service-item">
+                <LeafIcon />
+                <span>Stretch therapy (fascial stretch therapy)</span>
+              </li>
+
+              <li className="service-item">
+                <LeafIcon />
+                <span>Sports &amp; Recovery focused bodywork</span>
+              </li>
+
+              <li className="service-item">
+                <LeafIcon />
+                <span>Cupping therapy</span>
+              </li>
+            </ul>
+          </section>
 
           <div className="row">
             <div className="card">
@@ -96,45 +151,15 @@ export default class Home extends React.Component {
               <div className="card-body">
                 <h5 className="card-title">My Mission</h5>
                 <p className="card-text">
-                  I am Allysia Payen, a licensed massage therapist with nine years of
-                  experience serving the San Antonio community. I specialize in
-                  therapeutic bodywork and stretch therapy for active,
-                  health‑minded individuals who want to move better, recover
-                  faster, and feel stronger in their daily lives. 
-                  <br></br>
-                  <br></br>
-                  Restore Massage & Bodywork is built on the belief that high‑quality,
-                  effective therapy should support both recovery and long‑term
-                  well‑being. I’m dedicated to providing therapeutic treatments
-                  and exceptional service that promote healing, mobility, and
-                  self‑care. Every session is fully customized to the needs of
-                  each client, drawing from a range of modalities including
-                  Swedish Massage, Deep Tissue, Myofascial Release, Sports
-                  Massage, Cupping Therapy, and Instrument Assisted Soft Tissue
-                  Manipulation. 
-                  <br></br>
-                  <br></br>
-                  My background in CrossFit and competitive
-                  Olympic weightlifting gives me a deep understanding of
-                  biomechanics and functional movement, allowing me to create
-                  treatments that truly support the demands of an active
-                  lifestyle. I have been certified in the Performance Stretch
-                  System for 5 years, which has transformed both my approach and
-                  my clients’ outcomes—enhancing mobility, improving recovery,
-                  and elevating overall treatment effectiveness. In 2025, I
-                  became part of the PSS team as an instructor, teaching
-                  workshops designed to empower professionals with innovative
-                  floor‑based stretching systems. This work reflects our shared
-                  mission to build a globally connected community of
-                  knowledgeable, skilled therapists. 
-                  <br></br>
-                  <br></br>
-                  I hope the passion I bring
-                  to my work empowers others to move with confidence and build a
-                  deeper understanding of their bodies.
-                  <br></br>
-                  <br></br>
-                  <Link to="/about">Read about me here.</Link>
+                  My mission is to offer intentional, fascia focused bodywork
+                  that helps people move with more ease, strength, and
+                  confidence. I believe in work that is deep without force,
+                  restorative without rushing, and centered on the nervous
+                  system as much as the muscles. Every session is an invitation
+                  to reconnect with your body’s natural resilience — through
+                  slow, grounded barefoot techniques, therapeutic massage, and
+                  stretch therapy designed to support long term mobility and
+                  recovery.
                 </p>
               </div>
             </div>
