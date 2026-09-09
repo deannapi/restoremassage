@@ -1,44 +1,105 @@
 import React from "react";
 
+const sargaFaqs = [
+  {
+    question: "What does Sarga Bodywork feel like?",
+    answer:
+      "Sarga feels deep, fluid, and grounding. Instead of sharp pressure, you’ll feel long, slow, anchored strokes that your body can actually soften into. Many clients describe it as “melting,” “lengthening,” or “deep without discomfort.”",
+  },
+  {
+    question: "Why do you use your feet?",
+    answer:
+      "Barefoot work allows for broader, more stable contact that feels deep without being painful. The feet create sustained pressure that helps fascia unwind, hydrate, and reorganize. It’s depth your body can trust — not force it has to brace against.",
+  },
+  {
+    question: "Is Sarga painful?",
+    answer:
+      "No. Sarga is designed to be deep without pain. Because the pressure is broad and grounded, your nervous system stays calm, allowing the tissue to release instead of tightening or guarding.",
+  },
+  {
+    question: "How is Sarga different from deep tissue massage?",
+    answer:
+      "Traditional deep tissue often relies on force, pushing, or pointed pressure. Sarga uses slow, anchored, barefoot strokes that work with the fascia rather than against it. The result is deep therapeutic change without the “push through it” discomfort.",
+  },
+  {
+    question: "Do you only use Sarga in your sessions?",
+    answer:
+      "Sarga is the foundation of my work, but sessions may also include myofascial release, sports massage, cupping, IASTM, or assisted stretch therapy. Whether you choose bodywork, stretch-only, or a hybrid session, Sarga’s principles guide the entire experience.",
+  },
+  {
+    question: "What should I wear for a Sarga session?",
+    answer:
+      "For bodywork sessions, you’ll undress to your comfort level and be draped appropriately. For stretch-only or hybrid sessions, comfortable athletic clothing is best so you can move freely.",
+  },
+  {
+    question: "Is Sarga safe for everyone?",
+    answer:
+      "Most clients tolerate Sarga extremely well because the pressure is slow, broad, and controlled. If you have specific medical conditions, injuries, or concerns, we’ll discuss them before your session and adjust accordingly.",
+  },
+  {
+    question: "Can Sarga help with chronic tension or mobility issues?",
+    answer:
+      "Yes. Sarga’s slow, sustained pressure helps hydrate fascia, improve slide-and-glide, and unwind long-held patterns. Clients often notice improved mobility, reduced tension, and a greater sense of connection in their body.",
+  },
+  {
+    question: "Is Sarga good for athletes?",
+    answer:
+      "Absolutely. The work supports recovery, mobility, and performance by addressing fascial restrictions and improving movement quality. Many athletes prefer Sarga because it’s deep, effective, and doesn’t leave them feeling beat up.",
+  },
+  {
+    question: "How will I feel afterward?",
+    answer:
+      "Most clients feel grounded, lengthened, and more connected to their body. Some feel deeply relaxed; others feel energized and spacious. The changes tend to unfold over the next 24–48 hours as the fascia continues to reorganize.",
+  },
+];
+
 export default class Sarga extends React.Component {
   render() {
     return (
       <>
         <div className="Sarga">
-          <div className="row">
-            <h1>Sarga Bodywork</h1>
-          </div>
+          <section className="sarga-hero">
+            <svg
+              className="sarga-botanical sarga-botanical-left"
+              viewBox="0 0 260 130"
+              aria-hidden="true"
+            >
+              <path d="M0 115C65 94 120 56 205 20" />
+              <path d="M48 96C29 76 29 53 39 31C57 49 61 70 48 96Z" />
+              <path d="M86 76C72 52 76 30 91 11C104 34 102 56 86 76Z" />
+              <path d="M122 58C112 37 120 18 139 4C145 27 139 45 122 58Z" />
+              <path d="M72 84C81 61 100 50 124 50C114 72 96 84 72 84Z" />
+              <path d="M114 63C130 43 151 38 174 44C159 62 139 70 114 63Z" />
+              <path d="M157 42C173 25 193 22 215 30C198 47 179 51 157 42Z" />
+            </svg>
 
-          <h4>
-            A grounded, barefoot approach to deep, therapeutic, fascia‑focused
-            bodywork.
-          </h4>
-          <div className="row">
-            <div className="card card-session mb-3">
-              <div className="card-header">What is Sarga Bodywork?</div>
-              <div className="card-body">
-                <p className="card-text">
-                  Sarga Bodywork is a barefoot, fascia‑focused modality that
-                  feels different the moment it begins. Instead of sharp or
-                  pointed pressure from hands or elbows, Sarga uses the broad,
-                  grounded surface of the feet — creating long, fluid, anchored
-                  strokes that your body can actually soften into.
-                  <br></br>
-                  <br></br>
-                  The work is slow, stabilizing, and deeply intentional. As the
-                  foot glides across your tissue, it creates gentle shear and
-                  compression through the fascial layers. This helps hydrate the
-                  connective tissue, improve slide‑and‑glide between structures,
-                  and signal safety to the nervous system — all essential for
-                  releasing long‑held tension patterns.
-                  <br></br>
-                  <br></br>Clients often describe Sarga as “deep but soothing,”
-                  “melting,” or “the first time deep work felt like my body
-                  could trust it.”
-                </p>
-              </div>
+            <div className="sarga-hero-content">
+              <h1>Sarga Bodywork</h1>
+
+              <div className="sarga-title-accent" aria-hidden="true" />
+
+              <p>
+                A grounded, barefoot approach to deep, therapeutic,
+                fascia-focused bodywork.
+              </p>
             </div>
 
+            <svg
+              className="sarga-botanical sarga-botanical-right"
+              viewBox="0 0 260 130"
+              aria-hidden="true"
+            >
+              <path d="M0 115C65 94 120 56 205 20" />
+              <path d="M48 96C29 76 29 53 39 31C57 49 61 70 48 96Z" />
+              <path d="M86 76C72 52 76 30 91 11C104 34 102 56 86 76Z" />
+              <path d="M122 58C112 37 120 18 139 4C145 27 139 45 122 58Z" />
+              <path d="M72 84C81 61 100 50 124 50C114 72 96 84 72 84Z" />
+              <path d="M114 63C130 43 151 38 174 44C159 62 139 70 114 63Z" />
+              <path d="M157 42C173 25 193 22 215 30C198 47 179 51 157 42Z" />
+            </svg>
+          </section>
+
+          <div className="row">
             <div className="card card-session mb-3">
               <div className="card-header">Why Barefoot Works?</div>
               <div className="card-body">
@@ -57,8 +118,7 @@ export default class Sarga extends React.Component {
                       instead of brace
                     </li>
                     <li>
-                      <b>Sustained pressure</b> that encourages fascia to
-                      unwind{" "}
+                      <b>Sustained pressure</b> that encourages fascia to unwind
                     </li>
                     <li>
                       <b>Fluid movement</b> that follows the body’s natural
@@ -112,9 +172,7 @@ export default class Sarga extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="card card-session mb-3">
               <div className="card-header">What does Sarga Feel Like?</div>
               <div className="card-body">
@@ -136,7 +194,9 @@ export default class Sarga extends React.Component {
                 </p>
               </div>
             </div>
+          </div>
 
+          <div className="row">
             <div className="card card-session mb-3">
               <div className="card-header">
                 Why Sarga Is the Foundation of My Work?
@@ -189,9 +249,7 @@ export default class Sarga extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="card card-session mb-3">
               <div className="card-header">Sarga in Every Session</div>
               <div className="card-body">
@@ -205,96 +263,33 @@ export default class Sarga extends React.Component {
             </div>
           </div>
 
-          <div className="row">
-            <div className="card sarga-faq">
-              <div className="card-body">
-                <h5 className="card-title">Sarga Bodywork FAQ</h5>
-                <p className="card-text">
-                  <b>What does Sarga Bodywork feel like?</b>
-                  <br></br>
-                  Sarga feels deep, fluid, and grounding. Instead of sharp
-                  pressure, you’ll feel long, slow, anchored strokes that your
-                  body can actually soften into. Many clients describe it as
-                  “melting,” “lengthening,” or “deep without discomfort.”
-                  <br></br>
-                  <br></br>
-                  <b>Why do you use your feet?</b>
-                  <br></br>
-                  Barefoot work allows for broader, more stable contact that
-                  feels deep without being painful. The feet create sustained
-                  pressure that helps fascia unwind, hydrate, and reorganize.
-                  It’s depth your body can trust — not force it has to brace
-                  against.
-                  <br></br>
-                  <br></br>
-                  <b>Is Sarga painful?</b>
-                  <br></br>
-                  No. Sarga is designed to be deep without pain. Because the
-                  pressure is broad and grounded, your nervous system stays
-                  calm, allowing the tissue to release instead of tightening or
-                  guarding.
-                  <br></br>
-                  <br></br>
-                  <b>How is Sarga different from deep tissue massage?</b>
-                  <br></br>
-                  Traditional deep tissue often relies on force, pushing, or
-                  pointed pressure. Sarga uses slow, anchored, barefoot strokes
-                  that work with the fascia rather than against it. The result
-                  is deep therapeutic change without the “push through it”
-                  discomfort.
-                  <br></br>
-                  <br></br>
-                  <b>Do you only use Sarga in your sessions? </b>
-                  <br></br>
-                  Sarga is the foundation of my work, but sessions may also
-                  include myofascial release, sports massage, cupping, IASTM, or
-                  assisted stretch therapy. Whether you choose bodywork,
-                  stretch‑only, or a hybrid session, Sarga’s principles guide
-                  the entire experience.
-                  <br></br>
-                  <br></br>
-                  <b>What should I wear for a Sarga session?</b>
-                  <br></br>
-                  For bodywork sessions, you’ll undress to your comfort level
-                  and be draped appropriately. For stretch‑only or hybrid
-                  sessions, comfortable athletic clothing is best so you can
-                  move freely.
-                  <br></br>
-                  <br></br>
-                  <b>Is Sarga safe for everyone?</b>
-                  <br></br>
-                  Most clients tolerate Sarga extremely well because the
-                  pressure is slow, broad, and controlled. If you have specific
-                  medical conditions, injuries, or concerns, we’ll discuss them
-                  before your session and adjust accordingly.
-                  <br></br>
-                  <br></br>
-                  <b>Can Sarga help with chronic tension or mobility issues?</b>
-                  <br></br>
-                  Yes. Sarga’s slow, sustained pressure helps hydrate fascia,
-                  improve slide‑and‑glide, and unwind long‑held patterns.
-                  Clients often notice improved mobility, reduced tension, and a
-                  greater sense of connection in their body.
-                  <br></br>
-                  <br></br>
-                  <b>Is Sarga good for athletes?</b>
-                  <br></br>
-                  Absolutely. The work supports recovery, mobility, and
-                  performance by addressing fascial restrictions and improving
-                  movement quality. Many athletes prefer Sarga because it’s
-                  deep, effective, and doesn’t leave them feeling beat up.
-                  <br></br>
-                  <br></br>
-                  <b>How will I feel afterward?</b>
-                  <br></br>
-                  Most clients feel grounded, lengthened, and more connected to
-                  their body. Some feel deeply relaxed; others feel energized
-                  and spacious. The changes tend to unfold over the next 24–48
-                  hours as the fascia continues to reorganize.
-                </p>
-              </div>
+          <section className="sarga-faq-section">
+            <div className="sarga-faq-heading">
+              <span className="sarga-faq-label">Questions &amp; Answers</span>
+              <h2>Sarga Bodywork FAQ</h2>
+              <div className="sarga-faq-accent" aria-hidden="true" />
             </div>
-          </div>
+
+            <div className="sarga-faq-list">
+              {sargaFaqs.map((faq, index) => (
+                <details className="sarga-faq-item" key={faq.question}>
+                  <summary>
+                    <span className="faq-number">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+
+                    <span className="faq-question">{faq.question}</span>
+
+                    <span className="faq-toggle" aria-hidden="true" />
+                  </summary>
+
+                  <div className="faq-answer">
+                    <p>{faq.answer}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
         </div>
       </>
     );

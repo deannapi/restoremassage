@@ -603,6 +603,275 @@ ul li {
 
 
 /* Sarga */
+.sarga-hero {
+  position: relative;
+  display: flex;
+  min-height: 175px;
+  padding: 28px 40px 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    #fffef9 0%,
+    #faf9f1 50%,
+    #fffef9 100%
+  );
+  border-bottom: 3px solid #3ba83c;
+  text-align: center;
+}
+
+.sarga-hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.sarga-hero h1 {
+  margin: 0;
+  color: #164c28;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.sarga-title-accent {
+  width: 58px;
+  height: 2px;
+  margin: 14px auto;
+  background-color: #62bd50;
+}
+
+.sarga-hero p {
+  margin: 0;
+  color: #26332b;
+  font-size: clamp(1rem, 1.7vw, 1.35rem);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.sarga-botanical {
+  position: absolute;
+  bottom: 0;
+  width: 260px;
+  height: auto;
+  fill: none;
+  stroke: #74ad65;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+.sarga-botanical-left {
+  left: 0;
+}
+
+.sarga-botanical-right {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.sarga-faq-section {
+  padding: 65px 24px 80px;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(98, 189, 80, 0.08),
+      transparent 32%
+    ),
+    #fffef9;
+}
+
+.sarga-faq-heading {
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.sarga-faq-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4d9d43;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.sarga-faq-heading h2 {
+  margin: 0;
+  color: #164c28;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+}
+
+.sarga-faq-accent {
+  width: 58px;
+  height: 2px;
+  margin: 15px auto 0;
+  background-color: #62bd50;
+}
+
+.sarga-faq-list {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sarga-faq-item {
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #dcebd7;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(22, 76, 40, 0.06);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.sarga-faq-item:hover {
+  border-color: #96cb88;
+  box-shadow: 0 7px 20px rgba(22, 76, 40, 0.1);
+  transform: translateY(-1px);
+}
+
+.sarga-faq-item[open] {
+  border-color: #75b966;
+  box-shadow: 0 8px 22px rgba(22, 76, 40, 0.1);
+}
+
+.sarga-faq-item summary {
+  display: grid;
+  grid-template-columns: 44px 1fr 22px;
+  gap: 15px;
+  padding: 21px 24px;
+  align-items: center;
+  color: #183c25;
+  cursor: pointer;
+  list-style: none;
+  text-align: left;
+}
+
+.sarga-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-number {
+  color: #62a956;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+}
+
+.faq-question {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.faq-toggle {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.faq-toggle::before,
+.faq-toggle::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 2px;
+  background-color: #4d9d43;
+  border-radius: 2px;
+  content: "";
+  transform: translate(-50%, -50%);
+  transition: transform 0.25s ease;
+}
+
+.faq-toggle::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.sarga-faq-item[open] .faq-toggle::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.faq-answer {
+  padding: 0 66px 23px 83px;
+}
+
+.faq-answer p {
+  margin: 0;
+  color: #4c5850;
+  font-size: 1rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.sarga-faq-item[open] summary {
+  padding-bottom: 14px;
+}
+
+@media (max-width: 600px) {
+  .sarga-faq-section {
+    padding: 45px 16px 60px;
+  }
+
+  .sarga-faq-item summary {
+    grid-template-columns: 32px 1fr 18px;
+    gap: 10px;
+    padding: 18px 16px;
+  }
+
+  .faq-question {
+    font-size: 0.98rem;
+  }
+
+  .faq-answer {
+    padding: 0 44px 20px 58px;
+  }
+
+  .faq-answer p {
+    font-size: 0.94rem;
+    line-height: 1.65;
+  }
+}
+-----------------------------------------------------------
+
+@media (max-width: 900px) {
+  .sarga-botanical {
+    width: 190px;
+    opacity: 0.15;
+  }
+}
+
+@media (max-width: 600px) {
+  .sarga-hero {
+    min-height: 160px;
+    padding: 28px 20px;
+  }
+
+  .sarga-hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .sarga-hero p {
+    max-width: 420px;
+    margin-inline: auto;
+    font-size: 1rem;
+  }
+
+  .sarga-botanical {
+    width: 130px;
+    opacity: 0.1;
+  }
+}
 .Sarga h1 {
   text-align: center;
   width: 100%;
