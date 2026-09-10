@@ -145,165 +145,153 @@ export default class Home extends React.Component {
             </ul>
           </section>
 
-          <div className="row">
-            <div className="card">
-              <img className="card-img-top" src={cover} alt="cover" />
-              <div className="card-body">
-                <h5 className="card-title">My Mission</h5>
-                <p className="card-text">
-                  My mission is to offer intentional, fascia focused bodywork
-                  that helps people move with more ease, strength, and
-                  confidence. I believe in work that is deep without force,
-                  restorative without rushing, and centered on the nervous
-                  system as much as the muscles. Every session is an invitation
-                  to reconnect with your body’s natural resilience — through
-                  slow, grounded barefoot techniques, therapeutic massage, and
-                  stretch therapy designed to support long term mobility and
-                  recovery.
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="instagram-video-wrapper">
-                <iframe
-                  className="instagram-video"
-                  src="https://www.instagram.com/reel/DVZs0HSERcw/embed"
-                  title="Performance Stretch Therapy demonstration"
-                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Performance Stretch Therapy</h5>
-                <p className="card-text">
-                  Allysia is a Level Two Stretch Therapist and Instructor with
-                  the Performance Stretch System. Stretch therapy sessions
-                  follow a structured, floor‑based approach to assisted
-                  stretching designed to enhance mobility, flexibility, and
-                  overall physical performance. The movements draw inspiration
-                  from disciplines such as Thai massage, judo, fascial stretch
-                  therapy, and more, blending traditional techniques with
-                  modern, evidence‑based practices to create a comprehensive
-                  stretching experience.
-                  <br></br>
-                  <br></br>
-                  This system focuses on improving range of motion, reducing
-                  muscle tension, and enhancing functional movement. Each
-                  session is client‑centered, prioritizing comfort, education,
-                  and empowerment to foster a collaborative and supportive
-                  experience between therapist and client.
-                  <br></br>
-                  <br></br>
-                  If you're unsure if our performance stretch therapy is for
-                  you, we encourage you to give it a try and{" "}
-                  <Link to="/appointments">book</Link> a session. You won't be
-                  disappointed! You may even fall asleep!
-                </p>
-              </div>
-            </div>
-
-            <div className="card">
-              <img className="card-img-top" src={sargaback} alt="bodywork" />
-              <div className="card-body">
-                <h5 className="card-title">Bodywork</h5>
-                <p className="card-text">
-                  Bodywork at Restore goes far beyond a traditional massage.
-                  These sessions are holistic, integrative, and intentionally
-                  designed to support the whole person. Every body carries its
-                  own story — your patterns, habits, stressors, and strengths —
-                  and your treatment should reflect that. No two people are the
-                  same, and neither are the sessions.
-                  <br></br>
-                  <br></br>
-                  What’s different about bodywork sessions at Restore is that
-                  all of my work is deep and therapeutic without the pain,
-                  force, or discomfort people often associate with traditional
-                  deep tissue massage. The depth comes from grounded, sustained
-                  pressure, fascial engagement, and modalities like Sarga
-                  Bodywork — not from pushing harder.
-                  <br></br>
-                  <br></br>
-                  Bodywork is about helping you build a deeper awareness of your
-                  body: how it moves, where it holds tension, what it’s
-                  protecting, and how it can return to ease. My role isn’t to
-                  “fix” you — it’s to create a space where your body feels safe
-                  enough to soften, release, and do the healing it’s naturally
-                  capable of.
-                  <br></br>
-                  <br></br>
-                  This work is active, conscious, and collaborative. We work
-                  together to explore what your body is holding and why. Often,
-                  patterns that once served a purpose — protection,
-                  compensation, survival — linger long after they’re needed.
-                  Through bodywork, we gently guide the body back toward
-                  balance, integration, and a sense of wholeness.
-                  <br></br>
-                  <br></br>
-                  Sessions may include a blend of therapeutic modalities such as
-                  deep tissue work, myofascial release, sports massage, cupping
-                  therapy, IASTM, and Sarga Bodywork, a barefoot, fascia‑focused
-                  approach using long, sustained pressure and anchored tension
-                  to melt through deep patterns without force. All sessions are
-                  booked by time, allowing the work to unfold naturally based on
-                  what your body needs that day.
-                  <br></br>
-                </p>
-                <br></br>
-                <div className="card-bodywork">
-                  <h4>Bodywork can support:</h4>
-                  <p>
-                    <WordSwap />
-                  </p>
-                </div>
-                <br></br>
-                <p>
-                  Bodywork at Restore is designed to help you feel more aligned,
-                  more grounded, and more connected to your body — both on and
-                  off the table.
-                </p>
-              </div>
+          <div className="my-mission">
+            <img className="card-img-top" src={cover} alt="cover" />
+            <div className="card-body">
+              <h5 className="card-title">My Mission</h5>
+              <p className="card-text">
+                My mission is to offer intentional, fascia focused bodywork that
+                helps people move with more ease, strength, and confidence. I
+                believe in work that is deep without force, restorative without
+                rushing, and centered on the nervous system as much as the
+                muscles. Every session is an invitation to reconnect with your
+                body’s natural resilience — through slow, grounded barefoot
+                techniques, therapeutic massage, and stretch therapy designed to
+                support long term mobility and recovery.
+              </p>
             </div>
           </div>
 
-          <div className="row">
-            <div className="card">
-              <img className="card-img-top" src={cupping} alt="" />
-              <div className="card-body">
-                <h5 className="card-title">Cupping Therapy</h5>
-                <p className="card-text">
-                  Massage cupping is the combination of massage movements and
-                  negative pressure with the use of a suction cup on the skin. A
-                  vacuum is created with the cup to draw the skin and underlying
-                  tissue into the cup. The produced vacuum creates a suction
-                  effect that increases blood and lymphatic circulation
-                  systemically and to the local area, relaxes muscle tissue and
-                  connective tissue, draws stagnation, pathogenic factors and
-                  toxins out of the body and releases a myriad of pain causing
-                  factors.
-                  <br></br>
-                  <Link to="/appointments">
-                    Schedule your appointment today!
-                  </Link>
-                </p>
-                <div className="card-bodywork">
-                  <h4>Benefits of Cupping</h4>
-                  <p>
-                    <WordCupping />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="card" id="moonglow_card">
-              <img
-                className="card-img-top"
-                src={dope}
-                alt=""
-                id="moonglow_logo"
+          <div className="pst">
+            <div className="instagram-video-wrapper">
+              <iframe
+                className="instagram-video"
+                src="https://www.instagram.com/reel/DVZs0HSERcw/embed"
+                title="Performance Stretch Therapy demonstration"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
               />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">Performance Stretch Therapy</h5>
+              <p className="card-text">
+                Allysia is a Level Two Stretch Therapist and Instructor with the
+                Performance Stretch System. Stretch therapy sessions follow a
+                structured, floor‑based approach to assisted stretching designed
+                to enhance mobility, flexibility, and overall physical
+                performance. The movements draw inspiration from disciplines
+                such as Thai massage, judo, fascial stretch therapy, and more,
+                blending traditional techniques with modern, evidence‑based
+                practices to create a comprehensive stretching experience.
+                <br></br>
+                <br></br>
+                This system focuses on improving range of motion, reducing
+                muscle tension, and enhancing functional movement. Each session
+                is client‑centered, prioritizing comfort, education, and
+                empowerment to foster a collaborative and supportive experience
+                between therapist and client.
+                <br></br>
+                <br></br>
+                If you're unsure if our performance stretch therapy is for you,
+                we encourage you to give it a try and{" "}
+                <Link to="/appointments">book</Link> a session. You won't be
+                disappointed! You may even fall asleep!
+              </p>
+            </div>
+          </div>
+
+          <div className="bodywork">
+            <img className="card-img-top" src={sargaback} alt="bodywork" />
+            <div className="card-body">
+              <h5 className="card-title">Bodywork</h5>
+              <p className="card-text">
+                Bodywork at Restore goes far beyond a traditional massage. These
+                sessions are holistic, integrative, and intentionally designed
+                to support the whole person. Every body carries its own story —
+                your patterns, habits, stressors, and strengths — and your
+                treatment should reflect that. No two people are the same, and
+                neither are the sessions.
+                <br></br>
+                <br></br>
+                What’s different about bodywork sessions at Restore is that all
+                of my work is deep and therapeutic without the pain, force, or
+                discomfort people often associate with traditional deep tissue
+                massage. The depth comes from grounded, sustained pressure,
+                fascial engagement, and modalities like Sarga Bodywork — not
+                from pushing harder.
+                <br></br>
+                <br></br>
+                Bodywork is about helping you build a deeper awareness of your
+                body: how it moves, where it holds tension, what it’s
+                protecting, and how it can return to ease. My role isn’t to
+                “fix” you — it’s to create a space where your body feels safe
+                enough to soften, release, and do the healing it’s naturally
+                capable of.
+                <br></br>
+                <br></br>
+                This work is active, conscious, and collaborative. We work
+                together to explore what your body is holding and why. Often,
+                patterns that once served a purpose — protection, compensation,
+                survival — linger long after they’re needed. Through bodywork,
+                we gently guide the body back toward balance, integration, and a
+                sense of wholeness.
+                <br></br>
+                <br></br>
+                Sessions may include a blend of therapeutic modalities such as
+                deep tissue work, myofascial release, sports massage, cupping
+                therapy, IASTM, and Sarga Bodywork, a barefoot, fascia‑focused
+                approach using long, sustained pressure and anchored tension to
+                melt through deep patterns without force. All sessions are
+                booked by time, allowing the work to unfold naturally based on
+                what your body needs that day.
+                <br></br>
+              </p>
+              <br></br>
+              <div className="card-bodywork">
+                <h4>Bodywork can support:</h4>
+                <p className="word-swap">
+                  <WordSwap />
+                </p>
+              </div>
+              <br></br>
+              <p>
+                Bodywork at Restore is designed to help you feel more aligned,
+                more grounded, and more connected to your body — both on and off
+                the table.
+              </p>
+            </div>
+          </div>
+
+          <div className="cupping">
+            <img className="card-img-top" src={cupping} alt="" />
+            <div className="card-body">
+              <h5 className="card-title">Cupping Therapy</h5>
+              <p className="card-text">
+                Massage cupping is the combination of massage movements and
+                negative pressure with the use of a suction cup on the skin. A
+                vacuum is created with the cup to draw the skin and underlying
+                tissue into the cup. The produced vacuum creates a suction
+                effect that increases blood and lymphatic circulation
+                systemically and to the local area, relaxes muscle tissue and
+                connective tissue, draws stagnation, pathogenic factors and
+                toxins out of the body and releases a myriad of pain causing
+                factors.
+                <br></br>
+                <Link to="/appointments">Schedule your appointment today!</Link>
+              </p>
+              <div className="card-bodywork">
+                <h4>Benefits of Cupping</h4>
+                <p className="word-swap">
+                  <WordCupping />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="card moonglow">
+              <img className="card-img-top" src={dope} alt="" />
               <div className="card-body">
                 <h5 className="card-title">Products</h5>
                 <p className="card-text">
@@ -311,20 +299,17 @@ export default class Home extends React.Component {
                   best! Our products aid in recovery, relaxation, and extending
                   the benefits of massage.
                   <br></br>
-                  <Link to="/products" id="shop-visit">
-                    Visit our shop{" "}
-                  </Link>
-                  to get yours!
+                  <Link to="/products">View available products.</Link>
                 </p>
               </div>
             </div>
 
             <ZeroTolerance />
+          </div>
 
-            {/* GOOGLE REVIEWS */}
-            <div className="reviews">
-              <div className="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
-            </div>
+          {/* GOOGLE REVIEWS */}
+          <div className="reviews">
+            <div className="elfsight-app-f38374e1-77e3-4401-b9d5-a268821ba110"></div>
           </div>
         </div>
       </>

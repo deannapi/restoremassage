@@ -5,7 +5,7 @@ export default class ZeroTolerance extends React.Component {
   render() {
     return (
       <>
-        <div className="card" id="zerotolerance_card">
+        <div className="card zerotolerance">
           <img
             className="card-img-top"
             src={zerotolerance}
@@ -135,6 +135,7 @@ export default class ZeroTolerance extends React.Component {
                 </div>
               </div>
             </div>
+            {/* END OF MODAL */}
           </div>
         </div>
       </>

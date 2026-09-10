@@ -239,7 +239,7 @@ footer .developer,
   font-size: 32px;
   font-variant: small-caps;
 }
-
+-----------------------------------------------------------------------------------------
 /* HOME PAGE */
 .home {
   text-align: center;
@@ -288,6 +288,86 @@ h4 h5 {
 h5 {
   font-variant: small-caps;
   font-weight: 600;
+}
+
+.my-mission,
+.pst,
+.bodywork,
+.cupping {
+  border: var(--darkgreen) 2px solid;
+  margin: 20px auto 10px auto;
+  box-shadow:
+    0 0 10px var(--lightgreen),
+    0 0 12px var(--lightgreen);
+  display: grid;
+  grid-template-columns: minmax(300px, 45%) minmax(0, 55%);
+  width: 80%;
+  max-width: 1250px;
+  overflow: hidden;
+  align-items: stretch;
+  background-color: #fff;
+  border: 1px solid #d4e0ce;
+  border-radius: 18px;
+}
+
+/* Images */
+
+.my-mission .card-img-top {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bodywork .card-img-top {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  object-fit:scale-down;
+  object-position: center;
+}
+
+.moonglow .card-img-top {
+  width: 100%;
+  height: 100%;
+  /* min-height: 420px; */
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Text */
+
+.my-mission .card-body,
+.pst .card-body,
+.bodywork .card-body,
+.cupping .card-body,
+.moonglow .card-body,
+.zerotolerance .card-body {
+  padding: clamp(28px, 4vw, 55px);
+  text-align: left;
+}
+
+.my-mission .card-title,
+.pst .card-title,
+.bodywork .card-title,
+.cupping .card-title,
+.moonglow .card-title {
+  margin: 0 0 20px;
+  color: #164c28;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 500;
+}
+
+.my-mission .card-text,
+.pst .card-text,
+.bodywork .card-text,
+.moonglow .card-text,
+.cupping .card-text {
+  color: #3c4740;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .bodywork-intro {
@@ -382,21 +462,11 @@ h5 {
   display: block;
 }
 
-#moonglow_logo {
-  width: 100%;
-  height: auto;
-}
-
-#moonglow_card {
-  height: 50%;
-}
-
 .instagram-video-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  /* background-color: #f3f3f3; */
 }
 
 .instagram-video {
@@ -464,15 +534,6 @@ h5 {
   margin-bottom: 30px;
 }
 
-/* .about-eyebrow {
-  display: block;
-  margin-bottom: 8px;
-  color: #376c42;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-} */
 
 .about-heading h1 {
   margin: 0;
@@ -543,7 +604,7 @@ h5 {
     width: 210px;
   }
 }
-
+--------------------------------------------------------------------------------
 /* Mobile */
 
 @media (max-width: 750px) {
@@ -570,10 +631,6 @@ h5 {
     bottom: 18px;
     left: -18px;
     border-radius: 26px;
-  }
-
-  .about-photo {
-    /* border-radius: 25px; */
   }
 
   .about-botanical {
@@ -609,7 +666,8 @@ h5 {
     font-size: 1.05rem;
   }
 }
-
+-----------------------------------------------------------------
+/* CARDS */
 .card-body {
   width: 100%;
   text-align: center;
@@ -625,9 +683,9 @@ h5 {
 }
 
 .card-bodywork {
-  width: 100%;
+  /* width: 100%; */
   border: var(--lightgreen) 2px solid;
-  margin: auto;
+  /* margin: auto; */
   box-shadow:
     0 0 4px var(--lightgreen),
     0 0 4px var(--lightgreen);
@@ -636,11 +694,12 @@ h5 {
   font-size: 14px;
   font-weight: 600;
 }
-.card-bodywork p {
+
+.word-swap {
   color: var(--lightgreen);
   text-align: center;
-  font-size: 12px;
-  display: inline-block;
+  font-size: 18px;
+  justify-self: center;;
 }
 
 #shop-visit:hover {
@@ -660,18 +719,12 @@ h5 {
   font-size: small;
   list-style: none;
 }
-
+--------------------------------------------------------------------------------------------
 /* APPOINTMENTS */
 .appointments-hero {
   position: relative;
   padding: 60px 30px 55px;
   overflow: hidden;
-  /* background: linear-gradient(
-    135deg,
-    #fffef9 0%,
-    #faf9f1 50%,
-    #fffef9 100%
-  ); */
 }
 
 .appointments-content {
@@ -1158,8 +1211,9 @@ button:hover {
   background-color: var(--darkgreen);
 }
 
-#zerotolerance_card {
+.zerotolerance {
   height: 50%;
+  margin: auto;
 }
 
 #zerotolerance_img {
