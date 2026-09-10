@@ -446,6 +446,18 @@ h5 {
 }
 
 @media (max-width: 700px) {
+  .my-mission, 
+  .cupping,
+  .pst,
+  .bodywork {
+    display: inline;
+  } 
+
+  .home-cards {
+    display:block
+  }
+
+
   .services-grid {
     grid-template-columns: 1fr;
   }
